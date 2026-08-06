@@ -1,0 +1,7821 @@
+{
+  "k": 20,
+  "n": 407,
+  "skipped": 0,
+  "results": [
+    {
+      "id": "astropy__astropy-13033",
+      "repo": "astropy/astropy",
+      "pool": 1769,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 130,
+      "hits": [
+        {
+          "file": "astropy/timeseries/core.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "astropy__astropy-13236",
+      "repo": "astropy/astropy",
+      "pool": 1817,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 109,
+      "hits": [
+        {
+          "file": "astropy/table/table.py",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "astropy__astropy-13398",
+      "repo": "astropy/astropy",
+      "pool": 1755,
+      "workload": "search",
+      "gold": 3,
+      "goldInPool": 3,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 138,
+      "hits": [
+        {
+          "file": "astropy/coordinates/builtin_frames/__init__.py",
+          "rank": null
+        },
+        {
+          "file": "astropy/coordinates/builtin_frames/intermediate_rotation_transforms.py",
+          "rank": 2
+        },
+        {
+          "file": "astropy/coordinates/builtin_frames/itrs.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "astropy__astropy-13453",
+      "repo": "astropy/astropy",
+      "pool": 1752,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 122,
+      "hits": [
+        {
+          "file": "astropy/io/ascii/html.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "astropy__astropy-13579",
+      "repo": "astropy/astropy",
+      "pool": 1761,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 134,
+      "hits": [
+        {
+          "file": "astropy/wcs/wcsapi/wrappers/sliced_wcs.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "astropy__astropy-13977",
+      "repo": "astropy/astropy",
+      "pool": 1757,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 141,
+      "hits": [
+        {
+          "file": "astropy/units/quantity.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "astropy__astropy-14096",
+      "repo": "astropy/astropy",
+      "pool": 1803,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 99,
+      "hits": [
+        {
+          "file": "astropy/coordinates/sky_coordinate.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "astropy__astropy-14309",
+      "repo": "astropy/astropy",
+      "pool": 1703,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 8,
+      "ms": 140,
+      "hits": [
+        {
+          "file": "astropy/io/fits/connect.py",
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "id": "astropy__astropy-14369",
+      "repo": "astropy/astropy",
+      "pool": 1714,
+      "workload": "bugfix",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 7,
+      "ms": 100,
+      "hits": [
+        {
+          "file": "astropy/units/format/cds.py",
+          "rank": 7
+        },
+        {
+          "file": "astropy/units/format/cds_parsetab.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "astropy__astropy-14508",
+      "repo": "astropy/astropy",
+      "pool": 1734,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 106,
+      "hits": [
+        {
+          "file": "astropy/io/fits/card.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "astropy__astropy-14539",
+      "repo": "astropy/astropy",
+      "pool": 1739,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 94,
+      "hits": [
+        {
+          "file": "astropy/io/fits/diff.py",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "astropy__astropy-14598",
+      "repo": "astropy/astropy",
+      "pool": 1758,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 92,
+      "hits": [
+        {
+          "file": "astropy/io/fits/card.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "astropy__astropy-7166",
+      "repo": "astropy/astropy",
+      "pool": 1702,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 44,
+      "hits": [
+        {
+          "file": "astropy/utils/misc.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "astropy__astropy-7336",
+      "repo": "astropy/astropy",
+      "pool": 1723,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 3,
+      "ms": 108,
+      "hits": [
+        {
+          "file": "astropy/units/decorators.py",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "astropy__astropy-7606",
+      "repo": "astropy/astropy",
+      "pool": 1749,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 97,
+      "hits": [
+        {
+          "file": "astropy/units/core.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "astropy__astropy-7671",
+      "repo": "astropy/astropy",
+      "pool": 1744,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 88,
+      "hits": [
+        {
+          "file": "astropy/utils/introspection.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "astropy__astropy-8707",
+      "repo": "astropy/astropy",
+      "pool": 1733,
+      "workload": "feature",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 2,
+      "firstHit": 1,
+      "ms": 80,
+      "hits": [
+        {
+          "file": "astropy/io/fits/card.py",
+          "rank": 5
+        },
+        {
+          "file": "astropy/io/fits/header.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "astropy__astropy-8872",
+      "repo": "astropy/astropy",
+      "pool": 1743,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 53,
+      "hits": [
+        {
+          "file": "astropy/units/quantity.py",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "django__django-10097",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "review",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 6,
+      "ms": 261,
+      "hits": [
+        {
+          "file": "django/core/validators.py",
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "id": "django__django-10554",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "search",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": true,
+      "foundInK": 2,
+      "firstHit": 2,
+      "ms": 245,
+      "hits": [
+        {
+          "file": "django/db/models/sql/compiler.py",
+          "rank": 2
+        },
+        {
+          "file": "django/db/models/sql/query.py",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "django__django-10880",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 191,
+      "hits": [
+        {
+          "file": "django/db/models/aggregates.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "django__django-10973",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 174,
+      "hits": [
+        {
+          "file": "django/db/backends/postgresql/client.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "django__django-10999",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 188,
+      "hits": [
+        {
+          "file": "django/utils/dateparse.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "django__django-11066",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 4,
+      "ms": 257,
+      "hits": [
+        {
+          "file": "django/contrib/contenttypes/management/__init__.py",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "django__django-11087",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 365,
+      "hits": [
+        {
+          "file": "django/db/models/deletion.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "django__django-11095",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 6,
+      "ms": 173,
+      "hits": [
+        {
+          "file": "django/contrib/admin/options.py",
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "id": "django__django-11119",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 197,
+      "hits": [
+        {
+          "file": "django/template/engine.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "django__django-11138",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "search",
+      "gold": 4,
+      "goldInPool": 4,
+      "truncated": true,
+      "foundInK": 3,
+      "firstHit": 1,
+      "ms": 250,
+      "hits": [
+        {
+          "file": "django/db/backends/mysql/operations.py",
+          "rank": 12
+        },
+        {
+          "file": "django/db/backends/oracle/operations.py",
+          "rank": 1
+        },
+        {
+          "file": "django/db/backends/sqlite3/base.py",
+          "rank": null
+        },
+        {
+          "file": "django/db/backends/sqlite3/operations.py",
+          "rank": 18
+        }
+      ]
+    },
+    {
+      "id": "django__django-11141",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 184,
+      "hits": [
+        {
+          "file": "django/db/migrations/loader.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "django__django-11149",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 7,
+      "ms": 234,
+      "hits": [
+        {
+          "file": "django/contrib/admin/options.py",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "id": "django__django-11163",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 189,
+      "hits": [
+        {
+          "file": "django/forms/models.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "django__django-11206",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 199,
+      "hits": [
+        {
+          "file": "django/utils/numberformat.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "django__django-11211",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 241,
+      "hits": [
+        {
+          "file": "django/db/models/fields/__init__.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "django__django-11239",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 6,
+      "ms": 209,
+      "hits": [
+        {
+          "file": "django/db/backends/postgresql/client.py",
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "id": "django__django-11265",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 267,
+      "hits": [
+        {
+          "file": "django/db/models/sql/query.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "django__django-11276",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 205,
+      "hits": [
+        {
+          "file": "django/utils/html.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "django__django-11292",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 166,
+      "hits": [
+        {
+          "file": "django/core/management/base.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "django__django-11299",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 252,
+      "hits": [
+        {
+          "file": "django/db/models/sql/query.py",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "django__django-11333",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": true,
+      "foundInK": 2,
+      "firstHit": 1,
+      "ms": 222,
+      "hits": [
+        {
+          "file": "django/urls/base.py",
+          "rank": 3
+        },
+        {
+          "file": "django/urls/resolvers.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "django__django-11400",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "feature",
+      "gold": 3,
+      "goldInPool": 3,
+      "truncated": true,
+      "foundInK": 2,
+      "firstHit": 1,
+      "ms": 204,
+      "hits": [
+        {
+          "file": "django/contrib/admin/filters.py",
+          "rank": 1
+        },
+        {
+          "file": "django/db/models/fields/__init__.py",
+          "rank": null
+        },
+        {
+          "file": "django/db/models/fields/reverse_related.py",
+          "rank": 10
+        }
+      ]
+    },
+    {
+      "id": "django__django-11433",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 240,
+      "hits": [
+        {
+          "file": "django/forms/models.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "django__django-11451",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 259,
+      "hits": [
+        {
+          "file": "django/contrib/auth/backends.py",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "django__django-11477",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 159,
+      "hits": [
+        {
+          "file": "django/urls/resolvers.py",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "django__django-11490",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 3,
+      "ms": 188,
+      "hits": [
+        {
+          "file": "django/db/models/sql/compiler.py",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "django__django-11532",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 5,
+      "goldInPool": 5,
+      "truncated": true,
+      "foundInK": 4,
+      "firstHit": 1,
+      "ms": 271,
+      "hits": [
+        {
+          "file": "django/core/mail/message.py",
+          "rank": 1
+        },
+        {
+          "file": "django/core/mail/utils.py",
+          "rank": null
+        },
+        {
+          "file": "django/core/validators.py",
+          "rank": 18
+        },
+        {
+          "file": "django/utils/encoding.py",
+          "rank": 4
+        },
+        {
+          "file": "django/utils/html.py",
+          "rank": 13
+        }
+      ]
+    },
+    {
+      "id": "django__django-11551",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 10,
+      "ms": 327,
+      "hits": [
+        {
+          "file": "django/contrib/admin/checks.py",
+          "rank": 10
+        }
+      ]
+    },
+    {
+      "id": "django__django-11555",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 17,
+      "ms": 212,
+      "hits": [
+        {
+          "file": "django/db/models/sql/compiler.py",
+          "rank": 17
+        }
+      ]
+    },
+    {
+      "id": "django__django-11603",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 161,
+      "hits": [
+        {
+          "file": "django/db/models/aggregates.py",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "django__django-11728",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 18,
+      "ms": 198,
+      "hits": [
+        {
+          "file": "django/contrib/admindocs/utils.py",
+          "rank": 18
+        }
+      ]
+    },
+    {
+      "id": "django__django-11734",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 3,
+      "goldInPool": 3,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 3,
+      "ms": 215,
+      "hits": [
+        {
+          "file": "django/db/models/fields/__init__.py",
+          "rank": null
+        },
+        {
+          "file": "django/db/models/fields/related_lookups.py",
+          "rank": null
+        },
+        {
+          "file": "django/db/models/sql/query.py",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "django__django-11740",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 19,
+      "ms": 272,
+      "hits": [
+        {
+          "file": "django/db/migrations/autodetector.py",
+          "rank": 19
+        }
+      ]
+    },
+    {
+      "id": "django__django-11749",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 222,
+      "hits": [
+        {
+          "file": "django/core/management/__init__.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "django__django-11790",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 17,
+      "ms": 202,
+      "hits": [
+        {
+          "file": "django/contrib/auth/forms.py",
+          "rank": 17
+        }
+      ]
+    },
+    {
+      "id": "django__django-11820",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 14,
+      "ms": 182,
+      "hits": [
+        {
+          "file": "django/db/models/base.py",
+          "rank": 14
+        }
+      ]
+    },
+    {
+      "id": "django__django-11880",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 3,
+      "ms": 232,
+      "hits": [
+        {
+          "file": "django/forms/fields.py",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "django__django-11885",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "search",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": true,
+      "foundInK": 2,
+      "firstHit": 1,
+      "ms": 222,
+      "hits": [
+        {
+          "file": "django/contrib/admin/utils.py",
+          "rank": 11
+        },
+        {
+          "file": "django/db/models/deletion.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "django__django-11951",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 194,
+      "hits": [
+        {
+          "file": "django/db/models/query.py",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "django__django-12039",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 9,
+      "ms": 217,
+      "hits": [
+        {
+          "file": "django/db/backends/ddl_references.py",
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "id": "django__django-12050",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 186,
+      "hits": [
+        {
+          "file": "django/db/models/sql/query.py",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "django__django-12143",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 259,
+      "hits": [
+        {
+          "file": "django/contrib/admin/options.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "django__django-12155",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "search",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": true,
+      "foundInK": 2,
+      "firstHit": 1,
+      "ms": 182,
+      "hits": [
+        {
+          "file": "django/contrib/admindocs/utils.py",
+          "rank": 1
+        },
+        {
+          "file": "django/contrib/admindocs/views.py",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "id": "django__django-12193",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 211,
+      "hits": [
+        {
+          "file": "django/forms/widgets.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "django__django-12209",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 7,
+      "ms": 241,
+      "hits": [
+        {
+          "file": "django/db/models/base.py",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "id": "django__django-12262",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 214,
+      "hits": [
+        {
+          "file": "django/template/library.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "django__django-12273",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 247,
+      "hits": [
+        {
+          "file": "django/db/models/base.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "django__django-12276",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 4,
+      "ms": 189,
+      "hits": [
+        {
+          "file": "django/forms/widgets.py",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "django__django-12304",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 202,
+      "hits": [
+        {
+          "file": "django/db/models/enums.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "django__django-12325",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "feature",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": true,
+      "foundInK": 2,
+      "firstHit": 6,
+      "ms": 223,
+      "hits": [
+        {
+          "file": "django/db/models/base.py",
+          "rank": 11
+        },
+        {
+          "file": "django/db/models/options.py",
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "id": "django__django-12406",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "search",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": true,
+      "foundInK": 2,
+      "firstHit": 6,
+      "ms": 230,
+      "hits": [
+        {
+          "file": "django/db/models/fields/related.py",
+          "rank": 7
+        },
+        {
+          "file": "django/forms/models.py",
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "id": "django__django-12419",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 3,
+      "ms": 197,
+      "hits": [
+        {
+          "file": "django/conf/global_settings.py",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "django__django-12663",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 295,
+      "hits": [
+        {
+          "file": "django/db/models/sql/query.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "django__django-12713",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 164,
+      "hits": [
+        {
+          "file": "django/contrib/admin/options.py",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "django__django-12741",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "refactor",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": true,
+      "foundInK": 2,
+      "firstHit": 1,
+      "ms": 215,
+      "hits": [
+        {
+          "file": "django/core/management/commands/flush.py",
+          "rank": 3
+        },
+        {
+          "file": "django/db/backends/base/operations.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "django__django-12754",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 253,
+      "hits": [
+        {
+          "file": "django/db/migrations/autodetector.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "django__django-12774",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 3,
+      "ms": 284,
+      "hits": [
+        {
+          "file": "django/db/models/query.py",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "django__django-12858",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 6,
+      "ms": 239,
+      "hits": [
+        {
+          "file": "django/db/models/base.py",
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "id": "django__django-12965",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 3,
+      "ms": 238,
+      "hits": [
+        {
+          "file": "django/db/models/sql/compiler.py",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "django__django-13012",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 229,
+      "hits": [
+        {
+          "file": "django/db/models/expressions.py",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "django__django-13023",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 3,
+      "ms": 224,
+      "hits": [
+        {
+          "file": "django/db/models/fields/__init__.py",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "django__django-13089",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 209,
+      "hits": [
+        {
+          "file": "django/core/cache/backends/db.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "django__django-13109",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 3,
+      "ms": 277,
+      "hits": [
+        {
+          "file": "django/db/models/fields/related.py",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "django__django-13112",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 5,
+      "ms": 299,
+      "hits": [
+        {
+          "file": "django/db/models/fields/related.py",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "id": "django__django-13121",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "search",
+      "gold": 4,
+      "goldInPool": 4,
+      "truncated": true,
+      "foundInK": 4,
+      "firstHit": 1,
+      "ms": 231,
+      "hits": [
+        {
+          "file": "django/db/backends/base/operations.py",
+          "rank": 1
+        },
+        {
+          "file": "django/db/backends/mysql/operations.py",
+          "rank": 2
+        },
+        {
+          "file": "django/db/backends/sqlite3/operations.py",
+          "rank": 3
+        },
+        {
+          "file": "django/db/models/expressions.py",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "id": "django__django-13128",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 5,
+      "ms": 215,
+      "hits": [
+        {
+          "file": "django/db/models/expressions.py",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "id": "django__django-13195",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 3,
+      "goldInPool": 3,
+      "truncated": true,
+      "foundInK": 2,
+      "firstHit": 1,
+      "ms": 262,
+      "hits": [
+        {
+          "file": "django/contrib/messages/storage/cookie.py",
+          "rank": 6
+        },
+        {
+          "file": "django/contrib/sessions/middleware.py",
+          "rank": null
+        },
+        {
+          "file": "django/http/response.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "django__django-13212",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": true,
+      "foundInK": 2,
+      "firstHit": 3,
+      "ms": 212,
+      "hits": [
+        {
+          "file": "django/core/validators.py",
+          "rank": 3
+        },
+        {
+          "file": "django/forms/fields.py",
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "id": "django__django-13279",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 18,
+      "ms": 196,
+      "hits": [
+        {
+          "file": "django/contrib/sessions/backends/base.py",
+          "rank": 18
+        }
+      ]
+    },
+    {
+      "id": "django__django-13297",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 261,
+      "hits": [
+        {
+          "file": "django/views/generic/base.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "django__django-13343",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 3,
+      "ms": 224,
+      "hits": [
+        {
+          "file": "django/db/models/fields/files.py",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "django__django-13344",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "search",
+      "gold": 3,
+      "goldInPool": 3,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 13,
+      "ms": 252,
+      "hits": [
+        {
+          "file": "django/contrib/sessions/middleware.py",
+          "rank": null
+        },
+        {
+          "file": "django/middleware/cache.py",
+          "rank": 13
+        },
+        {
+          "file": "django/middleware/security.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "django__django-13346",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 199,
+      "hits": [
+        {
+          "file": "django/db/models/fields/json.py",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "django__django-13363",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 266,
+      "hits": [
+        {
+          "file": "django/db/models/functions/datetime.py",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "django__django-13406",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 303,
+      "hits": [
+        {
+          "file": "django/db/models/query.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "django__django-13410",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 244,
+      "hits": [
+        {
+          "file": "django/core/files/locks.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "django__django-13417",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 216,
+      "hits": [
+        {
+          "file": "django/db/models/query.py",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "django__django-13449",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 8,
+      "ms": 307,
+      "hits": [
+        {
+          "file": "django/db/models/expressions.py",
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "id": "django__django-13512",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 16,
+      "ms": 208,
+      "hits": [
+        {
+          "file": "django/contrib/admin/utils.py",
+          "rank": 16
+        },
+        {
+          "file": "django/forms/fields.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "django__django-13513",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 242,
+      "hits": [
+        {
+          "file": "django/views/debug.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "django__django-13516",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "refactor",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 4,
+      "ms": 223,
+      "hits": [
+        {
+          "file": "django/core/management/base.py",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "django__django-13568",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 232,
+      "hits": [
+        {
+          "file": "django/contrib/auth/checks.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "django__django-13569",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 237,
+      "hits": [
+        {
+          "file": "django/db/models/functions/math.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "django__django-13670",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 209,
+      "hits": [
+        {
+          "file": "django/utils/dateformat.py",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "django__django-13741",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "refactor",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 3,
+      "ms": 296,
+      "hits": [
+        {
+          "file": "django/contrib/auth/forms.py",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "django__django-13786",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 222,
+      "hits": [
+        {
+          "file": "django/db/migrations/operations/models.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "django__django-13794",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 184,
+      "hits": [
+        {
+          "file": "django/utils/functional.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "django__django-13807",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 260,
+      "hits": [
+        {
+          "file": "django/db/backends/sqlite3/base.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "django__django-13809",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 222,
+      "hits": [
+        {
+          "file": "django/core/management/commands/runserver.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "django__django-13810",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 290,
+      "hits": [
+        {
+          "file": "django/core/handlers/base.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "django__django-13820",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 247,
+      "hits": [
+        {
+          "file": "django/db/migrations/loader.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "django__django-13821",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 193,
+      "hits": [
+        {
+          "file": "django/db/backends/sqlite3/base.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "django__django-13837",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 228,
+      "hits": [
+        {
+          "file": "django/utils/autoreload.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "django__django-14007",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 5,
+      "ms": 263,
+      "hits": [
+        {
+          "file": "django/db/models/sql/compiler.py",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "id": "django__django-14011",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "search",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 235,
+      "hits": [
+        {
+          "file": "django/core/servers/basehttp.py",
+          "rank": 1
+        },
+        {
+          "file": "django/db/backends/sqlite3/features.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "django__django-14034",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 258,
+      "hits": [
+        {
+          "file": "django/forms/boundfield.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "django__django-14053",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 249,
+      "hits": [
+        {
+          "file": "django/contrib/staticfiles/storage.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "django__django-14089",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 170,
+      "hits": [
+        {
+          "file": "django/utils/datastructures.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "django__django-14122",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 7,
+      "ms": 201,
+      "hits": [
+        {
+          "file": "django/db/models/sql/compiler.py",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "id": "django__django-14140",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 16,
+      "ms": 232,
+      "hits": [
+        {
+          "file": "django/db/models/query_utils.py",
+          "rank": 16
+        }
+      ]
+    },
+    {
+      "id": "django__django-14170",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "search",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 9,
+      "ms": 213,
+      "hits": [
+        {
+          "file": "django/db/backends/base/operations.py",
+          "rank": 9
+        },
+        {
+          "file": "django/db/models/lookups.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "django__django-14311",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 9,
+      "ms": 194,
+      "hits": [
+        {
+          "file": "django/utils/autoreload.py",
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "id": "django__django-14315",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "review",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": true,
+      "foundInK": 2,
+      "firstHit": 2,
+      "ms": 225,
+      "hits": [
+        {
+          "file": "django/db/backends/base/client.py",
+          "rank": 4
+        },
+        {
+          "file": "django/db/backends/postgresql/client.py",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "django__django-14349",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 244,
+      "hits": [
+        {
+          "file": "django/core/validators.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "django__django-14351",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 316,
+      "hits": [
+        {
+          "file": "django/db/models/lookups.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "django__django-14373",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 189,
+      "hits": [
+        {
+          "file": "django/utils/dateformat.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "django__django-14376",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "feature",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": true,
+      "foundInK": 2,
+      "firstHit": 1,
+      "ms": 191,
+      "hits": [
+        {
+          "file": "django/db/backends/mysql/base.py",
+          "rank": 1
+        },
+        {
+          "file": "django/db/backends/mysql/client.py",
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "id": "django__django-14404",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 17,
+      "ms": 201,
+      "hits": [
+        {
+          "file": "django/contrib/admin/sites.py",
+          "rank": 17
+        }
+      ]
+    },
+    {
+      "id": "django__django-14434",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 5,
+      "ms": 169,
+      "hits": [
+        {
+          "file": "django/db/backends/base/schema.py",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "id": "django__django-14493",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 233,
+      "hits": [
+        {
+          "file": "django/contrib/staticfiles/storage.py",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "django__django-14500",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 162,
+      "hits": [
+        {
+          "file": "django/db/migrations/executor.py",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "django__django-14539",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 164,
+      "hits": [
+        {
+          "file": "django/utils/html.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "django__django-14559",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 203,
+      "hits": [
+        {
+          "file": "django/db/models/query.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "django__django-14631",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": true,
+      "foundInK": 2,
+      "firstHit": 4,
+      "ms": 265,
+      "hits": [
+        {
+          "file": "django/forms/boundfield.py",
+          "rank": 14
+        },
+        {
+          "file": "django/forms/forms.py",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "django__django-14725",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 14,
+      "ms": 214,
+      "hits": [
+        {
+          "file": "django/forms/models.py",
+          "rank": 14
+        }
+      ]
+    },
+    {
+      "id": "django__django-14765",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 214,
+      "hits": [
+        {
+          "file": "django/db/migrations/state.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "django__django-14771",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 6,
+      "ms": 261,
+      "hits": [
+        {
+          "file": "django/utils/autoreload.py",
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "id": "django__django-14792",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "refactor",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 10,
+      "ms": 300,
+      "hits": [
+        {
+          "file": "django/utils/timezone.py",
+          "rank": 10
+        }
+      ]
+    },
+    {
+      "id": "django__django-15022",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 6,
+      "ms": 259,
+      "hits": [
+        {
+          "file": "django/contrib/admin/options.py",
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "id": "django__django-15037",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 229,
+      "hits": [
+        {
+          "file": "django/core/management/commands/inspectdb.py",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "django__django-15098",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 20,
+      "ms": 254,
+      "hits": [
+        {
+          "file": "django/utils/translation/trans_real.py",
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "id": "django__django-15103",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "search",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 169,
+      "hits": [
+        {
+          "file": "django/template/defaultfilters.py",
+          "rank": 1
+        },
+        {
+          "file": "django/utils/html.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "django__django-15104",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 14,
+      "ms": 335,
+      "hits": [
+        {
+          "file": "django/db/migrations/autodetector.py",
+          "rank": 14
+        }
+      ]
+    },
+    {
+      "id": "django__django-15127",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 218,
+      "hits": [
+        {
+          "file": "django/contrib/messages/apps.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "django__django-15128",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 281,
+      "hits": [
+        {
+          "file": "django/db/models/sql/query.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "django__django-15161",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 184,
+      "hits": [
+        {
+          "file": "django/db/models/expressions.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "django__django-15268",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 5,
+      "ms": 219,
+      "hits": [
+        {
+          "file": "django/db/migrations/operations/models.py",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "id": "django__django-15277",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 286,
+      "hits": [
+        {
+          "file": "django/db/models/fields/__init__.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "django__django-15278",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 268,
+      "hits": [
+        {
+          "file": "django/db/backends/sqlite3/schema.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "django__django-15280",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 286,
+      "hits": [
+        {
+          "file": "django/db/models/fields/related_descriptors.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "django__django-15315",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 4,
+      "ms": 252,
+      "hits": [
+        {
+          "file": "django/db/models/fields/__init__.py",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "django__django-15368",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 268,
+      "hits": [
+        {
+          "file": "django/db/models/query.py",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "django__django-15375",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 263,
+      "hits": [
+        {
+          "file": "django/db/models/aggregates.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "django__django-15380",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 6,
+      "ms": 254,
+      "hits": [
+        {
+          "file": "django/db/migrations/autodetector.py",
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "id": "django__django-15382",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 6,
+      "ms": 202,
+      "hits": [
+        {
+          "file": "django/db/models/expressions.py",
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "id": "django__django-15467",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 245,
+      "hits": [
+        {
+          "file": "django/contrib/admin/options.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "django__django-15499",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 14,
+      "ms": 167,
+      "hits": [
+        {
+          "file": "django/db/migrations/operations/models.py",
+          "rank": 14
+        }
+      ]
+    },
+    {
+      "id": "django__django-15503",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 6,
+      "ms": 286,
+      "hits": [
+        {
+          "file": "django/db/models/fields/json.py",
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "id": "django__django-15525",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 7,
+      "ms": 322,
+      "hits": [
+        {
+          "file": "django/core/serializers/base.py",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "id": "django__django-15554",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 225,
+      "hits": [
+        {
+          "file": "django/db/models/sql/query.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "django__django-15561",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "feature",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 4,
+      "ms": 186,
+      "hits": [
+        {
+          "file": "django/db/backends/base/schema.py",
+          "rank": 4
+        },
+        {
+          "file": "django/db/models/fields/__init__.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "django__django-15563",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "search",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 15,
+      "ms": 237,
+      "hits": [
+        {
+          "file": "django/db/models/sql/compiler.py",
+          "rank": 15
+        },
+        {
+          "file": "django/db/models/sql/subqueries.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "django__django-15569",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 203,
+      "hits": [
+        {
+          "file": "django/db/models/query_utils.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "django__django-15572",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 3,
+      "ms": 241,
+      "hits": [
+        {
+          "file": "django/template/autoreload.py",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "django__django-15629",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 4,
+      "goldInPool": 4,
+      "truncated": true,
+      "foundInK": 2,
+      "firstHit": 8,
+      "ms": 239,
+      "hits": [
+        {
+          "file": "django/db/backends/base/schema.py",
+          "rank": 8
+        },
+        {
+          "file": "django/db/backends/oracle/features.py",
+          "rank": null
+        },
+        {
+          "file": "django/db/backends/sqlite3/schema.py",
+          "rank": null
+        },
+        {
+          "file": "django/db/models/fields/related.py",
+          "rank": 14
+        }
+      ]
+    },
+    {
+      "id": "django__django-15731",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 4,
+      "ms": 256,
+      "hits": [
+        {
+          "file": "django/db/models/manager.py",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "django__django-15732",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 4,
+      "ms": 182,
+      "hits": [
+        {
+          "file": "django/db/backends/base/schema.py",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "django__django-15741",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 4,
+      "ms": 220,
+      "hits": [
+        {
+          "file": "django/utils/formats.py",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "django__django-15863",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 238,
+      "hits": [
+        {
+          "file": "django/template/defaultfilters.py",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "django__django-15916",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 284,
+      "hits": [
+        {
+          "file": "django/forms/models.py",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "django__django-15930",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 19,
+      "ms": 217,
+      "hits": [
+        {
+          "file": "django/db/models/expressions.py",
+          "rank": 19
+        }
+      ]
+    },
+    {
+      "id": "django__django-15957",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 4,
+      "ms": 217,
+      "hits": [
+        {
+          "file": "django/db/models/fields/related_descriptors.py",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "django__django-15973",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 15,
+      "ms": 342,
+      "hits": [
+        {
+          "file": "django/db/migrations/autodetector.py",
+          "rank": 15
+        }
+      ]
+    },
+    {
+      "id": "django__django-15987",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 172,
+      "hits": [
+        {
+          "file": "django/core/management/commands/loaddata.py",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "django__django-16032",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 5,
+      "ms": 251,
+      "hits": [
+        {
+          "file": "django/db/models/fields/related_lookups.py",
+          "rank": null
+        },
+        {
+          "file": "django/db/models/sql/query.py",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "id": "django__django-16082",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 196,
+      "hits": [
+        {
+          "file": "django/db/models/expressions.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "django__django-16100",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 14,
+      "ms": 194,
+      "hits": [
+        {
+          "file": "django/contrib/admin/options.py",
+          "rank": 14
+        }
+      ]
+    },
+    {
+      "id": "django__django-16116",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 202,
+      "hits": [
+        {
+          "file": "django/core/management/commands/makemigrations.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "django__django-16136",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 7,
+      "ms": 276,
+      "hits": [
+        {
+          "file": "django/views/generic/base.py",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "id": "django__django-16145",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 190,
+      "hits": [
+        {
+          "file": "django/core/management/commands/runserver.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "django__django-16256",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "feature",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": true,
+      "foundInK": 2,
+      "firstHit": 1,
+      "ms": 287,
+      "hits": [
+        {
+          "file": "django/contrib/contenttypes/fields.py",
+          "rank": 6
+        },
+        {
+          "file": "django/db/models/fields/related_descriptors.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "django__django-16263",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 4,
+      "goldInPool": 4,
+      "truncated": true,
+      "foundInK": 2,
+      "firstHit": 1,
+      "ms": 212,
+      "hits": [
+        {
+          "file": "django/db/models/expressions.py",
+          "rank": null
+        },
+        {
+          "file": "django/db/models/query_utils.py",
+          "rank": 9
+        },
+        {
+          "file": "django/db/models/sql/query.py",
+          "rank": 1
+        },
+        {
+          "file": "django/db/models/sql/where.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "django__django-16315",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": true,
+      "foundInK": 2,
+      "firstHit": 2,
+      "ms": 250,
+      "hits": [
+        {
+          "file": "django/db/models/query.py",
+          "rank": 2
+        },
+        {
+          "file": "django/db/models/sql/compiler.py",
+          "rank": 13
+        }
+      ]
+    },
+    {
+      "id": "django__django-16333",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 6,
+      "ms": 242,
+      "hits": [
+        {
+          "file": "django/contrib/auth/forms.py",
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "id": "django__django-16429",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 248,
+      "hits": [
+        {
+          "file": "django/utils/timesince.py",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "django__django-16454",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 284,
+      "hits": [
+        {
+          "file": "django/core/management/base.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "django__django-16485",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 190,
+      "hits": [
+        {
+          "file": "django/template/defaultfilters.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "django__django-16493",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 264,
+      "hits": [
+        {
+          "file": "django/db/models/fields/files.py",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "django__django-16502",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 262,
+      "hits": [
+        {
+          "file": "django/core/servers/basehttp.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "django__django-16560",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "feature",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": true,
+      "foundInK": 2,
+      "firstHit": 2,
+      "ms": 198,
+      "hits": [
+        {
+          "file": "django/contrib/postgres/constraints.py",
+          "rank": 6
+        },
+        {
+          "file": "django/db/models/constraints.py",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "django__django-16569",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 283,
+      "hits": [
+        {
+          "file": "django/forms/formsets.py",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "django__django-16612",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 220,
+      "hits": [
+        {
+          "file": "django/contrib/admin/sites.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "django__django-16631",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "feature",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": true,
+      "foundInK": 2,
+      "firstHit": 2,
+      "ms": 224,
+      "hits": [
+        {
+          "file": "django/contrib/auth/__init__.py",
+          "rank": 19
+        },
+        {
+          "file": "django/contrib/auth/base_user.py",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "django__django-16642",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 5,
+      "ms": 182,
+      "hits": [
+        {
+          "file": "django/http/response.py",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "id": "django__django-16661",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 252,
+      "hits": [
+        {
+          "file": "django/contrib/admin/options.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "django__django-16662",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 204,
+      "hits": [
+        {
+          "file": "django/db/migrations/writer.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "django__django-16667",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 3,
+      "ms": 293,
+      "hits": [
+        {
+          "file": "django/forms/widgets.py",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "django__django-16801",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 210,
+      "hits": [
+        {
+          "file": "django/db/models/fields/files.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "django__django-16819",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 3,
+      "ms": 158,
+      "hits": [
+        {
+          "file": "django/db/migrations/operations/models.py",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "django__django-16877",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 179,
+      "hits": [
+        {
+          "file": "django/template/defaultfilters.py",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "django__django-16899",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 217,
+      "hits": [
+        {
+          "file": "django/contrib/admin/checks.py",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "django__django-16901",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 215,
+      "hits": [
+        {
+          "file": "django/db/models/sql/where.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "django__django-16938",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": true,
+      "foundInK": 2,
+      "firstHit": 5,
+      "ms": 319,
+      "hits": [
+        {
+          "file": "django/core/serializers/python.py",
+          "rank": 5
+        },
+        {
+          "file": "django/core/serializers/xml_serializer.py",
+          "rank": 11
+        }
+      ]
+    },
+    {
+      "id": "django__django-16950",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 18,
+      "ms": 274,
+      "hits": [
+        {
+          "file": "django/forms/models.py",
+          "rank": 18
+        }
+      ]
+    },
+    {
+      "id": "django__django-17029",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "review",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 272,
+      "hits": [
+        {
+          "file": "django/apps/registry.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "django__django-17084",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 14,
+      "ms": 239,
+      "hits": [
+        {
+          "file": "django/db/models/sql/query.py",
+          "rank": 14
+        }
+      ]
+    },
+    {
+      "id": "django__django-7530",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 177,
+      "hits": [
+        {
+          "file": "django/core/management/commands/makemigrations.py",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "django__django-9296",
+      "repo": "django/django",
+      "pool": 5000,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 189,
+      "hits": [
+        {
+          "file": "django/core/paginator.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "matplotlib__matplotlib-13989",
+      "repo": "matplotlib/matplotlib",
+      "pool": 2211,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 4,
+      "ms": 125,
+      "hits": [
+        {
+          "file": "lib/matplotlib/axes/_axes.py",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "matplotlib__matplotlib-14623",
+      "repo": "matplotlib/matplotlib",
+      "pool": 2201,
+      "workload": "bugfix",
+      "gold": 3,
+      "goldInPool": 3,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 7,
+      "ms": 121,
+      "hits": [
+        {
+          "file": "lib/matplotlib/axes/_base.py",
+          "rank": 7
+        },
+        {
+          "file": "lib/matplotlib/ticker.py",
+          "rank": null
+        },
+        {
+          "file": "lib/mpl_toolkits/mplot3d/axes3d.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "matplotlib__matplotlib-20488",
+      "repo": "matplotlib/matplotlib",
+      "pool": 2367,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 149,
+      "hits": [
+        {
+          "file": "lib/matplotlib/image.py",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "matplotlib__matplotlib-20676",
+      "repo": "matplotlib/matplotlib",
+      "pool": 2372,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 5,
+      "ms": 120,
+      "hits": [
+        {
+          "file": "lib/matplotlib/widgets.py",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "id": "matplotlib__matplotlib-20826",
+      "repo": "matplotlib/matplotlib",
+      "pool": 2398,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 128,
+      "hits": [
+        {
+          "file": "lib/matplotlib/axis.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "matplotlib__matplotlib-20859",
+      "repo": "matplotlib/matplotlib",
+      "pool": 2411,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 146,
+      "hits": [
+        {
+          "file": "lib/matplotlib/legend.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "matplotlib__matplotlib-21568",
+      "repo": "matplotlib/matplotlib",
+      "pool": 2335,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 3,
+      "ms": 144,
+      "hits": [
+        {
+          "file": "lib/matplotlib/dates.py",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "matplotlib__matplotlib-22719",
+      "repo": "matplotlib/matplotlib",
+      "pool": 2425,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 202,
+      "hits": [
+        {
+          "file": "lib/matplotlib/category.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "matplotlib__matplotlib-22865",
+      "repo": "matplotlib/matplotlib",
+      "pool": 2434,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 121,
+      "hits": [
+        {
+          "file": "lib/matplotlib/colorbar.py",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "matplotlib__matplotlib-22871",
+      "repo": "matplotlib/matplotlib",
+      "pool": 2435,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 119,
+      "hits": [
+        {
+          "file": "lib/matplotlib/dates.py",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "matplotlib__matplotlib-23412",
+      "repo": "matplotlib/matplotlib",
+      "pool": 2456,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 7,
+      "ms": 168,
+      "hits": [
+        {
+          "file": "lib/matplotlib/patches.py",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "id": "matplotlib__matplotlib-24026",
+      "repo": "matplotlib/matplotlib",
+      "pool": 2350,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 161,
+      "hits": [
+        {
+          "file": "lib/matplotlib/stackplot.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "matplotlib__matplotlib-24177",
+      "repo": "matplotlib/matplotlib",
+      "pool": 2355,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 16,
+      "ms": 125,
+      "hits": [
+        {
+          "file": "lib/matplotlib/axes/_base.py",
+          "rank": 16
+        }
+      ]
+    },
+    {
+      "id": "matplotlib__matplotlib-24570",
+      "repo": "matplotlib/matplotlib",
+      "pool": 2402,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 138,
+      "hits": [
+        {
+          "file": "lib/matplotlib/offsetbox.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "matplotlib__matplotlib-24627",
+      "repo": "matplotlib/matplotlib",
+      "pool": 2391,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 8,
+      "ms": 128,
+      "hits": [
+        {
+          "file": "lib/matplotlib/axes/_base.py",
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "id": "matplotlib__matplotlib-24637",
+      "repo": "matplotlib/matplotlib",
+      "pool": 2399,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 121,
+      "hits": [
+        {
+          "file": "lib/matplotlib/offsetbox.py",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "matplotlib__matplotlib-24870",
+      "repo": "matplotlib/matplotlib",
+      "pool": 2421,
+      "workload": "search",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 111,
+      "hits": [
+        {
+          "file": "lib/matplotlib/contour.py",
+          "rank": 1
+        },
+        {
+          "file": "lib/matplotlib/tri/_tricontour.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "matplotlib__matplotlib-25122",
+      "repo": "matplotlib/matplotlib",
+      "pool": 2441,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 132,
+      "hits": [
+        {
+          "file": "lib/matplotlib/mlab.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "matplotlib__matplotlib-25287",
+      "repo": "matplotlib/matplotlib",
+      "pool": 2378,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 141,
+      "hits": [
+        {
+          "file": "lib/matplotlib/axis.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "matplotlib__matplotlib-25479",
+      "repo": "matplotlib/matplotlib",
+      "pool": 2476,
+      "workload": "bugfix",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 2,
+      "firstHit": 5,
+      "ms": 178,
+      "hits": [
+        {
+          "file": "lib/matplotlib/cm.py",
+          "rank": 12
+        },
+        {
+          "file": "lib/matplotlib/colors.py",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "id": "matplotlib__matplotlib-25775",
+      "repo": "matplotlib/matplotlib",
+      "pool": 2491,
+      "workload": "feature",
+      "gold": 3,
+      "goldInPool": 3,
+      "truncated": false,
+      "foundInK": 2,
+      "firstHit": 8,
+      "ms": 104,
+      "hits": [
+        {
+          "file": "lib/matplotlib/backends/backend_agg.py",
+          "rank": 13
+        },
+        {
+          "file": "lib/matplotlib/backends/backend_cairo.py",
+          "rank": 8
+        },
+        {
+          "file": "lib/matplotlib/text.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "matplotlib__matplotlib-25960",
+      "repo": "matplotlib/matplotlib",
+      "pool": 2497,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 106,
+      "hits": [
+        {
+          "file": "lib/matplotlib/figure.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "matplotlib__matplotlib-26113",
+      "repo": "matplotlib/matplotlib",
+      "pool": 2504,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 181,
+      "hits": [
+        {
+          "file": "lib/matplotlib/axes/_axes.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "matplotlib__matplotlib-26208",
+      "repo": "matplotlib/matplotlib",
+      "pool": 2499,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 3,
+      "ms": 116,
+      "hits": [
+        {
+          "file": "lib/matplotlib/axes/_base.py",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "matplotlib__matplotlib-26291",
+      "repo": "matplotlib/matplotlib",
+      "pool": 2508,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 158,
+      "hits": [
+        {
+          "file": "lib/mpl_toolkits/axes_grid1/inset_locator.py",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "matplotlib__matplotlib-26342",
+      "repo": "matplotlib/matplotlib",
+      "pool": 2518,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 84,
+      "hits": [
+        {
+          "file": "lib/matplotlib/collections.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "matplotlib__matplotlib-26466",
+      "repo": "matplotlib/matplotlib",
+      "pool": 2530,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 10,
+      "ms": 142,
+      "hits": [
+        {
+          "file": "lib/matplotlib/text.py",
+          "rank": 10
+        }
+      ]
+    },
+    {
+      "id": "mwaskom__seaborn-3069",
+      "repo": "mwaskom/seaborn",
+      "pool": 290,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 3,
+      "ms": 23,
+      "hits": [
+        {
+          "file": "seaborn/_core/plot.py",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "mwaskom__seaborn-3187",
+      "repo": "mwaskom/seaborn",
+      "pool": 303,
+      "workload": "feature",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 2,
+      "firstHit": 2,
+      "ms": 23,
+      "hits": [
+        {
+          "file": "seaborn/_core/scales.py",
+          "rank": 3
+        },
+        {
+          "file": "seaborn/utils.py",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "pallets__flask-5014",
+      "repo": "pallets/flask",
+      "pool": 238,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 13,
+      "hits": [
+        {
+          "file": "src/flask/blueprints.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "psf__requests-1142",
+      "repo": "psf/requests",
+      "pool": 110,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 3,
+      "ms": 10,
+      "hits": [
+        {
+          "file": "requests/models.py",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "psf__requests-1724",
+      "repo": "psf/requests",
+      "pool": 114,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 4,
+      "ms": 16,
+      "hits": [
+        {
+          "file": "requests/sessions.py",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "psf__requests-1766",
+      "repo": "psf/requests",
+      "pool": 117,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 10,
+      "ms": 16,
+      "hits": [
+        {
+          "file": "requests/auth.py",
+          "rank": 10
+        }
+      ]
+    },
+    {
+      "id": "psf__requests-1921",
+      "repo": "psf/requests",
+      "pool": 118,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 4,
+      "ms": 13,
+      "hits": [
+        {
+          "file": "requests/sessions.py",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "psf__requests-2931",
+      "repo": "psf/requests",
+      "pool": 133,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 5,
+      "ms": 11,
+      "hits": [
+        {
+          "file": "requests/models.py",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "id": "psf__requests-5414",
+      "repo": "psf/requests",
+      "pool": 84,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 13,
+      "hits": [
+        {
+          "file": "requests/models.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "psf__requests-6028",
+      "repo": "psf/requests",
+      "pool": 84,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 4,
+      "ms": 15,
+      "hits": [
+        {
+          "file": "requests/utils.py",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "pydata__xarray-2905",
+      "repo": "pydata/xarray",
+      "pool": 251,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 5,
+      "ms": 34,
+      "hits": [
+        {
+          "file": "xarray/core/variable.py",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "id": "pydata__xarray-3095",
+      "repo": "pydata/xarray",
+      "pool": 210,
+      "workload": "bugfix",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 18,
+      "hits": [
+        {
+          "file": "xarray/core/indexing.py",
+          "rank": null
+        },
+        {
+          "file": "xarray/core/variable.py",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "pydata__xarray-3151",
+      "repo": "pydata/xarray",
+      "pool": 210,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 5,
+      "ms": 33,
+      "hits": [
+        {
+          "file": "xarray/core/combine.py",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "id": "pydata__xarray-3305",
+      "repo": "pydata/xarray",
+      "pool": 213,
+      "workload": "bugfix",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 2,
+      "firstHit": 10,
+      "ms": 26,
+      "hits": [
+        {
+          "file": "xarray/core/dataset.py",
+          "rank": 10
+        },
+        {
+          "file": "xarray/core/variable.py",
+          "rank": 17
+        }
+      ]
+    },
+    {
+      "id": "pydata__xarray-3677",
+      "repo": "pydata/xarray",
+      "pool": 232,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 3,
+      "ms": 30,
+      "hits": [
+        {
+          "file": "xarray/core/dataset.py",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "pydata__xarray-3993",
+      "repo": "pydata/xarray",
+      "pool": 251,
+      "workload": "bugfix",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 2,
+      "firstHit": 1,
+      "ms": 24,
+      "hits": [
+        {
+          "file": "xarray/core/dataarray.py",
+          "rank": 2
+        },
+        {
+          "file": "xarray/core/dataset.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "pydata__xarray-4075",
+      "repo": "pydata/xarray",
+      "pool": 236,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 24,
+      "hits": [
+        {
+          "file": "xarray/core/weighted.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "pydata__xarray-4356",
+      "repo": "pydata/xarray",
+      "pool": 246,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 3,
+      "ms": 23,
+      "hits": [
+        {
+          "file": "xarray/core/nanops.py",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "pydata__xarray-4629",
+      "repo": "pydata/xarray",
+      "pool": 250,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 20,
+      "ms": 30,
+      "hits": [
+        {
+          "file": "xarray/core/merge.py",
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "id": "pydata__xarray-4687",
+      "repo": "pydata/xarray",
+      "pool": 278,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 13,
+      "ms": 35,
+      "hits": [
+        {
+          "file": "xarray/core/computation.py",
+          "rank": 13
+        }
+      ]
+    },
+    {
+      "id": "pydata__xarray-4695",
+      "repo": "pydata/xarray",
+      "pool": 251,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 3,
+      "ms": 29,
+      "hits": [
+        {
+          "file": "xarray/core/dataarray.py",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "pydata__xarray-4966",
+      "repo": "pydata/xarray",
+      "pool": 255,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 24,
+      "hits": [
+        {
+          "file": "xarray/coding/variables.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "pydata__xarray-6461",
+      "repo": "pydata/xarray",
+      "pool": 278,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 3,
+      "ms": 29,
+      "hits": [
+        {
+          "file": "xarray/core/computation.py",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "pydata__xarray-6599",
+      "repo": "pydata/xarray",
+      "pool": 279,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 13,
+      "ms": 45,
+      "hits": [
+        {
+          "file": "xarray/core/computation.py",
+          "rank": 13
+        }
+      ]
+    },
+    {
+      "id": "pydata__xarray-6721",
+      "repo": "pydata/xarray",
+      "pool": 288,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 11,
+      "ms": 53,
+      "hits": [
+        {
+          "file": "xarray/core/common.py",
+          "rank": 11
+        }
+      ]
+    },
+    {
+      "id": "pydata__xarray-6744",
+      "repo": "pydata/xarray",
+      "pool": 290,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 5,
+      "ms": 34,
+      "hits": [
+        {
+          "file": "xarray/core/rolling.py",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "id": "pydata__xarray-6938",
+      "repo": "pydata/xarray",
+      "pool": 297,
+      "workload": "bugfix",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 2,
+      "firstHit": 3,
+      "ms": 37,
+      "hits": [
+        {
+          "file": "xarray/core/dataset.py",
+          "rank": 3
+        },
+        {
+          "file": "xarray/core/variable.py",
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "id": "pydata__xarray-6992",
+      "repo": "pydata/xarray",
+      "pool": 296,
+      "workload": "bugfix",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 2,
+      "firstHit": 1,
+      "ms": 30,
+      "hits": [
+        {
+          "file": "xarray/core/dataset.py",
+          "rank": 1
+        },
+        {
+          "file": "xarray/core/indexes.py",
+          "rank": 18
+        }
+      ]
+    },
+    {
+      "id": "pydata__xarray-7229",
+      "repo": "pydata/xarray",
+      "pool": 297,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 17,
+      "ms": 45,
+      "hits": [
+        {
+          "file": "xarray/core/computation.py",
+          "rank": 17
+        }
+      ]
+    },
+    {
+      "id": "pydata__xarray-7233",
+      "repo": "pydata/xarray",
+      "pool": 297,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 8,
+      "ms": 33,
+      "hits": [
+        {
+          "file": "xarray/core/rolling.py",
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "id": "pydata__xarray-7393",
+      "repo": "pydata/xarray",
+      "pool": 298,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 43,
+      "hits": [
+        {
+          "file": "xarray/core/indexing.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "pylint-dev__pylint-4551",
+      "repo": "pylint-dev/pylint",
+      "pool": 1473,
+      "workload": "feature",
+      "gold": 4,
+      "goldInPool": 4,
+      "truncated": false,
+      "foundInK": 4,
+      "firstHit": 6,
+      "ms": 57,
+      "hits": [
+        {
+          "file": "pylint/pyreverse/diagrams.py",
+          "rank": 19
+        },
+        {
+          "file": "pylint/pyreverse/inspector.py",
+          "rank": 6
+        },
+        {
+          "file": "pylint/pyreverse/utils.py",
+          "rank": 11
+        },
+        {
+          "file": "pylint/pyreverse/writer.py",
+          "rank": 16
+        }
+      ]
+    },
+    {
+      "id": "pylint-dev__pylint-4604",
+      "repo": "pylint-dev/pylint",
+      "pool": 1480,
+      "workload": "bugfix",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 18,
+      "ms": 50,
+      "hits": [
+        {
+          "file": "pylint/checkers/variables.py",
+          "rank": 18
+        },
+        {
+          "file": "pylint/constants.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "pylint-dev__pylint-4661",
+      "repo": "pylint-dev/pylint",
+      "pool": 1511,
+      "workload": "search",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 49,
+      "hits": [
+        {
+          "file": "pylint/config/__init__.py",
+          "rank": 1
+        },
+        {
+          "file": "setup.cfg",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "pylint-dev__pylint-4970",
+      "repo": "pylint-dev/pylint",
+      "pool": 1527,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 3,
+      "ms": 55,
+      "hits": [
+        {
+          "file": "pylint/checkers/similar.py",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "pylint-dev__pylint-6386",
+      "repo": "pylint-dev/pylint",
+      "pool": 2392,
+      "workload": "bugfix",
+      "gold": 4,
+      "goldInPool": 4,
+      "truncated": false,
+      "foundInK": 4,
+      "firstHit": 1,
+      "ms": 79,
+      "hits": [
+        {
+          "file": "pylint/config/argument.py",
+          "rank": 6
+        },
+        {
+          "file": "pylint/config/arguments_manager.py",
+          "rank": 15
+        },
+        {
+          "file": "pylint/config/utils.py",
+          "rank": 12
+        },
+        {
+          "file": "pylint/lint/base_options.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "pylint-dev__pylint-6528",
+      "repo": "pylint-dev/pylint",
+      "pool": 2500,
+      "workload": "search",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 86,
+      "hits": [
+        {
+          "file": "pylint/lint/expand_modules.py",
+          "rank": null
+        },
+        {
+          "file": "pylint/lint/pylinter.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "pylint-dev__pylint-6903",
+      "repo": "pylint-dev/pylint",
+      "pool": 3192,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 127,
+      "hits": [
+        {
+          "file": "pylint/lint/run.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "pylint-dev__pylint-7277",
+      "repo": "pylint-dev/pylint",
+      "pool": 3295,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 5,
+      "ms": 116,
+      "hits": [
+        {
+          "file": "pylint/__init__.py",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "id": "pylint-dev__pylint-8898",
+      "repo": "pylint-dev/pylint",
+      "pool": 3630,
+      "workload": "bugfix",
+      "gold": 3,
+      "goldInPool": 3,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 151,
+      "hits": [
+        {
+          "file": "pylint/config/argument.py",
+          "rank": 2
+        },
+        {
+          "file": "pylint/utils/__init__.py",
+          "rank": null
+        },
+        {
+          "file": "pylint/utils/utils.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "pytest-dev__pytest-10051",
+      "repo": "pytest-dev/pytest",
+      "pool": 542,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 32,
+      "hits": [
+        {
+          "file": "src/_pytest/logging.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "pytest-dev__pytest-10081",
+      "repo": "pytest-dev/pytest",
+      "pool": 543,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 5,
+      "ms": 37,
+      "hits": [
+        {
+          "file": "src/_pytest/unittest.py",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "id": "pytest-dev__pytest-10356",
+      "repo": "pytest-dev/pytest",
+      "pool": 550,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 5,
+      "ms": 57,
+      "hits": [
+        {
+          "file": "src/_pytest/mark/structures.py",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "id": "pytest-dev__pytest-5262",
+      "repo": "pytest-dev/pytest",
+      "pool": 395,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 30,
+      "hits": [
+        {
+          "file": "src/_pytest/capture.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "pytest-dev__pytest-5631",
+      "repo": "pytest-dev/pytest",
+      "pool": 410,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 3,
+      "ms": 29,
+      "hits": [
+        {
+          "file": "src/_pytest/compat.py",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "pytest-dev__pytest-5787",
+      "repo": "pytest-dev/pytest",
+      "pool": 417,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 14,
+      "ms": 25,
+      "hits": [
+        {
+          "file": "src/_pytest/reports.py",
+          "rank": 14
+        }
+      ]
+    },
+    {
+      "id": "pytest-dev__pytest-5809",
+      "repo": "pytest-dev/pytest",
+      "pool": 405,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 26,
+      "hits": [
+        {
+          "file": "src/_pytest/pastebin.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "pytest-dev__pytest-5840",
+      "repo": "pytest-dev/pytest",
+      "pool": 417,
+      "workload": "feature",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 2,
+      "firstHit": 3,
+      "ms": 25,
+      "hits": [
+        {
+          "file": "src/_pytest/config/__init__.py",
+          "rank": 6
+        },
+        {
+          "file": "src/_pytest/pathlib.py",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "pytest-dev__pytest-6197",
+      "repo": "pytest-dev/pytest",
+      "pool": 423,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 7,
+      "ms": 28,
+      "hits": [
+        {
+          "file": "src/_pytest/python.py",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "id": "pytest-dev__pytest-6202",
+      "repo": "pytest-dev/pytest",
+      "pool": 424,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 30,
+      "hits": [
+        {
+          "file": "src/_pytest/python.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "pytest-dev__pytest-7205",
+      "repo": "pytest-dev/pytest",
+      "pool": 469,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 4,
+      "ms": 35,
+      "hits": [
+        {
+          "file": "src/_pytest/setuponly.py",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "pytest-dev__pytest-7236",
+      "repo": "pytest-dev/pytest",
+      "pool": 479,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 31,
+      "hits": [
+        {
+          "file": "src/_pytest/unittest.py",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "pytest-dev__pytest-7324",
+      "repo": "pytest-dev/pytest",
+      "pool": 494,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 4,
+      "ms": 26,
+      "hits": [
+        {
+          "file": "src/_pytest/mark/expression.py",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "pytest-dev__pytest-7521",
+      "repo": "pytest-dev/pytest",
+      "pool": 455,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 9,
+      "ms": 30,
+      "hits": [
+        {
+          "file": "src/_pytest/capture.py",
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "id": "pytest-dev__pytest-7571",
+      "repo": "pytest-dev/pytest",
+      "pool": 463,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 21,
+      "hits": [
+        {
+          "file": "src/_pytest/logging.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "pytest-dev__pytest-7982",
+      "repo": "pytest-dev/pytest",
+      "pool": 480,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 24,
+      "hits": [
+        {
+          "file": "src/_pytest/pathlib.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "pytest-dev__pytest-8399",
+      "repo": "pytest-dev/pytest",
+      "pool": 511,
+      "workload": "search",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 2,
+      "firstHit": 4,
+      "ms": 33,
+      "hits": [
+        {
+          "file": "src/_pytest/python.py",
+          "rank": 8
+        },
+        {
+          "file": "src/_pytest/unittest.py",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "scikit-learn__scikit-learn-10844",
+      "repo": "scikit-learn/scikit-learn",
+      "pool": 1008,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 4,
+      "ms": 63,
+      "hits": [
+        {
+          "file": "sklearn/metrics/cluster/supervised.py",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "scikit-learn__scikit-learn-10908",
+      "repo": "scikit-learn/scikit-learn",
+      "pool": 1008,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 57,
+      "hits": [
+        {
+          "file": "sklearn/feature_extraction/text.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "scikit-learn__scikit-learn-11310",
+      "repo": "scikit-learn/scikit-learn",
+      "pool": 1014,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 54,
+      "hits": [
+        {
+          "file": "sklearn/model_selection/_search.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "scikit-learn__scikit-learn-11578",
+      "repo": "scikit-learn/scikit-learn",
+      "pool": 1016,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 93,
+      "hits": [
+        {
+          "file": "sklearn/linear_model/logistic.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "scikit-learn__scikit-learn-12585",
+      "repo": "scikit-learn/scikit-learn",
+      "pool": 1058,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 5,
+      "ms": 70,
+      "hits": [
+        {
+          "file": "sklearn/base.py",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "id": "scikit-learn__scikit-learn-12682",
+      "repo": "scikit-learn/scikit-learn",
+      "pool": 1021,
+      "workload": "bugfix",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 2,
+      "firstHit": 4,
+      "ms": 46,
+      "hits": [
+        {
+          "file": "examples/decomposition/plot_sparse_coding.py",
+          "rank": 7
+        },
+        {
+          "file": "sklearn/decomposition/dict_learning.py",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "scikit-learn__scikit-learn-12973",
+      "repo": "scikit-learn/scikit-learn",
+      "pool": 1060,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 62,
+      "hits": [
+        {
+          "file": "sklearn/linear_model/least_angle.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "scikit-learn__scikit-learn-13124",
+      "repo": "scikit-learn/scikit-learn",
+      "pool": 1064,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 73,
+      "hits": [
+        {
+          "file": "sklearn/model_selection/_split.py",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "scikit-learn__scikit-learn-13135",
+      "repo": "scikit-learn/scikit-learn",
+      "pool": 1064,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 69,
+      "hits": [
+        {
+          "file": "sklearn/preprocessing/_discretization.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "scikit-learn__scikit-learn-13328",
+      "repo": "scikit-learn/scikit-learn",
+      "pool": 1031,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 92,
+      "hits": [
+        {
+          "file": "sklearn/linear_model/huber.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "scikit-learn__scikit-learn-14053",
+      "repo": "scikit-learn/scikit-learn",
+      "pool": 1019,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 4,
+      "ms": 60,
+      "hits": [
+        {
+          "file": "sklearn/tree/export.py",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "scikit-learn__scikit-learn-14141",
+      "repo": "scikit-learn/scikit-learn",
+      "pool": 1020,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 35,
+      "hits": [
+        {
+          "file": "sklearn/utils/_show_versions.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "scikit-learn__scikit-learn-14496",
+      "repo": "scikit-learn/scikit-learn",
+      "pool": 1031,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 65,
+      "hits": [
+        {
+          "file": "sklearn/cluster/optics_.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "scikit-learn__scikit-learn-14629",
+      "repo": "scikit-learn/scikit-learn",
+      "pool": 1032,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 16,
+      "ms": 61,
+      "hits": [
+        {
+          "file": "sklearn/multioutput.py",
+          "rank": 16
+        }
+      ]
+    },
+    {
+      "id": "scikit-learn__scikit-learn-14710",
+      "repo": "scikit-learn/scikit-learn",
+      "pool": 1034,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 111,
+      "hits": [
+        {
+          "file": "sklearn/ensemble/_hist_gradient_boosting/gradient_boosting.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "scikit-learn__scikit-learn-15100",
+      "repo": "scikit-learn/scikit-learn",
+      "pool": 1059,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 65,
+      "hits": [
+        {
+          "file": "sklearn/feature_extraction/text.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "scikit-learn__scikit-learn-25102",
+      "repo": "scikit-learn/scikit-learn",
+      "pool": 1275,
+      "workload": "feature",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 83,
+      "hits": [
+        {
+          "file": "sklearn/base.py",
+          "rank": null
+        },
+        {
+          "file": "sklearn/feature_selection/_base.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "scikit-learn__scikit-learn-25232",
+      "repo": "scikit-learn/scikit-learn",
+      "pool": 1286,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 69,
+      "hits": [
+        {
+          "file": "sklearn/impute/_iterative.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "scikit-learn__scikit-learn-25931",
+      "repo": "scikit-learn/scikit-learn",
+      "pool": 1280,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 90,
+      "hits": [
+        {
+          "file": "sklearn/ensemble/_iforest.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "scikit-learn__scikit-learn-25973",
+      "repo": "scikit-learn/scikit-learn",
+      "pool": 1280,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 4,
+      "ms": 84,
+      "hits": [
+        {
+          "file": "sklearn/feature_selection/_sequential.py",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "scikit-learn__scikit-learn-26194",
+      "repo": "scikit-learn/scikit-learn",
+      "pool": 1285,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 69,
+      "hits": [
+        {
+          "file": "sklearn/metrics/_ranking.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "scikit-learn__scikit-learn-26323",
+      "repo": "scikit-learn/scikit-learn",
+      "pool": 1303,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 80,
+      "hits": [
+        {
+          "file": "sklearn/compose/_column_transformer.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "scikit-learn__scikit-learn-9288",
+      "repo": "scikit-learn/scikit-learn",
+      "pool": 1032,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 6,
+      "ms": 76,
+      "hits": [
+        {
+          "file": "sklearn/cluster/k_means_.py",
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "id": "sphinx-doc__sphinx-10323",
+      "repo": "sphinx-doc/sphinx",
+      "pool": 1426,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 99,
+      "hits": [
+        {
+          "file": "sphinx/directives/code.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "sphinx-doc__sphinx-10435",
+      "repo": "sphinx-doc/sphinx",
+      "pool": 1428,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 79,
+      "hits": [
+        {
+          "file": "sphinx/writers/latex.py",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "sphinx-doc__sphinx-10449",
+      "repo": "sphinx-doc/sphinx",
+      "pool": 1430,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 116,
+      "hits": [
+        {
+          "file": "sphinx/ext/autodoc/typehints.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "sphinx-doc__sphinx-10466",
+      "repo": "sphinx-doc/sphinx",
+      "pool": 1435,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 4,
+      "ms": 115,
+      "hits": [
+        {
+          "file": "sphinx/builders/gettext.py",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "sphinx-doc__sphinx-10614",
+      "repo": "sphinx-doc/sphinx",
+      "pool": 1486,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 91,
+      "hits": [
+        {
+          "file": "sphinx/ext/inheritance_diagram.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "sphinx-doc__sphinx-10673",
+      "repo": "sphinx-doc/sphinx",
+      "pool": 1436,
+      "workload": "feature",
+      "gold": 3,
+      "goldInPool": 3,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 71,
+      "hits": [
+        {
+          "file": "sphinx/directives/other.py",
+          "rank": null
+        },
+        {
+          "file": "sphinx/environment/adapters/toctree.py",
+          "rank": null
+        },
+        {
+          "file": "sphinx/environment/collectors/toctree.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "sphinx-doc__sphinx-11510",
+      "repo": "sphinx-doc/sphinx",
+      "pool": 1494,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 100,
+      "hits": [
+        {
+          "file": "sphinx/directives/other.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "sphinx-doc__sphinx-7440",
+      "repo": "sphinx-doc/sphinx",
+      "pool": 1251,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 66,
+      "hits": [
+        {
+          "file": "sphinx/domains/std.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "sphinx-doc__sphinx-7454",
+      "repo": "sphinx-doc/sphinx",
+      "pool": 1251,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 75,
+      "hits": [
+        {
+          "file": "sphinx/domains/python.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "sphinx-doc__sphinx-7462",
+      "repo": "sphinx-doc/sphinx",
+      "pool": 1251,
+      "workload": "bugfix",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 3,
+      "ms": 82,
+      "hits": [
+        {
+          "file": "sphinx/domains/python.py",
+          "rank": 3
+        },
+        {
+          "file": "sphinx/pycode/ast.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "sphinx-doc__sphinx-7590",
+      "repo": "sphinx-doc/sphinx",
+      "pool": 1265,
+      "workload": "feature",
+      "gold": 3,
+      "goldInPool": 3,
+      "truncated": false,
+      "foundInK": 2,
+      "firstHit": 2,
+      "ms": 57,
+      "hits": [
+        {
+          "file": "sphinx/domains/c.py",
+          "rank": 3
+        },
+        {
+          "file": "sphinx/domains/cpp.py",
+          "rank": 2
+        },
+        {
+          "file": "sphinx/util/cfamily.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "sphinx-doc__sphinx-7748",
+      "repo": "sphinx-doc/sphinx",
+      "pool": 1267,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 47,
+      "hits": [
+        {
+          "file": "sphinx/ext/autodoc/__init__.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "sphinx-doc__sphinx-7757",
+      "repo": "sphinx-doc/sphinx",
+      "pool": 1268,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 66,
+      "hits": [
+        {
+          "file": "sphinx/util/inspect.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "sphinx-doc__sphinx-7889",
+      "repo": "sphinx-doc/sphinx",
+      "pool": 1275,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 69,
+      "hits": [
+        {
+          "file": "sphinx/ext/autodoc/mock.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "sphinx-doc__sphinx-7910",
+      "repo": "sphinx-doc/sphinx",
+      "pool": 1278,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 75,
+      "hits": [
+        {
+          "file": "sphinx/ext/napoleon/__init__.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "sphinx-doc__sphinx-7985",
+      "repo": "sphinx-doc/sphinx",
+      "pool": 1280,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 77,
+      "hits": [
+        {
+          "file": "sphinx/builders/linkcheck.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "sphinx-doc__sphinx-8035",
+      "repo": "sphinx-doc/sphinx",
+      "pool": 1285,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 57,
+      "hits": [
+        {
+          "file": "sphinx/ext/autodoc/__init__.py",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "sphinx-doc__sphinx-8056",
+      "repo": "sphinx-doc/sphinx",
+      "pool": 1285,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 76,
+      "hits": [
+        {
+          "file": "sphinx/ext/napoleon/docstring.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "sphinx-doc__sphinx-8120",
+      "repo": "sphinx-doc/sphinx",
+      "pool": 1290,
+      "workload": "bugfix",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 78,
+      "hits": [
+        {
+          "file": "sphinx/application.py",
+          "rank": null
+        },
+        {
+          "file": "sphinx/locale/__init__.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "sphinx-doc__sphinx-8265",
+      "repo": "sphinx-doc/sphinx",
+      "pool": 1290,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 77,
+      "hits": [
+        {
+          "file": "sphinx/pycode/ast.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "sphinx-doc__sphinx-8269",
+      "repo": "sphinx-doc/sphinx",
+      "pool": 1288,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 79,
+      "hits": [
+        {
+          "file": "sphinx/builders/linkcheck.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "sphinx-doc__sphinx-8459",
+      "repo": "sphinx-doc/sphinx",
+      "pool": 1303,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 3,
+      "ms": 63,
+      "hits": [
+        {
+          "file": "sphinx/ext/autodoc/typehints.py",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "sphinx-doc__sphinx-8475",
+      "repo": "sphinx-doc/sphinx",
+      "pool": 1303,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 60,
+      "hits": [
+        {
+          "file": "sphinx/builders/linkcheck.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "sphinx-doc__sphinx-8548",
+      "repo": "sphinx-doc/sphinx",
+      "pool": 1306,
+      "workload": "search",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 2,
+      "firstHit": 1,
+      "ms": 46,
+      "hits": [
+        {
+          "file": "sphinx/ext/autodoc/__init__.py",
+          "rank": 1
+        },
+        {
+          "file": "sphinx/ext/autodoc/importer.py",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "id": "sphinx-doc__sphinx-8551",
+      "repo": "sphinx-doc/sphinx",
+      "pool": 1307,
+      "workload": "search",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 2,
+      "firstHit": 3,
+      "ms": 65,
+      "hits": [
+        {
+          "file": "sphinx/domains/python.py",
+          "rank": 3
+        },
+        {
+          "file": "sphinx/util/docfields.py",
+          "rank": 10
+        }
+      ]
+    },
+    {
+      "id": "sphinx-doc__sphinx-8593",
+      "repo": "sphinx-doc/sphinx",
+      "pool": 1309,
+      "workload": "bugfix",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 59,
+      "hits": [
+        {
+          "file": "sphinx/ext/autodoc/__init__.py",
+          "rank": 2
+        },
+        {
+          "file": "sphinx/ext/autodoc/importer.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "sphinx-doc__sphinx-8621",
+      "repo": "sphinx-doc/sphinx",
+      "pool": 1312,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 71,
+      "hits": [
+        {
+          "file": "sphinx/builders/html/transforms.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "sphinx-doc__sphinx-8638",
+      "repo": "sphinx-doc/sphinx",
+      "pool": 1304,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 82,
+      "hits": [
+        {
+          "file": "sphinx/domains/python.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "sphinx-doc__sphinx-9229",
+      "repo": "sphinx-doc/sphinx",
+      "pool": 1361,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 104,
+      "hits": [
+        {
+          "file": "sphinx/ext/autodoc/__init__.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "sphinx-doc__sphinx-9230",
+      "repo": "sphinx-doc/sphinx",
+      "pool": 1364,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 66,
+      "hits": [
+        {
+          "file": "sphinx/util/docfields.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "sphinx-doc__sphinx-9258",
+      "repo": "sphinx-doc/sphinx",
+      "pool": 1364,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 51,
+      "hits": [
+        {
+          "file": "sphinx/domains/python.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "sphinx-doc__sphinx-9281",
+      "repo": "sphinx-doc/sphinx",
+      "pool": 1364,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 67,
+      "hits": [
+        {
+          "file": "sphinx/util/inspect.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "sphinx-doc__sphinx-9320",
+      "repo": "sphinx-doc/sphinx",
+      "pool": 1369,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 80,
+      "hits": [
+        {
+          "file": "sphinx/cmd/quickstart.py",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "sphinx-doc__sphinx-9367",
+      "repo": "sphinx-doc/sphinx",
+      "pool": 1370,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 4,
+      "ms": 54,
+      "hits": [
+        {
+          "file": "sphinx/pycode/ast.py",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "sphinx-doc__sphinx-9461",
+      "repo": "sphinx-doc/sphinx",
+      "pool": 1381,
+      "workload": "bugfix",
+      "gold": 3,
+      "goldInPool": 3,
+      "truncated": false,
+      "foundInK": 2,
+      "firstHit": 2,
+      "ms": 86,
+      "hits": [
+        {
+          "file": "sphinx/domains/python.py",
+          "rank": null
+        },
+        {
+          "file": "sphinx/ext/autodoc/__init__.py",
+          "rank": 2
+        },
+        {
+          "file": "sphinx/util/inspect.py",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "sphinx-doc__sphinx-9591",
+      "repo": "sphinx-doc/sphinx",
+      "pool": 1405,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 3,
+      "ms": 84,
+      "hits": [
+        {
+          "file": "sphinx/domains/python.py",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "sphinx-doc__sphinx-9602",
+      "repo": "sphinx-doc/sphinx",
+      "pool": 1405,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 8,
+      "ms": 84,
+      "hits": [
+        {
+          "file": "sphinx/domains/python.py",
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "id": "sphinx-doc__sphinx-9658",
+      "repo": "sphinx-doc/sphinx",
+      "pool": 1408,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 83,
+      "hits": [
+        {
+          "file": "sphinx/ext/autodoc/mock.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "sphinx-doc__sphinx-9673",
+      "repo": "sphinx-doc/sphinx",
+      "pool": 1408,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 81,
+      "hits": [
+        {
+          "file": "sphinx/ext/autodoc/typehints.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "sphinx-doc__sphinx-9698",
+      "repo": "sphinx-doc/sphinx",
+      "pool": 1411,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 67,
+      "hits": [
+        {
+          "file": "sphinx/domains/python.py",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "sphinx-doc__sphinx-9711",
+      "repo": "sphinx-doc/sphinx",
+      "pool": 1411,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 74,
+      "hits": [
+        {
+          "file": "sphinx/extension.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "sympy__sympy-11618",
+      "repo": "sympy/sympy",
+      "pool": 1348,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 41,
+      "hits": [
+        {
+          "file": "sympy/geometry/point.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "sympy__sympy-12096",
+      "repo": "sympy/sympy",
+      "pool": 1351,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 3,
+      "ms": 58,
+      "hits": [
+        {
+          "file": "sympy/core/function.py",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "sympy__sympy-12489",
+      "repo": "sympy/sympy",
+      "pool": 1358,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 4,
+      "ms": 60,
+      "hits": [
+        {
+          "file": "sympy/combinatorics/permutations.py",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "sympy__sympy-13091",
+      "repo": "sympy/sympy",
+      "pool": 1388,
+      "workload": "search",
+      "gold": 21,
+      "goldInPool": 21,
+      "truncated": false,
+      "foundInK": 2,
+      "firstHit": 3,
+      "ms": 72,
+      "hits": [
+        {
+          "file": "sympy/core/basic.py",
+          "rank": 3
+        },
+        {
+          "file": "sympy/core/exprtools.py",
+          "rank": null
+        },
+        {
+          "file": "sympy/core/numbers.py",
+          "rank": 13
+        },
+        {
+          "file": "sympy/geometry/entity.py",
+          "rank": null
+        },
+        {
+          "file": "sympy/physics/optics/medium.py",
+          "rank": null
+        },
+        {
+          "file": "sympy/physics/vector/dyadic.py",
+          "rank": null
+        },
+        {
+          "file": "sympy/physics/vector/frame.py",
+          "rank": null
+        },
+        {
+          "file": "sympy/physics/vector/vector.py",
+          "rank": null
+        },
+        {
+          "file": "sympy/polys/agca/modules.py",
+          "rank": null
+        },
+        {
+          "file": "sympy/polys/domains/domain.py",
+          "rank": null
+        },
+        {
+          "file": "sympy/polys/domains/expressiondomain.py",
+          "rank": null
+        },
+        {
+          "file": "sympy/polys/domains/pythonrational.py",
+          "rank": null
+        },
+        {
+          "file": "sympy/polys/domains/quotientring.py",
+          "rank": null
+        },
+        {
+          "file": "sympy/polys/fields.py",
+          "rank": null
+        },
+        {
+          "file": "sympy/polys/monomials.py",
+          "rank": null
+        },
+        {
+          "file": "sympy/polys/polyclasses.py",
+          "rank": null
+        },
+        {
+          "file": "sympy/polys/polytools.py",
+          "rank": null
+        },
+        {
+          "file": "sympy/polys/rings.py",
+          "rank": null
+        },
+        {
+          "file": "sympy/polys/rootoftools.py",
+          "rank": null
+        },
+        {
+          "file": "sympy/tensor/array/ndim_array.py",
+          "rank": null
+        },
+        {
+          "file": "sympy/utilities/enumerative.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "sympy__sympy-13372",
+      "repo": "sympy/sympy",
+      "pool": 1418,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 76,
+      "hits": [
+        {
+          "file": "sympy/core/evalf.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "sympy__sympy-13551",
+      "repo": "sympy/sympy",
+      "pool": 1423,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 57,
+      "hits": [
+        {
+          "file": "sympy/concrete/products.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "sympy__sympy-13615",
+      "repo": "sympy/sympy",
+      "pool": 1426,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 5,
+      "ms": 42,
+      "hits": [
+        {
+          "file": "sympy/sets/sets.py",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "id": "sympy__sympy-13757",
+      "repo": "sympy/sympy",
+      "pool": 1427,
+      "workload": "review",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 48,
+      "hits": [
+        {
+          "file": "sympy/polys/polytools.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "sympy__sympy-13798",
+      "repo": "sympy/sympy",
+      "pool": 1427,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 5,
+      "ms": 62,
+      "hits": [
+        {
+          "file": "sympy/printing/latex.py",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "id": "sympy__sympy-13852",
+      "repo": "sympy/sympy",
+      "pool": 1429,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 79,
+      "hits": [
+        {
+          "file": "sympy/functions/special/zeta_functions.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "sympy__sympy-13877",
+      "repo": "sympy/sympy",
+      "pool": 1446,
+      "workload": "search",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 101,
+      "hits": [
+        {
+          "file": "sympy/matrices/matrices.py",
+          "rank": 1
+        },
+        {
+          "file": "sympy/utilities/randtest.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "sympy__sympy-13878",
+      "repo": "sympy/sympy",
+      "pool": 1431,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 82,
+      "hits": [
+        {
+          "file": "sympy/stats/crv_types.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "sympy__sympy-13974",
+      "repo": "sympy/sympy",
+      "pool": 1431,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 62,
+      "hits": [
+        {
+          "file": "sympy/physics/quantum/tensorproduct.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "sympy__sympy-14248",
+      "repo": "sympy/sympy",
+      "pool": 1462,
+      "workload": "feature",
+      "gold": 3,
+      "goldInPool": 3,
+      "truncated": false,
+      "foundInK": 2,
+      "firstHit": 1,
+      "ms": 58,
+      "hits": [
+        {
+          "file": "sympy/printing/latex.py",
+          "rank": 2
+        },
+        {
+          "file": "sympy/printing/pretty/pretty.py",
+          "rank": 1
+        },
+        {
+          "file": "sympy/printing/str.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "sympy__sympy-14531",
+      "repo": "sympy/sympy",
+      "pool": 1465,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 15,
+      "ms": 59,
+      "hits": [
+        {
+          "file": "sympy/printing/str.py",
+          "rank": 15
+        }
+      ]
+    },
+    {
+      "id": "sympy__sympy-14711",
+      "repo": "sympy/sympy",
+      "pool": 1470,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 75,
+      "hits": [
+        {
+          "file": "sympy/physics/vector/vector.py",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "sympy__sympy-14976",
+      "repo": "sympy/sympy",
+      "pool": 1499,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 10,
+      "ms": 58,
+      "hits": [
+        {
+          "file": "sympy/printing/pycode.py",
+          "rank": 10
+        }
+      ]
+    },
+    {
+      "id": "sympy__sympy-15017",
+      "repo": "sympy/sympy",
+      "pool": 1563,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 5,
+      "ms": 63,
+      "hits": [
+        {
+          "file": "sympy/tensor/array/dense_ndim_array.py",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "id": "sympy__sympy-15349",
+      "repo": "sympy/sympy",
+      "pool": 1562,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 72,
+      "hits": [
+        {
+          "file": "sympy/algebras/quaternion.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "sympy__sympy-15599",
+      "repo": "sympy/sympy",
+      "pool": 1567,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 94,
+      "hits": [
+        {
+          "file": "sympy/core/mod.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "sympy__sympy-15809",
+      "repo": "sympy/sympy",
+      "pool": 1570,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 6,
+      "ms": 57,
+      "hits": [
+        {
+          "file": "sympy/functions/elementary/miscellaneous.py",
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "id": "sympy__sympy-15875",
+      "repo": "sympy/sympy",
+      "pool": 1571,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 77,
+      "hits": [
+        {
+          "file": "sympy/core/add.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "sympy__sympy-15976",
+      "repo": "sympy/sympy",
+      "pool": 1572,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 68,
+      "hits": [
+        {
+          "file": "sympy/printing/mathml.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "sympy__sympy-16450",
+      "repo": "sympy/sympy",
+      "pool": 1571,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 68,
+      "hits": [
+        {
+          "file": "sympy/simplify/simplify.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "sympy__sympy-16597",
+      "repo": "sympy/sympy",
+      "pool": 1572,
+      "workload": "bugfix",
+      "gold": 6,
+      "goldInPool": 6,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 60,
+      "hits": [
+        {
+          "file": "sympy/assumptions/ask.py",
+          "rank": null
+        },
+        {
+          "file": "sympy/assumptions/ask_generated.py",
+          "rank": null
+        },
+        {
+          "file": "sympy/core/assumptions.py",
+          "rank": null
+        },
+        {
+          "file": "sympy/core/power.py",
+          "rank": null
+        },
+        {
+          "file": "sympy/printing/tree.py",
+          "rank": null
+        },
+        {
+          "file": "sympy/tensor/indexed.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "sympy__sympy-16766",
+      "repo": "sympy/sympy",
+      "pool": 1574,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 76,
+      "hits": [
+        {
+          "file": "sympy/printing/pycode.py",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "sympy__sympy-16886",
+      "repo": "sympy/sympy",
+      "pool": 1577,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 40,
+      "hits": [
+        {
+          "file": "sympy/crypto/crypto.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "sympy__sympy-17318",
+      "repo": "sympy/sympy",
+      "pool": 1591,
+      "workload": "refactor",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 2,
+      "firstHit": 1,
+      "ms": 90,
+      "hits": [
+        {
+          "file": "sympy/simplify/radsimp.py",
+          "rank": 2
+        },
+        {
+          "file": "sympy/simplify/sqrtdenest.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "sympy__sympy-18211",
+      "repo": "sympy/sympy",
+      "pool": 1631,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 56,
+      "hits": [
+        {
+          "file": "sympy/core/relational.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "sympy__sympy-18763",
+      "repo": "sympy/sympy",
+      "pool": 1626,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 62,
+      "hits": [
+        {
+          "file": "sympy/printing/latex.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "sympy__sympy-19040",
+      "repo": "sympy/sympy",
+      "pool": 1667,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 80,
+      "hits": [
+        {
+          "file": "sympy/polys/factortools.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "sympy__sympy-19346",
+      "repo": "sympy/sympy",
+      "pool": 1672,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 7,
+      "ms": 64,
+      "hits": [
+        {
+          "file": "sympy/printing/repr.py",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "id": "sympy__sympy-19495",
+      "repo": "sympy/sympy",
+      "pool": 1678,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 3,
+      "ms": 76,
+      "hits": [
+        {
+          "file": "sympy/sets/conditionset.py",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "sympy__sympy-19637",
+      "repo": "sympy/sympy",
+      "pool": 1685,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 61,
+      "hits": [
+        {
+          "file": "sympy/core/sympify.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "sympy__sympy-19783",
+      "repo": "sympy/sympy",
+      "pool": 1699,
+      "workload": "search",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 2,
+      "firstHit": 1,
+      "ms": 57,
+      "hits": [
+        {
+          "file": "sympy/physics/quantum/dagger.py",
+          "rank": 3
+        },
+        {
+          "file": "sympy/physics/quantum/operator.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "sympy__sympy-19954",
+      "repo": "sympy/sympy",
+      "pool": 1712,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 80,
+      "hits": [
+        {
+          "file": "sympy/combinatorics/perm_groups.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "sympy__sympy-20428",
+      "repo": "sympy/sympy",
+      "pool": 1722,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 120,
+      "hits": [
+        {
+          "file": "sympy/polys/domains/expressiondomain.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "sympy__sympy-20438",
+      "repo": "sympy/sympy",
+      "pool": 1737,
+      "workload": "bugfix",
+      "gold": 3,
+      "goldInPool": 3,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 110,
+      "hits": [
+        {
+          "file": "sympy/core/relational.py",
+          "rank": 1
+        },
+        {
+          "file": "sympy/sets/handlers/comparison.py",
+          "rank": null
+        },
+        {
+          "file": "sympy/sets/handlers/issubset.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "sympy__sympy-20801",
+      "repo": "sympy/sympy",
+      "pool": 1750,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 72,
+      "hits": [
+        {
+          "file": "sympy/core/numbers.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "sympy__sympy-20916",
+      "repo": "sympy/sympy",
+      "pool": 1759,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 56,
+      "hits": [
+        {
+          "file": "sympy/printing/conventions.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "sympy__sympy-21596",
+      "repo": "sympy/sympy",
+      "pool": 1792,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 9,
+      "ms": 68,
+      "hits": [
+        {
+          "file": "sympy/sets/handlers/intersection.py",
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "id": "sympy__sympy-21930",
+      "repo": "sympy/sympy",
+      "pool": 1818,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 79,
+      "hits": [
+        {
+          "file": "sympy/physics/secondquant.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "sympy__sympy-22080",
+      "repo": "sympy/sympy",
+      "pool": 1825,
+      "workload": "bugfix",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 79,
+      "hits": [
+        {
+          "file": "sympy/printing/codeprinter.py",
+          "rank": null
+        },
+        {
+          "file": "sympy/printing/precedence.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "sympy__sympy-22456",
+      "repo": "sympy/sympy",
+      "pool": 1832,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 68,
+      "hits": [
+        {
+          "file": "sympy/codegen/ast.py",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "sympy__sympy-22914",
+      "repo": "sympy/sympy",
+      "pool": 1859,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 99,
+      "hits": [
+        {
+          "file": "sympy/printing/pycode.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "sympy__sympy-23413",
+      "repo": "sympy/sympy",
+      "pool": 1867,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 61,
+      "hits": [
+        {
+          "file": "sympy/polys/matrices/normalforms.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "sympy__sympy-23534",
+      "repo": "sympy/sympy",
+      "pool": 1866,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 83,
+      "hits": [
+        {
+          "file": "sympy/core/symbol.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "sympy__sympy-23824",
+      "repo": "sympy/sympy",
+      "pool": 1867,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 111,
+      "hits": [
+        {
+          "file": "sympy/physics/hep/gamma_matrices.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "sympy__sympy-23950",
+      "repo": "sympy/sympy",
+      "pool": 1872,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 87,
+      "hits": [
+        {
+          "file": "sympy/sets/contains.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "sympy__sympy-24443",
+      "repo": "sympy/sympy",
+      "pool": 1848,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 76,
+      "hits": [
+        {
+          "file": "sympy/combinatorics/homomorphisms.py",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "sympy__sympy-24539",
+      "repo": "sympy/sympy",
+      "pool": 1850,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 90,
+      "hits": [
+        {
+          "file": "sympy/polys/rings.py",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "sympy__sympy-24562",
+      "repo": "sympy/sympy",
+      "pool": 1850,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 70,
+      "hits": [
+        {
+          "file": "sympy/core/numbers.py",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "sympy__sympy-24661",
+      "repo": "sympy/sympy",
+      "pool": 1856,
+      "workload": "review",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 72,
+      "hits": [
+        {
+          "file": "sympy/parsing/sympy_parser.py",
+          "rank": null
+        }
+      ]
+    }
+  ]
+}

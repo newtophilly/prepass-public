@@ -1,0 +1,42 @@
+{
+  "//": "Documented example config. Copy to .prepass.json and edit. Every field is optional; omitted fields use the defaults shown. Unknown keys are rejected (strict schema). Relative paths resolve against this file's directory.",
+  "version": 1,
+  "//models": "Logical tier -> concrete model ID. Defaults track the current Anthropic lineup. Point these at pinned versions or OpenAI model IDs as needed.",
+  "models": {
+    "cheap": "claude-haiku-4-5",
+    "balanced": "claude-sonnet-5",
+    "premium": "claude-opus-5"
+  },
+  "//curation": "Curation controls. maxTokens caps the payload; the builder trims to fit. contentScan reads the head of each candidate and boosts files that mention the prompt's identifiers \u2014 with it off, path names are the only signal and ranking degrades to smallest-file-first.",
+  "curation": {
+    "enabled": true,
+    "maxTokens": 8000,
+    "contentScan": true,
+    "contentScanMaxFiles": 400,
+    "contentScanBytes": 16000
+  },
+  "//discovery": "How the candidate pool is built before curation ranks it. Uses `git ls-files` when the project is a git repo (so .gitignore is honored exactly), otherwise a bounded directory walk. Disable to consider only explicitly-named files.",
+  "discovery": {
+    "enabled": true,
+    "maxFiles": 5000,
+    "maxFileBytes": 512000
+  },
+  "//routing": "Intent + escalation controls. Below confidenceThreshold, intent falls back to defaultWorkload. The router escalates a tier when the prompt exceeds escalateAboveTokens, the file set exceeds escalateAboveFiles, or confidence is low \u2014 unless allowEscalation is false.",
+  "routing": {
+    "defaultWorkload": "feature",
+    "confidenceThreshold": 0.4,
+    "allowEscalation": true,
+    "escalateAboveTokens": 30000,
+    "escalateAboveFiles": 20
+  },
+  "//telemetry": "Local SQLite (WAL) event store powering `prepass stats`. dbPath lives under .prepass/ which is git-ignored.",
+  "telemetry": {
+    "enabled": true,
+    "dbPath": ".prepass/telemetry.db"
+  },
+  "//taxonomies": "Where workload taxonomies load from. 'dir' holds the built-in <workload>.json files; 'custom' lists extra taxonomy files merged on top (a custom file overrides a built-in with the same workload).",
+  "taxonomies": {
+    "dir": "taxonomies",
+    "custom": []
+  }
+}

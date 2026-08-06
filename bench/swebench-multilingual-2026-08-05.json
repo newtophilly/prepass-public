@@ -1,0 +1,6203 @@
+{
+  "k": 20,
+  "n": 300,
+  "skipped": 0,
+  "results": [
+    {
+      "id": "apache__druid-13704",
+      "repo": "apache/druid",
+      "pool": 5000,
+      "workload": "feature",
+      "gold": 2,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 3,
+      "ms": 360,
+      "hits": [
+        {
+          "file": "docs/querying/post-aggregations.md",
+          "rank": 3
+        },
+        {
+          "file": "processing/src/main/java/org/apache/druid/query/aggregation/post/ArithmeticPostAggregator.java",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "apache__druid-14092",
+      "repo": "apache/druid",
+      "pool": 5000,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 0,
+      "truncated": true,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 381,
+      "hits": [
+        {
+          "file": "server/src/main/java/org/apache/druid/discovery/DruidLeaderClient.java",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "apache__druid-14136",
+      "repo": "apache/druid",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 3,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 408,
+      "hits": [
+        {
+          "file": "processing/src/main/java/org/apache/druid/java/util/common/JodaUtils.java",
+          "rank": null
+        },
+        {
+          "file": "processing/src/main/java/org/apache/druid/query/spec/MultipleIntervalSegmentSpec.java",
+          "rank": null
+        },
+        {
+          "file": "processing/src/main/java/org/apache/druid/timeline/VersionedIntervalTimeline.java",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "apache__druid-15402",
+      "repo": "apache/druid",
+      "pool": 5000,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 0,
+      "truncated": true,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 348,
+      "hits": [
+        {
+          "file": "processing/src/main/java/org/apache/druid/query/groupby/GroupByQueryQueryToolChest.java",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "apache__druid-16875",
+      "repo": "apache/druid",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 0,
+      "truncated": true,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 395,
+      "hits": [
+        {
+          "file": "server/src/main/java/org/apache/druid/server/metrics/WorkerTaskCountStatsMonitor.java",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "apache__lucene-11760",
+      "repo": "apache/lucene",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 260,
+      "hits": [
+        {
+          "file": "lucene/queries/src/java/org/apache/lucene/queries/intervals/IntervalBuilder.java",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "apache__lucene-12022",
+      "repo": "apache/lucene",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 2,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 7,
+      "ms": 282,
+      "hits": [
+        {
+          "file": "lucene/CHANGES.txt",
+          "rank": null
+        },
+        {
+          "file": "lucene/core/src/java/org/apache/lucene/document/ShapeField.java",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "id": "apache__lucene-12196",
+      "repo": "apache/lucene",
+      "pool": 5000,
+      "workload": "feature",
+      "gold": 2,
+      "goldInPool": 0,
+      "truncated": true,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 283,
+      "hits": [
+        {
+          "file": "lucene/CHANGES.txt",
+          "rank": null
+        },
+        {
+          "file": "lucene/queryparser/src/java/org/apache/lucene/queryparser/classic/MultiFieldQueryParser.java",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "apache__lucene-12212",
+      "repo": "apache/lucene",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 382,
+      "hits": [
+        {
+          "file": "lucene/facet/src/java/org/apache/lucene/facet/DrillSidewaysScorer.java",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "apache__lucene-12626",
+      "repo": "apache/lucene",
+      "pool": 5000,
+      "workload": "feature",
+      "gold": 2,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 270,
+      "hits": [
+        {
+          "file": "lucene/CHANGES.txt",
+          "rank": null
+        },
+        {
+          "file": "lucene/core/src/java/org/apache/lucene/index/SegmentInfos.java",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "apache__lucene-13170",
+      "repo": "apache/lucene",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 294,
+      "hits": [
+        {
+          "file": "lucene/analysis/opennlp/src/java/org/apache/lucene/analysis/opennlp/OpenNLPSentenceBreakIterator.java",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "apache__lucene-13301",
+      "repo": "apache/lucene",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 5,
+      "goldInPool": 5,
+      "truncated": true,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 333,
+      "hits": [
+        {
+          "file": "lucene/core/src/java/org/apache/lucene/geo/Circle.java",
+          "rank": null
+        },
+        {
+          "file": "lucene/core/src/java/org/apache/lucene/geo/Point.java",
+          "rank": null
+        },
+        {
+          "file": "lucene/core/src/java/org/apache/lucene/geo/Rectangle2D.java",
+          "rank": null
+        },
+        {
+          "file": "lucene/core/src/java/org/apache/lucene/geo/XYCircle.java",
+          "rank": null
+        },
+        {
+          "file": "lucene/core/src/java/org/apache/lucene/geo/XYPoint.java",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "apache__lucene-13494",
+      "repo": "apache/lucene",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 2,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 295,
+      "hits": [
+        {
+          "file": "lucene/CHANGES.txt",
+          "rank": null
+        },
+        {
+          "file": "lucene/facet/src/java/org/apache/lucene/facet/StringValueFacetCounts.java",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "apache__lucene-13704",
+      "repo": "apache/lucene",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 2,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 320,
+      "hits": [
+        {
+          "file": "lucene/CHANGES.txt",
+          "rank": null
+        },
+        {
+          "file": "lucene/core/src/java/org/apache/lucene/geo/GeoEncodingUtils.java",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "astral-sh__ruff-15309",
+      "repo": "astral-sh/ruff",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 240,
+      "hits": [
+        {
+          "file": "crates/ruff_linter/src/rules/pyflakes/fixes.rs",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "astral-sh__ruff-15330",
+      "repo": "astral-sh/ruff",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 246,
+      "hits": [
+        {
+          "file": "crates/ruff_linter/src/rules/eradicate/rules/commented_out_code.rs",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "astral-sh__ruff-15356",
+      "repo": "astral-sh/ruff",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 247,
+      "hits": [
+        {
+          "file": "crates/ruff_linter/src/rules/pycodestyle/rules/logical_lines/mod.rs",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "astral-sh__ruff-15394",
+      "repo": "astral-sh/ruff",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 262,
+      "hits": [
+        {
+          "file": "crates/ruff_linter/src/rules/flake8_pie/rules/unnecessary_spread.rs",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "astral-sh__ruff-15443",
+      "repo": "astral-sh/ruff",
+      "pool": 5000,
+      "workload": "feature",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 20,
+      "ms": 235,
+      "hits": [
+        {
+          "file": "crates/ruff_linter/src/rules/flake8_bandit/rules/exec_used.rs",
+          "rank": 20
+        },
+        {
+          "file": "crates/ruff_linter/src/rules/flake8_use_pathlib/rules/replaceable_by_pathlib.rs",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "astral-sh__ruff-15543",
+      "repo": "astral-sh/ruff",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 0,
+      "truncated": true,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 269,
+      "hits": [
+        {
+          "file": "crates/ruff_linter/src/rules/pyupgrade/rules/yield_in_for_loop.rs",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "astral-sh__ruff-15626",
+      "repo": "astral-sh/ruff",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 270,
+      "hits": [
+        {
+          "file": "crates/ruff_linter/src/rules/flake8_simplify/rules/ast_unary_op.rs",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "axios__axios-4731",
+      "repo": "axios/axios",
+      "pool": 156,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 17,
+      "hits": [
+        {
+          "file": "lib/adapters/http.js",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "axios__axios-4738",
+      "repo": "axios/axios",
+      "pool": 159,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 18,
+      "hits": [
+        {
+          "file": "lib/adapters/http.js",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "axios__axios-5085",
+      "repo": "axios/axios",
+      "pool": 169,
+      "workload": "bugfix",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 2,
+      "firstHit": 1,
+      "ms": 18,
+      "hits": [
+        {
+          "file": "index.d.ts",
+          "rank": 12
+        },
+        {
+          "file": "lib/core/AxiosHeaders.js",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "axios__axios-5316",
+      "repo": "axios/axios",
+      "pool": 208,
+      "workload": "bugfix",
+      "gold": 6,
+      "goldInPool": 6,
+      "truncated": false,
+      "foundInK": 3,
+      "firstHit": 2,
+      "ms": 26,
+      "hits": [
+        {
+          "file": ".eslintrc.cjs",
+          "rank": null
+        },
+        {
+          "file": "lib/adapters/http.js",
+          "rank": 2
+        },
+        {
+          "file": "lib/env/classes/FormData.js",
+          "rank": null
+        },
+        {
+          "file": "lib/helpers/toFormData.js",
+          "rank": 5
+        },
+        {
+          "file": "lib/utils.js",
+          "rank": 17
+        },
+        {
+          "file": "package.json",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "axios__axios-5892",
+      "repo": "axios/axios",
+      "pool": 212,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 21,
+      "hits": [
+        {
+          "file": "lib/adapters/http.js",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "axios__axios-6539",
+      "repo": "axios/axios",
+      "pool": 231,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 28,
+      "hits": [
+        {
+          "file": "lib/helpers/isAbsoluteURL.js",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "babel__babel-13928",
+      "repo": "babel/babel",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 3,
+      "ms": 683,
+      "hits": [
+        {
+          "file": "packages/babel-parser/src/parser/expression.js",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "babel__babel-14532",
+      "repo": "babel/babel",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 867,
+      "hits": [
+        {
+          "file": "packages/babel-generator/src/node/parentheses.ts",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "babel__babel-15445",
+      "repo": "babel/babel",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 1006,
+      "hits": [
+        {
+          "file": "packages/babel-generator/src/source-map.ts",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "babel__babel-15649",
+      "repo": "babel/babel",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 0,
+      "truncated": true,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 925,
+      "hits": [
+        {
+          "file": "packages/babel-traverse/src/scope/lib/renamer.ts",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "babel__babel-16130",
+      "repo": "babel/babel",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 937,
+      "hits": [
+        {
+          "file": "packages/babel-helpers/src/index.ts",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "briannesbitt__carbon-2665",
+      "repo": "briannesbitt/carbon",
+      "pool": 1978,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 91,
+      "hits": [
+        {
+          "file": "src/Carbon/Traits/Rounding.php",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "briannesbitt__carbon-2752",
+      "repo": "briannesbitt/carbon",
+      "pool": 1984,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 15,
+      "ms": 106,
+      "hits": [
+        {
+          "file": "src/Carbon/Traits/Comparison.php",
+          "rank": 15
+        }
+      ]
+    },
+    {
+      "id": "briannesbitt__carbon-2762",
+      "repo": "briannesbitt/carbon",
+      "pool": 2002,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 113,
+      "hits": [
+        {
+          "file": "src/Carbon/CarbonInterval.php",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "briannesbitt__carbon-2813",
+      "repo": "briannesbitt/carbon",
+      "pool": 2009,
+      "workload": "feature",
+      "gold": 3,
+      "goldInPool": 3,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 69,
+      "hits": [
+        {
+          "file": "composer.json",
+          "rank": null
+        },
+        {
+          "file": "phpdoc.php",
+          "rank": null
+        },
+        {
+          "file": "src/Carbon/FactoryImmutable.php",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "briannesbitt__carbon-2981",
+      "repo": "briannesbitt/carbon",
+      "pool": 2026,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 112,
+      "hits": [
+        {
+          "file": "src/Carbon/CarbonInterval.php",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "briannesbitt__carbon-3005",
+      "repo": "briannesbitt/carbon",
+      "pool": 2026,
+      "workload": "search",
+      "gold": 5,
+      "goldInPool": 5,
+      "truncated": false,
+      "foundInK": 3,
+      "firstHit": 1,
+      "ms": 99,
+      "hits": [
+        {
+          "file": "phpstan.neon",
+          "rank": null
+        },
+        {
+          "file": "src/Carbon/AbstractTranslator.php",
+          "rank": null
+        },
+        {
+          "file": "src/Carbon/CarbonInterface.php",
+          "rank": 2
+        },
+        {
+          "file": "src/Carbon/CarbonInterval.php",
+          "rank": 1
+        },
+        {
+          "file": "src/Carbon/Traits/Difference.php",
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "id": "briannesbitt__carbon-3041",
+      "repo": "briannesbitt/carbon",
+      "pool": 2027,
+      "workload": "search",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 2,
+      "firstHit": 1,
+      "ms": 109,
+      "hits": [
+        {
+          "file": "src/Carbon/CarbonPeriod.php",
+          "rank": 1
+        },
+        {
+          "file": "src/Carbon/Traits/Creator.php",
+          "rank": 11
+        }
+      ]
+    },
+    {
+      "id": "briannesbitt__carbon-3073",
+      "repo": "briannesbitt/carbon",
+      "pool": 2020,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 126,
+      "hits": [
+        {
+          "file": "src/Carbon/CarbonInterval.php",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "briannesbitt__carbon-3098",
+      "repo": "briannesbitt/carbon",
+      "pool": 2022,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 85,
+      "hits": [
+        {
+          "file": "src/Carbon/CarbonInterval.php",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "briannesbitt__carbon-3103",
+      "repo": "briannesbitt/carbon",
+      "pool": 2022,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 5,
+      "ms": 113,
+      "hits": [
+        {
+          "file": "src/Carbon/Traits/Date.php",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "id": "burntsushi__ripgrep-2209",
+      "repo": "burntsushi/ripgrep",
+      "pool": 197,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 19,
+      "hits": [
+        {
+          "file": "crates/printer/src/util.rs",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "burntsushi__ripgrep-2576",
+      "repo": "burntsushi/ripgrep",
+      "pool": 201,
+      "workload": "search",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 5,
+      "ms": 19,
+      "hits": [
+        {
+          "file": "CHANGELOG.md",
+          "rank": null
+        },
+        {
+          "file": "crates/regex/src/word.rs",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "id": "caddyserver__caddy-4774",
+      "repo": "caddyserver/caddy",
+      "pool": 344,
+      "workload": "bugfix",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 26,
+      "hits": [
+        {
+          "file": "caddyconfig/httpcaddyfile/addresses.go",
+          "rank": 1
+        },
+        {
+          "file": "caddyconfig/httpcaddyfile/options.go",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "caddyserver__caddy-4943",
+      "repo": "caddyserver/caddy",
+      "pool": 349,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 26,
+      "hits": [
+        {
+          "file": "modules/logging/filters.go",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "caddyserver__caddy-5404",
+      "repo": "caddyserver/caddy",
+      "pool": 380,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 19,
+      "hits": [
+        {
+          "file": "caddyconfig/caddyfile/lexer.go",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "caddyserver__caddy-5626",
+      "repo": "caddyserver/caddy",
+      "pool": 395,
+      "workload": "bugfix",
+      "gold": 3,
+      "goldInPool": 3,
+      "truncated": false,
+      "foundInK": 2,
+      "firstHit": 1,
+      "ms": 25,
+      "hits": [
+        {
+          "file": "caddyconfig/caddyfile/dispenser.go",
+          "rank": 3
+        },
+        {
+          "file": "caddyconfig/caddyfile/lexer.go",
+          "rank": null
+        },
+        {
+          "file": "caddyconfig/caddyfile/parse.go",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "caddyserver__caddy-5761",
+      "repo": "caddyserver/caddy",
+      "pool": 404,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 19,
+      "hits": [
+        {
+          "file": "caddyconfig/caddyfile/lexer.go",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "caddyserver__caddy-5870",
+      "repo": "caddyserver/caddy",
+      "pool": 408,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 29,
+      "hits": [
+        {
+          "file": "admin.go",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "caddyserver__caddy-5995",
+      "repo": "caddyserver/caddy",
+      "pool": 416,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 27,
+      "hits": [
+        {
+          "file": "replacer.go",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "caddyserver__caddy-6051",
+      "repo": "caddyserver/caddy",
+      "pool": 424,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 23,
+      "hits": [
+        {
+          "file": "caddyconfig/caddyfile/lexer.go",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "caddyserver__caddy-6115",
+      "repo": "caddyserver/caddy",
+      "pool": 437,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 27,
+      "hits": [
+        {
+          "file": "modules/caddyhttp/reverseproxy/selectionpolicies.go",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "caddyserver__caddy-6288",
+      "repo": "caddyserver/caddy",
+      "pool": 464,
+      "workload": "bugfix",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 2,
+      "firstHit": 4,
+      "ms": 27,
+      "hits": [
+        {
+          "file": "caddyconfig/caddyfile/lexer.go",
+          "rank": 4
+        },
+        {
+          "file": "caddyconfig/httpcaddyfile/httptype.go",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "id": "caddyserver__caddy-6345",
+      "repo": "caddyserver/caddy",
+      "pool": 468,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 22,
+      "hits": [
+        {
+          "file": "modules/caddypki/acmeserver/caddyfile.go",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "caddyserver__caddy-6350",
+      "repo": "caddyserver/caddy",
+      "pool": 469,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 12,
+      "ms": 24,
+      "hits": [
+        {
+          "file": "modules/caddyhttp/ip_matchers.go",
+          "rank": 12
+        }
+      ]
+    },
+    {
+      "id": "caddyserver__caddy-6370",
+      "repo": "caddyserver/caddy",
+      "pool": 469,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 28,
+      "hits": [
+        {
+          "file": "cmd/main.go",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "caddyserver__caddy-6411",
+      "repo": "caddyserver/caddy",
+      "pool": 480,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 8,
+      "ms": 25,
+      "hits": [
+        {
+          "file": "replacer.go",
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "id": "facebook__docusaurus-10130",
+      "repo": "facebook/docusaurus",
+      "pool": 2574,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 155,
+      "hits": [
+        {
+          "file": "packages/docusaurus/src/server/brokenLinks.ts",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "facebook__docusaurus-10309",
+      "repo": "facebook/docusaurus",
+      "pool": 2712,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 177,
+      "hits": [
+        {
+          "file": "packages/docusaurus-plugin-content-docs/src/client/docsClientUtils.ts",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "facebook__docusaurus-8927",
+      "repo": "facebook/docusaurus",
+      "pool": 2477,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 138,
+      "hits": [
+        {
+          "file": "packages/docusaurus-utils/src/markdownLinks.ts",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "facebook__docusaurus-9183",
+      "repo": "facebook/docusaurus",
+      "pool": 2553,
+      "workload": "bugfix",
+      "gold": 3,
+      "goldInPool": 3,
+      "truncated": false,
+      "foundInK": 3,
+      "firstHit": 7,
+      "ms": 118,
+      "hits": [
+        {
+          "file": "packages/docusaurus-theme-classic/src/options.ts",
+          "rank": 13
+        },
+        {
+          "file": "packages/docusaurus-theme-classic/src/theme/CodeBlock/Content/String.tsx",
+          "rank": 7
+        },
+        {
+          "file": "website/docusaurus.config.js",
+          "rank": 11
+        }
+      ]
+    },
+    {
+      "id": "facebook__docusaurus-9897",
+      "repo": "facebook/docusaurus",
+      "pool": 2334,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 128,
+      "hits": [
+        {
+          "file": "packages/docusaurus-utils/src/markdownUtils.ts",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "faker-ruby__faker-2705",
+      "repo": "faker-ruby/faker",
+      "pool": 1094,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 47,
+      "hits": [
+        {
+          "file": "lib/faker/default/internet.rb",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "faker-ruby__faker-2970",
+      "repo": "faker-ruby/faker",
+      "pool": 1128,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 43,
+      "hits": [
+        {
+          "file": "lib/faker/default/internet.rb",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "fastlane__fastlane-19207",
+      "repo": "fastlane/fastlane",
+      "pool": 2390,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 490,
+      "hits": [
+        {
+          "file": "fastlane/lib/fastlane/actions/zip.rb",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "fastlane__fastlane-19304",
+      "repo": "fastlane/fastlane",
+      "pool": 2394,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 200,
+      "hits": [
+        {
+          "file": "fastlane/lib/fastlane/actions/zip.rb",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "fastlane__fastlane-19765",
+      "repo": "fastlane/fastlane",
+      "pool": 2393,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 5,
+      "ms": 216,
+      "hits": [
+        {
+          "file": "fastlane/lib/fastlane/actions/download_dsyms.rb",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "id": "fastlane__fastlane-20642",
+      "repo": "fastlane/fastlane",
+      "pool": 2506,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 185,
+      "hits": [
+        {
+          "file": "frameit/lib/frameit/device.rb",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "fastlane__fastlane-20958",
+      "repo": "fastlane/fastlane",
+      "pool": 2523,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 135,
+      "hits": [
+        {
+          "file": "fastlane/lib/fastlane/fast_file.rb",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "fastlane__fastlane-20975",
+      "repo": "fastlane/fastlane",
+      "pool": 2528,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 20,
+      "ms": 175,
+      "hits": [
+        {
+          "file": "match/lib/match/storage/s3_storage.rb",
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "id": "fastlane__fastlane-21857",
+      "repo": "fastlane/fastlane",
+      "pool": 2653,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 149,
+      "hits": [
+        {
+          "file": "fastlane_core/lib/fastlane_core/print_table.rb",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "fluent__fluentd-3328",
+      "repo": "fluent/fluentd",
+      "pool": 534,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 39,
+      "hits": [
+        {
+          "file": "lib/fluent/plugin/in_tail.rb",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "fluent__fluentd-3466",
+      "repo": "fluent/fluentd",
+      "pool": 540,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 43,
+      "hits": [
+        {
+          "file": "lib/fluent/plugin/in_tail.rb",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "fluent__fluentd-3608",
+      "repo": "fluent/fluentd",
+      "pool": 547,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 39,
+      "hits": [
+        {
+          "file": "lib/fluent/plugin/output.rb",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "fluent__fluentd-3616",
+      "repo": "fluent/fluentd",
+      "pool": 547,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 3,
+      "ms": 27,
+      "hits": [
+        {
+          "file": "lib/fluent/plugin/in_http.rb",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "fluent__fluentd-3631",
+      "repo": "fluent/fluentd",
+      "pool": 547,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 33,
+      "hits": [
+        {
+          "file": "lib/fluent/event_router.rb",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "fluent__fluentd-3640",
+      "repo": "fluent/fluentd",
+      "pool": 547,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 3,
+      "ms": 30,
+      "hits": [
+        {
+          "file": "lib/fluent/plugin_helper/retry_state.rb",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "fluent__fluentd-3641",
+      "repo": "fluent/fluentd",
+      "pool": 547,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 32,
+      "hits": [
+        {
+          "file": "lib/fluent/rpc.rb",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "fluent__fluentd-3917",
+      "repo": "fluent/fluentd",
+      "pool": 554,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 31,
+      "hits": [
+        {
+          "file": "lib/fluent/config/yaml_parser/loader.rb",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "fluent__fluentd-4030",
+      "repo": "fluent/fluentd",
+      "pool": 552,
+      "workload": "bugfix",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 2,
+      "firstHit": 1,
+      "ms": 35,
+      "hits": [
+        {
+          "file": "lib/fluent/plugin/out_forward.rb",
+          "rank": 1
+        },
+        {
+          "file": "lib/fluent/plugin/out_forward/ack_handler.rb",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "fluent__fluentd-4311",
+      "repo": "fluent/fluentd",
+      "pool": 552,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 14,
+      "ms": 29,
+      "hits": [
+        {
+          "file": "lib/fluent/system_config.rb",
+          "rank": 14
+        }
+      ]
+    },
+    {
+      "id": "fluent__fluentd-4598",
+      "repo": "fluent/fluentd",
+      "pool": 556,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 7,
+      "ms": 28,
+      "hits": [
+        {
+          "file": "lib/fluent/plugin_helper/http_server/server.rb",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "id": "fluent__fluentd-4655",
+      "repo": "fluent/fluentd",
+      "pool": 556,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 5,
+      "ms": 34,
+      "hits": [
+        {
+          "file": "lib/fluent/plugin/in_http.rb",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "id": "fmtlib__fmt-1683",
+      "repo": "fmtlib/fmt",
+      "pool": 187,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 3,
+      "ms": 19,
+      "hits": [
+        {
+          "file": "include/fmt/printf.h",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "fmtlib__fmt-2310",
+      "repo": "fmtlib/fmt",
+      "pool": 193,
+      "workload": "feature",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 2,
+      "firstHit": 3,
+      "ms": 16,
+      "hits": [
+        {
+          "file": "include/fmt/core.h",
+          "rank": 4
+        },
+        {
+          "file": "include/fmt/format.h",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "fmtlib__fmt-2317",
+      "repo": "fmtlib/fmt",
+      "pool": 193,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 7,
+      "ms": 14,
+      "hits": [
+        {
+          "file": "include/fmt/format.h",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "id": "fmtlib__fmt-2457",
+      "repo": "fmtlib/fmt",
+      "pool": 197,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 4,
+      "ms": 17,
+      "hits": [
+        {
+          "file": "include/fmt/ranges.h",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "fmtlib__fmt-3158",
+      "repo": "fmtlib/fmt",
+      "pool": 205,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 3,
+      "ms": 27,
+      "hits": [
+        {
+          "file": "include/fmt/ranges.h",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "fmtlib__fmt-3248",
+      "repo": "fmtlib/fmt",
+      "pool": 205,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 8,
+      "ms": 14,
+      "hits": [
+        {
+          "file": "include/fmt/core.h",
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "id": "fmtlib__fmt-3272",
+      "repo": "fmtlib/fmt",
+      "pool": 205,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 15,
+      "hits": [
+        {
+          "file": "include/fmt/format.h",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "fmtlib__fmt-3729",
+      "repo": "fmtlib/fmt",
+      "pool": 205,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 5,
+      "ms": 17,
+      "hits": [
+        {
+          "file": "include/fmt/std.h",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "id": "fmtlib__fmt-3750",
+      "repo": "fmtlib/fmt",
+      "pool": 206,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 15,
+      "hits": [
+        {
+          "file": "include/fmt/format.h",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "fmtlib__fmt-3863",
+      "repo": "fmtlib/fmt",
+      "pool": 208,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 15,
+      "hits": [
+        {
+          "file": "include/fmt/ranges.h",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "fmtlib__fmt-3901",
+      "repo": "fmtlib/fmt",
+      "pool": 208,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 12,
+      "hits": [
+        {
+          "file": "include/fmt/format.h",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "gin-gonic__gin-1805",
+      "repo": "gin-gonic/gin",
+      "pool": 98,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 3,
+      "ms": 12,
+      "hits": [
+        {
+          "file": "routergroup.go",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "gin-gonic__gin-1957",
+      "repo": "gin-gonic/gin",
+      "pool": 95,
+      "workload": "feature",
+      "gold": 3,
+      "goldInPool": 3,
+      "truncated": false,
+      "foundInK": 2,
+      "firstHit": 1,
+      "ms": 11,
+      "hits": [
+        {
+          "file": "README.md",
+          "rank": 7
+        },
+        {
+          "file": "binding/binding.go",
+          "rank": null
+        },
+        {
+          "file": "context.go",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "gin-gonic__gin-2121",
+      "repo": "gin-gonic/gin",
+      "pool": 99,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 3,
+      "ms": 15,
+      "hits": [
+        {
+          "file": "render/reader.go",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "gin-gonic__gin-2755",
+      "repo": "gin-gonic/gin",
+      "pool": 106,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 4,
+      "ms": 16,
+      "hits": [
+        {
+          "file": "tree.go",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "gin-gonic__gin-3227",
+      "repo": "gin-gonic/gin",
+      "pool": 123,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 5,
+      "ms": 15,
+      "hits": [
+        {
+          "file": "tree.go",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "id": "gin-gonic__gin-3741",
+      "repo": "gin-gonic/gin",
+      "pool": 119,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 13,
+      "hits": [
+        {
+          "file": "logger.go",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "gin-gonic__gin-3820",
+      "repo": "gin-gonic/gin",
+      "pool": 119,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 15,
+      "hits": [
+        {
+          "file": "binding/form_mapping.go",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "gin-gonic__gin-4003",
+      "repo": "gin-gonic/gin",
+      "pool": 119,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 17,
+      "hits": [
+        {
+          "file": "gin.go",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "gohugoio__hugo-12171",
+      "repo": "gohugoio/hugo",
+      "pool": 1978,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 7,
+      "ms": 94,
+      "hits": [
+        {
+          "file": "hugolib/content_map_page.go",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "id": "gohugoio__hugo-12204",
+      "repo": "gohugoio/hugo",
+      "pool": 1979,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 85,
+      "hits": [
+        {
+          "file": "tpl/tplimpl/embedded/templates/_default/_markup/render-image.html",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "gohugoio__hugo-12343",
+      "repo": "gohugoio/hugo",
+      "pool": 1983,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 15,
+      "ms": 74,
+      "hits": [
+        {
+          "file": "resources/page/page_paths.go",
+          "rank": 15
+        }
+      ]
+    },
+    {
+      "id": "gohugoio__hugo-12448",
+      "repo": "gohugoio/hugo",
+      "pool": 1986,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 8,
+      "ms": 93,
+      "hits": [
+        {
+          "file": "hugolib/content_map_page.go",
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "id": "gohugoio__hugo-12562",
+      "repo": "gohugoio/hugo",
+      "pool": 1991,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 9,
+      "ms": 85,
+      "hits": [
+        {
+          "file": "hugolib/content_map_page.go",
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "id": "gohugoio__hugo-12579",
+      "repo": "gohugoio/hugo",
+      "pool": 1996,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 7,
+      "ms": 80,
+      "hits": [
+        {
+          "file": "resources/page/pagegroup.go",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "id": "gohugoio__hugo-12768",
+      "repo": "gohugoio/hugo",
+      "pool": 2073,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 77,
+      "hits": [
+        {
+          "file": "markup/goldmark/blockquotes/blockquotes.go",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "google__gson-1014",
+      "repo": "google/gson",
+      "pool": 321,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 29,
+      "hits": [
+        {
+          "file": "gson/src/main/java/com/google/gson/internal/bind/JsonTreeReader.java",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "google__gson-1093",
+      "repo": "google/gson",
+      "pool": 323,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 24,
+      "hits": [
+        {
+          "file": "gson/src/main/java/com/google/gson/stream/JsonWriter.java",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "google__gson-1100",
+      "repo": "google/gson",
+      "pool": 323,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 4,
+      "ms": 33,
+      "hits": [
+        {
+          "file": "gson/src/main/java/com/google/gson/DefaultDateTypeAdapter.java",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "google__gson-2024",
+      "repo": "google/gson",
+      "pool": 257,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 25,
+      "hits": [
+        {
+          "file": "gson/src/main/java/com/google/gson/FieldNamingPolicy.java",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "google__gson-2061",
+      "repo": "google/gson",
+      "pool": 258,
+      "workload": "feature",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 2,
+      "firstHit": 1,
+      "ms": 15,
+      "hits": [
+        {
+          "file": "gson/src/main/java/com/google/gson/internal/bind/JsonTreeReader.java",
+          "rank": 4
+        },
+        {
+          "file": "gson/src/main/java/com/google/gson/stream/JsonReader.java",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "google__gson-2134",
+      "repo": "google/gson",
+      "pool": 253,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 22,
+      "hits": [
+        {
+          "file": "gson/src/main/java/com/google/gson/internal/bind/util/ISO8601Utils.java",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "google__gson-2158",
+      "repo": "google/gson",
+      "pool": 258,
+      "workload": "bugfix",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 2,
+      "firstHit": 1,
+      "ms": 25,
+      "hits": [
+        {
+          "file": "gson/src/main/java/com/google/gson/Gson.java",
+          "rank": 1
+        },
+        {
+          "file": "gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "google__gson-2311",
+      "repo": "google/gson",
+      "pool": 265,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 23,
+      "hits": [
+        {
+          "file": "gson/src/main/java/com/google/gson/JsonPrimitive.java",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "google__gson-2479",
+      "repo": "google/gson",
+      "pool": 300,
+      "workload": "bugfix",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 26,
+      "hits": [
+        {
+          "file": "UserGuide.md",
+          "rank": null
+        },
+        {
+          "file": "gson/src/main/java/com/google/gson/GsonBuilder.java",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "hashicorp__terraform-34580",
+      "repo": "hashicorp/terraform",
+      "pool": 4310,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 10,
+      "ms": 172,
+      "hits": [
+        {
+          "file": "internal/command/fmt.go",
+          "rank": 10
+        }
+      ]
+    },
+    {
+      "id": "hashicorp__terraform-34814",
+      "repo": "hashicorp/terraform",
+      "pool": 4412,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 220,
+      "hits": [
+        {
+          "file": "internal/builtin/provisioners/remote-exec/resource_provisioner.go",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "hashicorp__terraform-34900",
+      "repo": "hashicorp/terraform",
+      "pool": 4405,
+      "workload": "feature",
+      "gold": 3,
+      "goldInPool": 3,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 3,
+      "ms": 235,
+      "hits": [
+        {
+          "file": "internal/terraform/marks.go",
+          "rank": null
+        },
+        {
+          "file": "internal/terraform/node_resource_abstract_instance.go",
+          "rank": 3
+        },
+        {
+          "file": "internal/terraform/node_resource_plan_partialexp.go",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "hashicorp__terraform-35543",
+      "repo": "hashicorp/terraform",
+      "pool": 4547,
+      "workload": "bugfix",
+      "gold": 8,
+      "goldInPool": 8,
+      "truncated": false,
+      "foundInK": 2,
+      "firstHit": 6,
+      "ms": 186,
+      "hits": [
+        {
+          "file": "internal/terraform/context_validate.go",
+          "rank": 6
+        },
+        {
+          "file": "internal/terraform/eval_for_each.go",
+          "rank": null
+        },
+        {
+          "file": "internal/terraform/eval_import.go",
+          "rank": null
+        },
+        {
+          "file": "internal/terraform/graph_builder_plan.go",
+          "rank": null
+        },
+        {
+          "file": "internal/terraform/node_resource_plan.go",
+          "rank": null
+        },
+        {
+          "file": "internal/terraform/node_resource_validate.go",
+          "rank": 10
+        },
+        {
+          "file": "internal/terraform/transform_attach_config_resource.go",
+          "rank": null
+        },
+        {
+          "file": "internal/terraform/transform_config.go",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "hashicorp__terraform-35611",
+      "repo": "hashicorp/terraform",
+      "pool": 4555,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 236,
+      "hits": [
+        {
+          "file": "internal/terraform/transform_attach_config_resource.go",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "immutable-js__immutable-js-2005",
+      "repo": "immutable-js/immutable-js",
+      "pool": 224,
+      "workload": "feature",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 2,
+      "firstHit": 4,
+      "ms": 21,
+      "hits": [
+        {
+          "file": "CHANGELOG.md",
+          "rank": 4
+        },
+        {
+          "file": "src/CollectionImpl.js",
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "id": "immutable-js__immutable-js-2006",
+      "repo": "immutable-js/immutable-js",
+      "pool": 228,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 11,
+      "ms": 17,
+      "hits": [
+        {
+          "file": "src/Operations.js",
+          "rank": 11
+        }
+      ]
+    },
+    {
+      "id": "javaparser__javaparser-4538",
+      "repo": "javaparser/javaparser",
+      "pool": 2491,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 149,
+      "hits": [
+        {
+          "file": "javaparser-core/src/main/java/com/github/javaparser/ast/Node.java",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "javaparser__javaparser-4561",
+      "repo": "javaparser/javaparser",
+      "pool": 2499,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 209,
+      "hits": [
+        {
+          "file": "javaparser-symbol-solver-core/src/main/java/com/github/javaparser/symbolsolver/javaparsermodel/TypeExtractor.java",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "jekyll__jekyll-8047",
+      "repo": "jekyll/jekyll",
+      "pool": 677,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 34,
+      "hits": [
+        {
+          "file": "lib/jekyll/filters.rb",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "jekyll__jekyll-8167",
+      "repo": "jekyll/jekyll",
+      "pool": 682,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 31,
+      "hits": [
+        {
+          "file": "lib/jekyll/utils.rb",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "jekyll__jekyll-8761",
+      "repo": "jekyll/jekyll",
+      "pool": 737,
+      "workload": "search",
+      "gold": 3,
+      "goldInPool": 3,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 54,
+      "hits": [
+        {
+          "file": "features/post_data.feature",
+          "rank": null
+        },
+        {
+          "file": "lib/jekyll/drops/document_drop.rb",
+          "rank": null
+        },
+        {
+          "file": "lib/jekyll/drops/excerpt_drop.rb",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "jekyll__jekyll-8771",
+      "repo": "jekyll/jekyll",
+      "pool": 742,
+      "workload": "bugfix",
+      "gold": 5,
+      "goldInPool": 5,
+      "truncated": false,
+      "foundInK": 3,
+      "firstHit": 14,
+      "ms": 35,
+      "hits": [
+        {
+          "file": "features/incremental_rebuild.feature",
+          "rank": 14
+        },
+        {
+          "file": "lib/jekyll.rb",
+          "rank": null
+        },
+        {
+          "file": "lib/jekyll/drops/site_drop.rb",
+          "rank": 18
+        },
+        {
+          "file": "lib/jekyll/readers/data_reader.rb",
+          "rank": null
+        },
+        {
+          "file": "lib/jekyll/utils.rb",
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "id": "jekyll__jekyll-9141",
+      "repo": "jekyll/jekyll",
+      "pool": 748,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 6,
+      "ms": 35,
+      "hits": [
+        {
+          "file": "lib/jekyll/site.rb",
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "id": "jordansissel__fpm-1829",
+      "repo": "jordansissel/fpm",
+      "pool": 134,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 15,
+      "hits": [
+        {
+          "file": "lib/fpm/package/deb.rb",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "jordansissel__fpm-1850",
+      "repo": "jordansissel/fpm",
+      "pool": 167,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 13,
+      "ms": 12,
+      "hits": [
+        {
+          "file": "lib/fpm/package/empty.rb",
+          "rank": 13
+        }
+      ]
+    },
+    {
+      "id": "jqlang__jq-2235",
+      "repo": "jqlang/jq",
+      "pool": 215,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 4,
+      "ms": 15,
+      "hits": [
+        {
+          "file": "src/main.c",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "jqlang__jq-2598",
+      "repo": "jqlang/jq",
+      "pool": 213,
+      "workload": "bugfix",
+      "gold": 3,
+      "goldInPool": 3,
+      "truncated": false,
+      "foundInK": 3,
+      "firstHit": 3,
+      "ms": 15,
+      "hits": [
+        {
+          "file": "docs/content/manual/manual.yml",
+          "rank": 15
+        },
+        {
+          "file": "src/parser.c",
+          "rank": 5
+        },
+        {
+          "file": "src/parser.y",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "jqlang__jq-2650",
+      "repo": "jqlang/jq",
+      "pool": 213,
+      "workload": "bugfix",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 3,
+      "ms": 18,
+      "hits": [
+        {
+          "file": "src/parser.c",
+          "rank": 3
+        },
+        {
+          "file": "src/parser.y",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "jqlang__jq-2658",
+      "repo": "jqlang/jq",
+      "pool": 213,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 15,
+      "hits": [
+        {
+          "file": "src/main.c",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "jqlang__jq-2681",
+      "repo": "jqlang/jq",
+      "pool": 213,
+      "workload": "bugfix",
+      "gold": 6,
+      "goldInPool": 6,
+      "truncated": false,
+      "foundInK": 4,
+      "firstHit": 3,
+      "ms": 14,
+      "hits": [
+        {
+          "file": "src/lexer.c",
+          "rank": 10
+        },
+        {
+          "file": "src/lexer.h",
+          "rank": null
+        },
+        {
+          "file": "src/lexer.l",
+          "rank": null
+        },
+        {
+          "file": "src/parser.c",
+          "rank": 4
+        },
+        {
+          "file": "src/parser.h",
+          "rank": 20
+        },
+        {
+          "file": "src/parser.y",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "jqlang__jq-2728",
+      "repo": "jqlang/jq",
+      "pool": 219,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 3,
+      "ms": 16,
+      "hits": [
+        {
+          "file": "src/main.c",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "jqlang__jq-2750",
+      "repo": "jqlang/jq",
+      "pool": 220,
+      "workload": "bugfix",
+      "gold": 6,
+      "goldInPool": 6,
+      "truncated": false,
+      "foundInK": 4,
+      "firstHit": 4,
+      "ms": 15,
+      "hits": [
+        {
+          "file": "src/compile.c",
+          "rank": 9
+        },
+        {
+          "file": "src/compile.h",
+          "rank": null
+        },
+        {
+          "file": "src/execute.c",
+          "rank": 14
+        },
+        {
+          "file": "src/opcode_list.h",
+          "rank": null
+        },
+        {
+          "file": "src/parser.c",
+          "rank": 4
+        },
+        {
+          "file": "src/parser.y",
+          "rank": 11
+        }
+      ]
+    },
+    {
+      "id": "jqlang__jq-2839",
+      "repo": "jqlang/jq",
+      "pool": 250,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 21,
+      "hits": [
+        {
+          "file": "src/jv.c",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "jqlang__jq-2919",
+      "repo": "jqlang/jq",
+      "pool": 300,
+      "workload": "bugfix",
+      "gold": 3,
+      "goldInPool": 3,
+      "truncated": false,
+      "foundInK": 3,
+      "firstHit": 1,
+      "ms": 20,
+      "hits": [
+        {
+          "file": "docs/content/manual/manual.yml",
+          "rank": 4
+        },
+        {
+          "file": "jq.1.prebuilt",
+          "rank": 1
+        },
+        {
+          "file": "src/main.c",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "laravel__framework-46234",
+      "repo": "laravel/framework",
+      "pool": 2236,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 4,
+      "ms": 81,
+      "hits": [
+        {
+          "file": "src/Illuminate/Routing/UrlGenerator.php",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "laravel__framework-48573",
+      "repo": "laravel/framework",
+      "pool": 2355,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 19,
+      "ms": 94,
+      "hits": [
+        {
+          "file": "src/Illuminate/Cache/ArrayStore.php",
+          "rank": 19
+        }
+      ]
+    },
+    {
+      "id": "laravel__framework-48636",
+      "repo": "laravel/framework",
+      "pool": 2360,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 5,
+      "ms": 107,
+      "hits": [
+        {
+          "file": "src/Illuminate/Database/Eloquent/Model.php",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "id": "laravel__framework-51195",
+      "repo": "laravel/framework",
+      "pool": 2533,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 77,
+      "hits": [
+        {
+          "file": "src/Illuminate/View/Compilers/BladeCompiler.php",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "laravel__framework-51890",
+      "repo": "laravel/framework",
+      "pool": 2589,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 84,
+      "hits": [
+        {
+          "file": "src/Illuminate/Validation/Concerns/FormatsMessages.php",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "laravel__framework-52451",
+      "repo": "laravel/framework",
+      "pool": 2626,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 3,
+      "ms": 120,
+      "hits": [
+        {
+          "file": "src/Illuminate/Validation/Concerns/FormatsMessages.php",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "laravel__framework-52680",
+      "repo": "laravel/framework",
+      "pool": 2638,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 114,
+      "hits": [
+        {
+          "file": "src/Illuminate/Database/Eloquent/Relations/Concerns/SupportsInverseRelations.php",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "laravel__framework-52684",
+      "repo": "laravel/framework",
+      "pool": 2639,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 3,
+      "ms": 88,
+      "hits": [
+        {
+          "file": "src/Illuminate/Support/Str.php",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "laravel__framework-52866",
+      "repo": "laravel/framework",
+      "pool": 2670,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 135,
+      "hits": [
+        {
+          "file": "src/Illuminate/Container/Container.php",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "laravel__framework-53206",
+      "repo": "laravel/framework",
+      "pool": 2682,
+      "workload": "bugfix",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 96,
+      "hits": [
+        {
+          "file": "src/Illuminate/Support/Js.php",
+          "rank": null
+        },
+        {
+          "file": "src/Illuminate/Support/functions.php",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "laravel__framework-53696",
+      "repo": "laravel/framework",
+      "pool": 2701,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 124,
+      "hits": [
+        {
+          "file": "src/Illuminate/Database/Schema/Blueprint.php",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "laravel__framework-53914",
+      "repo": "laravel/framework",
+      "pool": 2712,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 126,
+      "hits": [
+        {
+          "file": "src/Illuminate/Database/DatabaseManager.php",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "laravel__framework-53949",
+      "repo": "laravel/framework",
+      "pool": 2712,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 13,
+      "ms": 114,
+      "hits": [
+        {
+          "file": "src/Illuminate/Support/Once.php",
+          "rank": 13
+        }
+      ]
+    },
+    {
+      "id": "micropython__micropython-10095",
+      "repo": "micropython/micropython",
+      "pool": 4949,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 6,
+      "ms": 167,
+      "hits": [
+        {
+          "file": "py/bc.c",
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "id": "micropython__micropython-12158",
+      "repo": "micropython/micropython",
+      "pool": 5000,
+      "workload": "feature",
+      "gold": 8,
+      "goldInPool": 8,
+      "truncated": true,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 176,
+      "hits": [
+        {
+          "file": "ports/cc3200/mpthreadport.c",
+          "rank": null
+        },
+        {
+          "file": "ports/esp32/mpthreadport.c",
+          "rank": null
+        },
+        {
+          "file": "ports/renesas-ra/mpthreadport.c",
+          "rank": null
+        },
+        {
+          "file": "ports/rp2/mpthreadport.c",
+          "rank": null
+        },
+        {
+          "file": "ports/stm32/mpthreadport.c",
+          "rank": null
+        },
+        {
+          "file": "ports/unix/mpthreadport.c",
+          "rank": null
+        },
+        {
+          "file": "py/modthread.c",
+          "rank": null
+        },
+        {
+          "file": "py/mpthread.h",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "micropython__micropython-13039",
+      "repo": "micropython/micropython",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 211,
+      "hits": [
+        {
+          "file": "py/objslice.c",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "micropython__micropython-13569",
+      "repo": "micropython/micropython",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 169,
+      "hits": [
+        {
+          "file": "py/compile.c",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "micropython__micropython-15898",
+      "repo": "micropython/micropython",
+      "pool": 5000,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": true,
+      "foundInK": 1,
+      "firstHit": 4,
+      "ms": 162,
+      "hits": [
+        {
+          "file": "py/mpz.c",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "mrdoob__three.js-25687",
+      "repo": "mrdoob/three.js",
+      "pool": 3670,
+      "workload": "search",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 208,
+      "hits": [
+        {
+          "file": "src/core/Object3D.js",
+          "rank": null
+        },
+        {
+          "file": "src/loaders/ObjectLoader.js",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "mrdoob__three.js-26589",
+      "repo": "mrdoob/three.js",
+      "pool": 3844,
+      "workload": "bugfix",
+      "gold": 3,
+      "goldInPool": 3,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 210,
+      "hits": [
+        {
+          "file": "src/objects/Line.js",
+          "rank": null
+        },
+        {
+          "file": "src/objects/Mesh.js",
+          "rank": null
+        },
+        {
+          "file": "src/objects/Points.js",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "mrdoob__three.js-27395",
+      "repo": "mrdoob/three.js",
+      "pool": 3918,
+      "workload": "feature",
+      "gold": 5,
+      "goldInPool": 5,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 7,
+      "ms": 182,
+      "hits": [
+        {
+          "file": "docs/api/ar/math/Sphere.html",
+          "rank": null
+        },
+        {
+          "file": "docs/api/en/math/Sphere.html",
+          "rank": null
+        },
+        {
+          "file": "docs/api/it/math/Sphere.html",
+          "rank": null
+        },
+        {
+          "file": "docs/api/zh/math/Sphere.html",
+          "rank": null
+        },
+        {
+          "file": "src/math/Sphere.js",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "id": "nlohmann__json-4237",
+      "repo": "nlohmann/json",
+      "pool": 1065,
+      "workload": "bugfix",
+      "gold": 2,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 67,
+      "hits": [
+        {
+          "file": "include/nlohmann/detail/conversions/to_json.hpp",
+          "rank": null
+        },
+        {
+          "file": "single_include/nlohmann/json.hpp",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "nushell__nushell-12901",
+      "repo": "nushell/nushell",
+      "pool": 1812,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 84,
+      "hits": [
+        {
+          "file": "crates/nu-command/src/system/run_external.rs",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "nushell__nushell-12950",
+      "repo": "nushell/nushell",
+      "pool": 1683,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 69,
+      "hits": [
+        {
+          "file": "crates/nu-command/src/system/run_external.rs",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "nushell__nushell-13246",
+      "repo": "nushell/nushell",
+      "pool": 1697,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 6,
+      "ms": 60,
+      "hits": [
+        {
+          "file": "crates/nu-command/src/filters/find.rs",
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "id": "nushell__nushell-13605",
+      "repo": "nushell/nushell",
+      "pool": 1754,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 14,
+      "ms": 69,
+      "hits": [
+        {
+          "file": "crates/nu-command/src/filesystem/ls.rs",
+          "rank": 14
+        }
+      ]
+    },
+    {
+      "id": "nushell__nushell-13831",
+      "repo": "nushell/nushell",
+      "pool": 1787,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 7,
+      "ms": 79,
+      "hits": [
+        {
+          "file": "crates/nu-command/src/strings/split/column.rs",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "id": "php-cs-fixer__php-cs-fixer-7523",
+      "repo": "php-cs-fixer/php-cs-fixer",
+      "pool": 1959,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 68,
+      "hits": [
+        {
+          "file": "src/Tokenizer/TokensAnalyzer.php",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "php-cs-fixer__php-cs-fixer-7635",
+      "repo": "php-cs-fixer/php-cs-fixer",
+      "pool": 1963,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 69,
+      "hits": [
+        {
+          "file": "src/Fixer/Import/FullyQualifiedStrictTypesFixer.php",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "php-cs-fixer__php-cs-fixer-7663",
+      "repo": "php-cs-fixer/php-cs-fixer",
+      "pool": 1971,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 5,
+      "ms": 69,
+      "hits": [
+        {
+          "file": "src/Fixer/Whitespace/StatementIndentationFixer.php",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "id": "php-cs-fixer__php-cs-fixer-7875",
+      "repo": "php-cs-fixer/php-cs-fixer",
+      "pool": 2014,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 85,
+      "hits": [
+        {
+          "file": "src/Fixer/Whitespace/StatementIndentationFixer.php",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "php-cs-fixer__php-cs-fixer-7998",
+      "repo": "php-cs-fixer/php-cs-fixer",
+      "pool": 2040,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 14,
+      "ms": 88,
+      "hits": [
+        {
+          "file": "src/Fixer/Casing/ConstantCaseFixer.php",
+          "rank": 14
+        }
+      ]
+    },
+    {
+      "id": "php-cs-fixer__php-cs-fixer-8064",
+      "repo": "php-cs-fixer/php-cs-fixer",
+      "pool": 2066,
+      "workload": "bugfix",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 85,
+      "hits": [
+        {
+          "file": "src/Fixer/StringNotation/SimpleToComplexStringVariableFixer.php",
+          "rank": 2
+        },
+        {
+          "file": "src/Tokenizer/Tokens.php",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "php-cs-fixer__php-cs-fixer-8075",
+      "repo": "php-cs-fixer/php-cs-fixer",
+      "pool": 2073,
+      "workload": "bugfix",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 80,
+      "hits": [
+        {
+          "file": "phpstan.dist.neon",
+          "rank": null
+        },
+        {
+          "file": "src/Fixer/PhpUnit/PhpUnitAttributesFixer.php",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "php-cs-fixer__php-cs-fixer-8256",
+      "repo": "php-cs-fixer/php-cs-fixer",
+      "pool": 2087,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 79,
+      "hits": [
+        {
+          "file": "src/Fixer/PhpTag/BlankLineAfterOpeningTagFixer.php",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "php-cs-fixer__php-cs-fixer-8331",
+      "repo": "php-cs-fixer/php-cs-fixer",
+      "pool": 2095,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 100,
+      "hits": [
+        {
+          "file": "src/Fixer/LanguageConstruct/NullableTypeDeclarationFixer.php",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "php-cs-fixer__php-cs-fixer-8367",
+      "repo": "php-cs-fixer/php-cs-fixer",
+      "pool": 2100,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 95,
+      "hits": [
+        {
+          "file": "src/Fixer/Import/FullyQualifiedStrictTypesFixer.php",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "phpoffice__phpspreadsheet-3463",
+      "repo": "phpoffice/phpspreadsheet",
+      "pool": 2245,
+      "workload": "bugfix",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 122,
+      "hits": [
+        {
+          "file": "CHANGELOG.md",
+          "rank": null
+        },
+        {
+          "file": "src/PhpSpreadsheet/Writer/Xlsx/FunctionPrefix.php",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "phpoffice__phpspreadsheet-3469",
+      "repo": "phpoffice/phpspreadsheet",
+      "pool": 2254,
+      "workload": "bugfix",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 4,
+      "ms": 136,
+      "hits": [
+        {
+          "file": "CHANGELOG.md",
+          "rank": null
+        },
+        {
+          "file": "src/PhpSpreadsheet/Style/Style.php",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "phpoffice__phpspreadsheet-3570",
+      "repo": "phpoffice/phpspreadsheet",
+      "pool": 2290,
+      "workload": "bugfix",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 5,
+      "ms": 124,
+      "hits": [
+        {
+          "file": "src/PhpSpreadsheet/Calculation/LookupRef/HLookup.php",
+          "rank": null
+        },
+        {
+          "file": "src/PhpSpreadsheet/Calculation/LookupRef/VLookup.php",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "id": "phpoffice__phpspreadsheet-3659",
+      "repo": "phpoffice/phpspreadsheet",
+      "pool": 2322,
+      "workload": "bugfix",
+      "gold": 4,
+      "goldInPool": 4,
+      "truncated": false,
+      "foundInK": 3,
+      "firstHit": 1,
+      "ms": 122,
+      "hits": [
+        {
+          "file": "src/PhpSpreadsheet/Calculation/Calculation.php",
+          "rank": 19
+        },
+        {
+          "file": "src/PhpSpreadsheet/Calculation/Engine/Operands/StructuredReference.php",
+          "rank": 1
+        },
+        {
+          "file": "src/PhpSpreadsheet/Spreadsheet.php",
+          "rank": 14
+        },
+        {
+          "file": "src/PhpSpreadsheet/Worksheet/Worksheet.php",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "phpoffice__phpspreadsheet-3903",
+      "repo": "phpoffice/phpspreadsheet",
+      "pool": 2355,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 129,
+      "hits": [
+        {
+          "file": "src/PhpSpreadsheet/Style/NumberFormat/BaseFormatter.php",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "phpoffice__phpspreadsheet-3940",
+      "repo": "phpoffice/phpspreadsheet",
+      "pool": 2363,
+      "workload": "search",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 119,
+      "hits": [
+        {
+          "file": "CHANGELOG.md",
+          "rank": null
+        },
+        {
+          "file": "src/PhpSpreadsheet/ReferenceHelper.php",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "phpoffice__phpspreadsheet-4114",
+      "repo": "phpoffice/phpspreadsheet",
+      "pool": 2417,
+      "workload": "bugfix",
+      "gold": 3,
+      "goldInPool": 3,
+      "truncated": false,
+      "foundInK": 2,
+      "firstHit": 2,
+      "ms": 103,
+      "hits": [
+        {
+          "file": "CHANGELOG.md",
+          "rank": null
+        },
+        {
+          "file": "src/PhpSpreadsheet/Spreadsheet.php",
+          "rank": 2
+        },
+        {
+          "file": "src/PhpSpreadsheet/Worksheet/Worksheet.php",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "id": "phpoffice__phpspreadsheet-4186",
+      "repo": "phpoffice/phpspreadsheet",
+      "pool": 2470,
+      "workload": "bugfix",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 98,
+      "hits": [
+        {
+          "file": "CHANGELOG.md",
+          "rank": null
+        },
+        {
+          "file": "src/PhpSpreadsheet/Writer/Xlsx/FunctionPrefix.php",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "phpoffice__phpspreadsheet-4214",
+      "repo": "phpoffice/phpspreadsheet",
+      "pool": 2495,
+      "workload": "bugfix",
+      "gold": 3,
+      "goldInPool": 3,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 107,
+      "hits": [
+        {
+          "file": "CHANGELOG.md",
+          "rank": null
+        },
+        {
+          "file": "src/PhpSpreadsheet/Calculation/MathTrig/Round.php",
+          "rank": null
+        },
+        {
+          "file": "src/PhpSpreadsheet/Calculation/MathTrig/Trunc.php",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "phpoffice__phpspreadsheet-4313",
+      "repo": "phpoffice/phpspreadsheet",
+      "pool": 2531,
+      "workload": "bugfix",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 133,
+      "hits": [
+        {
+          "file": "CHANGELOG.md",
+          "rank": null
+        },
+        {
+          "file": "src/PhpSpreadsheet/Reader/Ods/FormulaTranslator.php",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "preactjs__preact-2757",
+      "repo": "preactjs/preact",
+      "pool": 263,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 13,
+      "ms": 20,
+      "hits": [
+        {
+          "file": "src/diff/index.js",
+          "rank": 13
+        }
+      ]
+    },
+    {
+      "id": "preactjs__preact-2896",
+      "repo": "preactjs/preact",
+      "pool": 289,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 4,
+      "ms": 22,
+      "hits": [
+        {
+          "file": "src/diff/children.js",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "preactjs__preact-2927",
+      "repo": "preactjs/preact",
+      "pool": 294,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 18,
+      "hits": [
+        {
+          "file": "src/diff/props.js",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "preactjs__preact-3010",
+      "repo": "preactjs/preact",
+      "pool": 302,
+      "workload": "bugfix",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 18,
+      "hits": [
+        {
+          "file": "src/diff/children.js",
+          "rank": null
+        },
+        {
+          "file": "src/index.d.ts",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "preactjs__preact-3062",
+      "repo": "preactjs/preact",
+      "pool": 304,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 23,
+      "hits": [
+        {
+          "file": "src/diff/props.js",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "preactjs__preact-3345",
+      "repo": "preactjs/preact",
+      "pool": 306,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 22,
+      "hits": [
+        {
+          "file": "hooks/src/index.js",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "preactjs__preact-3454",
+      "repo": "preactjs/preact",
+      "pool": 309,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 21,
+      "hits": [
+        {
+          "file": "src/diff/props.js",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "preactjs__preact-3562",
+      "repo": "preactjs/preact",
+      "pool": 314,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 20,
+      "hits": [
+        {
+          "file": "compat/src/render.js",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "preactjs__preact-3567",
+      "repo": "preactjs/preact",
+      "pool": 314,
+      "workload": "bugfix",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 6,
+      "ms": 21,
+      "hits": [
+        {
+          "file": "hooks/src/index.js",
+          "rank": 6
+        },
+        {
+          "file": "hooks/src/internal.d.ts",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "preactjs__preact-3689",
+      "repo": "preactjs/preact",
+      "pool": 314,
+      "workload": "feature",
+      "gold": 3,
+      "goldInPool": 3,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 15,
+      "ms": 13,
+      "hits": [
+        {
+          "file": "hooks/src/index.d.ts",
+          "rank": null
+        },
+        {
+          "file": "hooks/src/index.js",
+          "rank": 15
+        },
+        {
+          "file": "hooks/src/internal.d.ts",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "preactjs__preact-3739",
+      "repo": "preactjs/preact",
+      "pool": 319,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 5,
+      "ms": 34,
+      "hits": [
+        {
+          "file": "hooks/src/index.js",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "id": "preactjs__preact-3763",
+      "repo": "preactjs/preact",
+      "pool": 319,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 20,
+      "hits": [
+        {
+          "file": "src/diff/index.js",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "preactjs__preact-4152",
+      "repo": "preactjs/preact",
+      "pool": 328,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 20,
+      "ms": 23,
+      "hits": [
+        {
+          "file": "src/diff/children.js",
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "id": "preactjs__preact-4182",
+      "repo": "preactjs/preact",
+      "pool": 331,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 34,
+      "hits": [
+        {
+          "file": "src/diff/index.js",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "preactjs__preact-4245",
+      "repo": "preactjs/preact",
+      "pool": 333,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 25,
+      "hits": [
+        {
+          "file": "hooks/src/index.js",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "preactjs__preact-4316",
+      "repo": "preactjs/preact",
+      "pool": 334,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 7,
+      "ms": 21,
+      "hits": [
+        {
+          "file": "src/diff/props.js",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "id": "preactjs__preact-4436",
+      "repo": "preactjs/preact",
+      "pool": 343,
+      "workload": "feature",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 2,
+      "firstHit": 8,
+      "ms": 23,
+      "hits": [
+        {
+          "file": "src/diff/index.js",
+          "rank": 8
+        },
+        {
+          "file": "src/internal.d.ts",
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "id": "projectlombok__lombok-2792",
+      "repo": "projectlombok/lombok",
+      "pool": 1915,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 19,
+      "ms": 104,
+      "hits": [
+        {
+          "file": "src/core/lombok/javac/handlers/HandleVal.java",
+          "rank": 19
+        }
+      ]
+    },
+    {
+      "id": "projectlombok__lombok-3009",
+      "repo": "projectlombok/lombok",
+      "pool": 2032,
+      "workload": "bugfix",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 2,
+      "firstHit": 2,
+      "ms": 82,
+      "hits": [
+        {
+          "file": "src/core/lombok/eclipse/handlers/HandleFieldDefaults.java",
+          "rank": 3
+        },
+        {
+          "file": "src/core/lombok/javac/handlers/HandleFieldDefaults.java",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "projectlombok__lombok-3042",
+      "repo": "projectlombok/lombok",
+      "pool": 2038,
+      "workload": "bugfix",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 2,
+      "firstHit": 1,
+      "ms": 95,
+      "hits": [
+        {
+          "file": "src/core/lombok/eclipse/handlers/EclipseHandlerUtil.java",
+          "rank": 4
+        },
+        {
+          "file": "src/core/lombok/javac/handlers/JavacHandlerUtil.java",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "projectlombok__lombok-3052",
+      "repo": "projectlombok/lombok",
+      "pool": 2038,
+      "workload": "bugfix",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 2,
+      "firstHit": 7,
+      "ms": 94,
+      "hits": [
+        {
+          "file": "src/core/lombok/javac/handlers/HandleBuilder.java",
+          "rank": 15
+        },
+        {
+          "file": "src/core/lombok/javac/handlers/HandleSuperBuilder.java",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "id": "projectlombok__lombok-3215",
+      "repo": "projectlombok/lombok",
+      "pool": 2110,
+      "workload": "bugfix",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 2,
+      "firstHit": 4,
+      "ms": 83,
+      "hits": [
+        {
+          "file": "src/core/lombok/eclipse/handlers/HandleSuperBuilder.java",
+          "rank": 4
+        },
+        {
+          "file": "src/core/lombok/javac/handlers/HandleSuperBuilder.java",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "id": "projectlombok__lombok-3312",
+      "repo": "projectlombok/lombok",
+      "pool": 2116,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 3,
+      "ms": 92,
+      "hits": [
+        {
+          "file": "src/core/lombok/javac/handlers/HandleExtensionMethod.java",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "projectlombok__lombok-3326",
+      "repo": "projectlombok/lombok",
+      "pool": 2122,
+      "workload": "bugfix",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 7,
+      "ms": 125,
+      "hits": [
+        {
+          "file": "src/core/lombok/javac/handlers/HandleUtilityClass.java",
+          "rank": 7
+        },
+        {
+          "file": "src/stubs/com/sun/tools/javac/code/Symbol.java",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "projectlombok__lombok-3350",
+      "repo": "projectlombok/lombok",
+      "pool": 2129,
+      "workload": "feature",
+      "gold": 4,
+      "goldInPool": 4,
+      "truncated": false,
+      "foundInK": 4,
+      "firstHit": 1,
+      "ms": 95,
+      "hits": [
+        {
+          "file": "src/core/lombok/ConfigurationKeys.java",
+          "rank": 7
+        },
+        {
+          "file": "src/core/lombok/core/configuration/NullAnnotationLibrary.java",
+          "rank": 2
+        },
+        {
+          "file": "src/core/lombok/core/handlers/HandlerUtil.java",
+          "rank": 1
+        },
+        {
+          "file": "website/templates/features/configuration.html",
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "id": "projectlombok__lombok-3371",
+      "repo": "projectlombok/lombok",
+      "pool": 2126,
+      "workload": "bugfix",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 2,
+      "firstHit": 4,
+      "ms": 87,
+      "hits": [
+        {
+          "file": "src/core/lombok/eclipse/handlers/HandleNonNull.java",
+          "rank": 4
+        },
+        {
+          "file": "src/core/lombok/javac/handlers/HandleNonNull.java",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "id": "projectlombok__lombok-3422",
+      "repo": "projectlombok/lombok",
+      "pool": 2164,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 98,
+      "hits": [
+        {
+          "file": "src/core/lombok/javac/handlers/HandleHelper.java",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "projectlombok__lombok-3479",
+      "repo": "projectlombok/lombok",
+      "pool": 2155,
+      "workload": "bugfix",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 15,
+      "ms": 97,
+      "hits": [
+        {
+          "file": "src/core/lombok/javac/handlers/HandleExtensionMethod.java",
+          "rank": 15
+        },
+        {
+          "file": "src/core/lombok/javac/handlers/JavacHandlerUtil.java",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "projectlombok__lombok-3486",
+      "repo": "projectlombok/lombok",
+      "pool": 2162,
+      "workload": "bugfix",
+      "gold": 6,
+      "goldInPool": 6,
+      "truncated": false,
+      "foundInK": 2,
+      "firstHit": 6,
+      "ms": 73,
+      "hits": [
+        {
+          "file": "src/core/lombok/eclipse/handlers/EclipseHandlerUtil.java",
+          "rank": null
+        },
+        {
+          "file": "src/core/lombok/eclipse/handlers/HandleBuilder.java",
+          "rank": null
+        },
+        {
+          "file": "src/core/lombok/eclipse/handlers/HandleSuperBuilder.java",
+          "rank": 7
+        },
+        {
+          "file": "src/core/lombok/javac/handlers/HandleBuilder.java",
+          "rank": null
+        },
+        {
+          "file": "src/core/lombok/javac/handlers/HandleSuperBuilder.java",
+          "rank": 6
+        },
+        {
+          "file": "src/core/lombok/javac/handlers/JavacHandlerUtil.java",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "projectlombok__lombok-3571",
+      "repo": "projectlombok/lombok",
+      "pool": 2230,
+      "workload": "bugfix",
+      "gold": 4,
+      "goldInPool": 4,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 91,
+      "hits": [
+        {
+          "file": "src/core/lombok/eclipse/EclipseNode.java",
+          "rank": null
+        },
+        {
+          "file": "src/core/lombok/eclipse/handlers/EclipseHandlerUtil.java",
+          "rank": null
+        },
+        {
+          "file": "src/core/lombok/javac/JavacNode.java",
+          "rank": null
+        },
+        {
+          "file": "src/core/lombok/javac/handlers/JavacHandlerUtil.java",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "projectlombok__lombok-3594",
+      "repo": "projectlombok/lombok",
+      "pool": 2255,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 5,
+      "ms": 109,
+      "hits": [
+        {
+          "file": "src/core/lombok/javac/handlers/HandleSuperBuilder.java",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "id": "projectlombok__lombok-3602",
+      "repo": "projectlombok/lombok",
+      "pool": 2261,
+      "workload": "bugfix",
+      "gold": 4,
+      "goldInPool": 4,
+      "truncated": false,
+      "foundInK": 2,
+      "firstHit": 1,
+      "ms": 119,
+      "hits": [
+        {
+          "file": "AUTHORS",
+          "rank": null
+        },
+        {
+          "file": "src/core/lombok/bytecode/FixedClassWriter.java",
+          "rank": null
+        },
+        {
+          "file": "src/core/lombok/bytecode/PreventNullAnalysisRemover.java",
+          "rank": 2
+        },
+        {
+          "file": "src/core/lombok/bytecode/SneakyThrowsRemover.java",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "projectlombok__lombok-3674",
+      "repo": "projectlombok/lombok",
+      "pool": 2279,
+      "workload": "bugfix",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 2,
+      "firstHit": 1,
+      "ms": 130,
+      "hits": [
+        {
+          "file": "src/core/lombok/eclipse/handlers/HandleStandardException.java",
+          "rank": 1
+        },
+        {
+          "file": "src/core/lombok/javac/handlers/HandleStandardException.java",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "projectlombok__lombok-3697",
+      "repo": "projectlombok/lombok",
+      "pool": 2286,
+      "workload": "bugfix",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 98,
+      "hits": [
+        {
+          "file": "doc/changelog.markdown",
+          "rank": null
+        },
+        {
+          "file": "src/core/lombok/javac/handlers/HandleSuperBuilder.java",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "prometheus__prometheus-10633",
+      "repo": "prometheus/prometheus",
+      "pool": 967,
+      "workload": "search",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 74,
+      "hits": [
+        {
+          "file": "discovery/puppetdb/fixtures/vhosts.json",
+          "rank": null
+        },
+        {
+          "file": "discovery/puppetdb/resources.go",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "prometheus__prometheus-10720",
+      "repo": "prometheus/prometheus",
+      "pool": 975,
+      "workload": "bugfix",
+      "gold": 7,
+      "goldInPool": 7,
+      "truncated": false,
+      "foundInK": 6,
+      "firstHit": 1,
+      "ms": 47,
+      "hits": [
+        {
+          "file": "docs/querying/functions.md",
+          "rank": null
+        },
+        {
+          "file": "promql/functions.go",
+          "rank": 1
+        },
+        {
+          "file": "promql/parser/functions.go",
+          "rank": 8
+        },
+        {
+          "file": "web/ui/module/codemirror-promql/src/complete/promql.terms.ts",
+          "rank": 5
+        },
+        {
+          "file": "web/ui/module/codemirror-promql/src/promql.ts",
+          "rank": 10
+        },
+        {
+          "file": "web/ui/module/codemirror-promql/src/types/function.ts",
+          "rank": 3
+        },
+        {
+          "file": "web/ui/module/lezer-promql/src/promql.grammar",
+          "rank": 11
+        }
+      ]
+    },
+    {
+      "id": "prometheus__prometheus-11859",
+      "repo": "prometheus/prometheus",
+      "pool": 1061,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 113,
+      "hits": [
+        {
+          "file": "tsdb/head.go",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "prometheus__prometheus-12874",
+      "repo": "prometheus/prometheus",
+      "pool": 1114,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 3,
+      "ms": 86,
+      "hits": [
+        {
+          "file": "tsdb/head_append.go",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "prometheus__prometheus-13845",
+      "repo": "prometheus/prometheus",
+      "pool": 1188,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 85,
+      "hits": [
+        {
+          "file": "model/labels/labels.go",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "prometheus__prometheus-14861",
+      "repo": "prometheus/prometheus",
+      "pool": 1252,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 62,
+      "hits": [
+        {
+          "file": "promql/engine.go",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "prometheus__prometheus-15142",
+      "repo": "prometheus/prometheus",
+      "pool": 1364,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 63,
+      "hits": [
+        {
+          "file": "tsdb/head_append.go",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "prometheus__prometheus-9248",
+      "repo": "prometheus/prometheus",
+      "pool": 914,
+      "workload": "search",
+      "gold": 9,
+      "goldInPool": 9,
+      "truncated": false,
+      "foundInK": 6,
+      "firstHit": 2,
+      "ms": 41,
+      "hits": [
+        {
+          "file": "docs/querying/operators.md",
+          "rank": 12
+        },
+        {
+          "file": "promql/engine.go",
+          "rank": 2
+        },
+        {
+          "file": "promql/parser/generated_parser.y",
+          "rank": null
+        },
+        {
+          "file": "promql/parser/generated_parser.y.go",
+          "rank": null
+        },
+        {
+          "file": "promql/parser/lex.go",
+          "rank": 6
+        },
+        {
+          "file": "web/ui/module/codemirror-promql/src/complete/promql.terms.ts",
+          "rank": 19
+        },
+        {
+          "file": "web/ui/module/codemirror-promql/src/grammar/promql.grammar",
+          "rank": 14
+        },
+        {
+          "file": "web/ui/module/codemirror-promql/src/grammar/tokens.js",
+          "rank": null
+        },
+        {
+          "file": "web/ui/module/codemirror-promql/src/promql.ts",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "id": "reactivex__rxjava-7597",
+      "repo": "reactivex/rxjava",
+      "pool": 1956,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 147,
+      "hits": [
+        {
+          "file": "src/main/java/io/reactivex/rxjava3/internal/operators/observable/ObservableSwitchMap.java",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "redis__redis-10068",
+      "repo": "redis/redis",
+      "pool": 1353,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 62,
+      "hits": [
+        {
+          "file": "src/t_stream.c",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "redis__redis-10095",
+      "repo": "redis/redis",
+      "pool": 1353,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 56,
+      "hits": [
+        {
+          "file": "src/t_list.c",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "redis__redis-10764",
+      "repo": "redis/redis",
+      "pool": 1383,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 6,
+      "ms": 63,
+      "hits": [
+        {
+          "file": "src/t_zset.c",
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "id": "redis__redis-11279",
+      "repo": "redis/redis",
+      "pool": 1390,
+      "workload": "search",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 2,
+      "firstHit": 1,
+      "ms": 48,
+      "hits": [
+        {
+          "file": "redis.conf",
+          "rank": 1
+        },
+        {
+          "file": "src/acl.c",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "redis__redis-11510",
+      "repo": "redis/redis",
+      "pool": 1397,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 8,
+      "ms": 61,
+      "hits": [
+        {
+          "file": "src/functions.c",
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "id": "redis__redis-11631",
+      "repo": "redis/redis",
+      "pool": 1402,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 72,
+      "hits": [
+        {
+          "file": "src/util.c",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "redis__redis-11734",
+      "repo": "redis/redis",
+      "pool": 1577,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 19,
+      "ms": 62,
+      "hits": [
+        {
+          "file": "src/bitops.c",
+          "rank": 19
+        }
+      ]
+    },
+    {
+      "id": "redis__redis-12272",
+      "repo": "redis/redis",
+      "pool": 1605,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 4,
+      "ms": 61,
+      "hits": [
+        {
+          "file": "src/t_string.c",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "redis__redis-12472",
+      "repo": "redis/redis",
+      "pool": 1577,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 63,
+      "hits": [
+        {
+          "file": "src/acl.c",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "redis__redis-13115",
+      "repo": "redis/redis",
+      "pool": 1590,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 10,
+      "ms": 85,
+      "hits": [
+        {
+          "file": "src/script_lua.c",
+          "rank": 10
+        }
+      ]
+    },
+    {
+      "id": "redis__redis-13338",
+      "repo": "redis/redis",
+      "pool": 1605,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 81,
+      "hits": [
+        {
+          "file": "src/t_stream.c",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "redis__redis-9733",
+      "repo": "redis/redis",
+      "pool": 944,
+      "workload": "bugfix",
+      "gold": 3,
+      "goldInPool": 3,
+      "truncated": false,
+      "foundInK": 3,
+      "firstHit": 3,
+      "ms": 38,
+      "hits": [
+        {
+          "file": "src/module.c",
+          "rank": 3
+        },
+        {
+          "file": "src/server.c",
+          "rank": 5
+        },
+        {
+          "file": "src/server.h",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "id": "rubocop__rubocop-13362",
+      "repo": "rubocop/rubocop",
+      "pool": 1880,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 17,
+      "ms": 102,
+      "hits": [
+        {
+          "file": "lib/rubocop/cop/mixin/frozen_string_literal.rb",
+          "rank": 17
+        }
+      ]
+    },
+    {
+      "id": "rubocop__rubocop-13375",
+      "repo": "rubocop/rubocop",
+      "pool": 1890,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 12,
+      "ms": 75,
+      "hits": [
+        {
+          "file": "lib/rubocop/runner.rb",
+          "rank": 12
+        }
+      ]
+    },
+    {
+      "id": "rubocop__rubocop-13393",
+      "repo": "rubocop/rubocop",
+      "pool": 1901,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 9,
+      "ms": 106,
+      "hits": [
+        {
+          "file": "lib/rubocop/cop/style/guard_clause.rb",
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "id": "rubocop__rubocop-13396",
+      "repo": "rubocop/rubocop",
+      "pool": 1903,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 118,
+      "hits": [
+        {
+          "file": "lib/rubocop/cop/style/redundant_parentheses.rb",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "rubocop__rubocop-13424",
+      "repo": "rubocop/rubocop",
+      "pool": 1887,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 85,
+      "hits": [
+        {
+          "file": "lib/rubocop/cop/style/safe_navigation.rb",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "rubocop__rubocop-13431",
+      "repo": "rubocop/rubocop",
+      "pool": 1892,
+      "workload": "bugfix",
+      "gold": 3,
+      "goldInPool": 3,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 87,
+      "hits": [
+        {
+          "file": "lib/rubocop/cop/layout/block_alignment.rb",
+          "rank": null
+        },
+        {
+          "file": "lib/rubocop/cop/layout/empty_lines_around_method_body.rb",
+          "rank": 1
+        },
+        {
+          "file": "lib/rubocop/cop/mixin/range_help.rb",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "rubocop__rubocop-13479",
+      "repo": "rubocop/rubocop",
+      "pool": 1908,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 84,
+      "hits": [
+        {
+          "file": "lib/rubocop/cop/layout/leading_comment_space.rb",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "rubocop__rubocop-13503",
+      "repo": "rubocop/rubocop",
+      "pool": 1894,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 78,
+      "hits": [
+        {
+          "file": "lib/rubocop/cop/style/dig_chain.rb",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "rubocop__rubocop-13560",
+      "repo": "rubocop/rubocop",
+      "pool": 1913,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 8,
+      "ms": 100,
+      "hits": [
+        {
+          "file": "lib/rubocop/cop/style/file_null.rb",
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "id": "rubocop__rubocop-13579",
+      "repo": "rubocop/rubocop",
+      "pool": 1910,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 5,
+      "ms": 102,
+      "hits": [
+        {
+          "file": "lib/rubocop/cop/layout/line_continuation_spacing.rb",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "id": "rubocop__rubocop-13627",
+      "repo": "rubocop/rubocop",
+      "pool": 1926,
+      "workload": "feature",
+      "gold": 4,
+      "goldInPool": 4,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 74,
+      "hits": [
+        {
+          "file": "lib/rubocop/cop/style/empty_else.rb",
+          "rank": null
+        },
+        {
+          "file": "lib/rubocop/cop/style/hash_syntax.rb",
+          "rank": null
+        },
+        {
+          "file": "lib/rubocop/cop/style/multiple_comparison.rb",
+          "rank": 2
+        },
+        {
+          "file": "lib/rubocop/cop/style/yoda_condition.rb",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "rubocop__rubocop-13653",
+      "repo": "rubocop/rubocop",
+      "pool": 1946,
+      "workload": "feature",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 2,
+      "firstHit": 1,
+      "ms": 96,
+      "hits": [
+        {
+          "file": "config/default.yml",
+          "rank": 3
+        },
+        {
+          "file": "lib/rubocop/cop/style/access_modifier_declarations.rb",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "rubocop__rubocop-13668",
+      "repo": "rubocop/rubocop",
+      "pool": 1911,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 72,
+      "hits": [
+        {
+          "file": "lib/rubocop/cop/style/sole_nested_conditional.rb",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "rubocop__rubocop-13680",
+      "repo": "rubocop/rubocop",
+      "pool": 1921,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 18,
+      "ms": 105,
+      "hits": [
+        {
+          "file": "lib/rubocop/cop/style/redundant_line_continuation.rb",
+          "rank": 18
+        }
+      ]
+    },
+    {
+      "id": "rubocop__rubocop-13687",
+      "repo": "rubocop/rubocop",
+      "pool": 1923,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 82,
+      "hits": [
+        {
+          "file": "lib/rubocop/cop/lint/safe_navigation_chain.rb",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "rubocop__rubocop-13705",
+      "repo": "rubocop/rubocop",
+      "pool": 1930,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 8,
+      "ms": 82,
+      "hits": [
+        {
+          "file": "lib/rubocop/cop/lint/out_of_range_regexp_ref.rb",
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "id": "sharkdp__bat-1892",
+      "repo": "sharkdp/bat",
+      "pool": 573,
+      "workload": "feature",
+      "gold": 6,
+      "goldInPool": 6,
+      "truncated": false,
+      "foundInK": 5,
+      "firstHit": 1,
+      "ms": 23,
+      "hits": [
+        {
+          "file": "CHANGELOG.md",
+          "rank": 8
+        },
+        {
+          "file": "src/assets.rs",
+          "rank": 16
+        },
+        {
+          "file": "src/assets/ignored_suffixes.rs",
+          "rank": 1
+        },
+        {
+          "file": "src/bin/bat/app.rs",
+          "rank": null
+        },
+        {
+          "file": "src/bin/bat/clap_app.rs",
+          "rank": 17
+        },
+        {
+          "file": "src/syntax_mapping.rs",
+          "rank": 12
+        }
+      ]
+    },
+    {
+      "id": "sharkdp__bat-2201",
+      "repo": "sharkdp/bat",
+      "pool": 703,
+      "workload": "search",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 2,
+      "firstHit": 2,
+      "ms": 39,
+      "hits": [
+        {
+          "file": "CHANGELOG.md",
+          "rank": 10
+        },
+        {
+          "file": "src/bin/bat/clap_app.rs",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "sharkdp__bat-2260",
+      "repo": "sharkdp/bat",
+      "pool": 703,
+      "workload": "bugfix",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 4,
+      "ms": 34,
+      "hits": [
+        {
+          "file": "CHANGELOG.md",
+          "rank": null
+        },
+        {
+          "file": "src/syntax_mapping.rs",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "sharkdp__bat-2393",
+      "repo": "sharkdp/bat",
+      "pool": 739,
+      "workload": "feature",
+      "gold": 3,
+      "goldInPool": 3,
+      "truncated": false,
+      "foundInK": 2,
+      "firstHit": 9,
+      "ms": 30,
+      "hits": [
+        {
+          "file": "CHANGELOG.md",
+          "rank": 9
+        },
+        {
+          "file": "src/bin/bat/assets.rs",
+          "rank": null
+        },
+        {
+          "file": "src/bin/bat/main.rs",
+          "rank": 15
+        }
+      ]
+    },
+    {
+      "id": "sharkdp__bat-2650",
+      "repo": "sharkdp/bat",
+      "pool": 753,
+      "workload": "search",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 2,
+      "firstHit": 15,
+      "ms": 48,
+      "hits": [
+        {
+          "file": "CHANGELOG.md",
+          "rank": 15
+        },
+        {
+          "file": "src/syntax_mapping.rs",
+          "rank": 19
+        }
+      ]
+    },
+    {
+      "id": "sharkdp__bat-2835",
+      "repo": "sharkdp/bat",
+      "pool": 794,
+      "workload": "bugfix",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 40,
+      "hits": [
+        {
+          "file": "CHANGELOG.md",
+          "rank": null
+        },
+        {
+          "file": "src/printer.rs",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "sharkdp__bat-3108",
+      "repo": "sharkdp/bat",
+      "pool": 808,
+      "workload": "bugfix",
+      "gold": 3,
+      "goldInPool": 3,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 4,
+      "ms": 35,
+      "hits": [
+        {
+          "file": "CHANGELOG.md",
+          "rank": null
+        },
+        {
+          "file": "src/bin/bat/app.rs",
+          "rank": null
+        },
+        {
+          "file": "src/bin/bat/clap_app.rs",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "sharkdp__bat-562",
+      "repo": "sharkdp/bat",
+      "pool": 102,
+      "workload": "bugfix",
+      "gold": 2,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 12,
+      "hits": [
+        {
+          "file": "Cargo.lock",
+          "rank": null
+        },
+        {
+          "file": "src/clap_app.rs",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "tokio-rs__axum-1119",
+      "repo": "tokio-rs/axum",
+      "pool": 330,
+      "workload": "feature",
+      "gold": 5,
+      "goldInPool": 5,
+      "truncated": false,
+      "foundInK": 2,
+      "firstHit": 3,
+      "ms": 21,
+      "hits": [
+        {
+          "file": "axum-extra/CHANGELOG.md",
+          "rank": null
+        },
+        {
+          "file": "axum-extra/src/routing/mod.rs",
+          "rank": null
+        },
+        {
+          "file": "axum/CHANGELOG.md",
+          "rank": 17
+        },
+        {
+          "file": "axum/src/routing/mod.rs",
+          "rank": 3
+        },
+        {
+          "file": "axum/src/routing/route.rs",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "tokio-rs__axum-1730",
+      "repo": "tokio-rs/axum",
+      "pool": 404,
+      "workload": "bugfix",
+      "gold": 4,
+      "goldInPool": 4,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 21,
+      "hits": [
+        {
+          "file": "axum/CHANGELOG.md",
+          "rank": null
+        },
+        {
+          "file": "axum/src/routing/future.rs",
+          "rank": null
+        },
+        {
+          "file": "axum/src/routing/method_routing.rs",
+          "rank": 1
+        },
+        {
+          "file": "axum/src/routing/route.rs",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "tokio-rs__axum-1934",
+      "repo": "tokio-rs/axum",
+      "pool": 427,
+      "workload": "bugfix",
+      "gold": 4,
+      "goldInPool": 4,
+      "truncated": false,
+      "foundInK": 3,
+      "firstHit": 1,
+      "ms": 28,
+      "hits": [
+        {
+          "file": "axum/CHANGELOG.md",
+          "rank": null
+        },
+        {
+          "file": "axum/src/extract/matched_path.rs",
+          "rank": 1
+        },
+        {
+          "file": "axum/src/routing/mod.rs",
+          "rank": 20
+        },
+        {
+          "file": "axum/src/routing/path_router.rs",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "id": "tokio-rs__axum-2096",
+      "repo": "tokio-rs/axum",
+      "pool": 427,
+      "workload": "bugfix",
+      "gold": 3,
+      "goldInPool": 3,
+      "truncated": false,
+      "foundInK": 2,
+      "firstHit": 1,
+      "ms": 26,
+      "hits": [
+        {
+          "file": "axum/CHANGELOG.md",
+          "rank": null
+        },
+        {
+          "file": "axum/src/routing/mod.rs",
+          "rank": 12
+        },
+        {
+          "file": "axum/src/routing/path_router.rs",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "tokio-rs__axum-682",
+      "repo": "tokio-rs/axum",
+      "pool": 223,
+      "workload": "search",
+      "gold": 5,
+      "goldInPool": 5,
+      "truncated": false,
+      "foundInK": 3,
+      "firstHit": 1,
+      "ms": 16,
+      "hits": [
+        {
+          "file": "axum/CHANGELOG.md",
+          "rank": 7
+        },
+        {
+          "file": "axum/src/response/redirect.rs",
+          "rank": 1
+        },
+        {
+          "file": "axum/src/routing/mod.rs",
+          "rank": 6
+        },
+        {
+          "file": "examples/oauth/Cargo.toml",
+          "rank": null
+        },
+        {
+          "file": "examples/oauth/src/main.rs",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "tokio-rs__axum-691",
+      "repo": "tokio-rs/axum",
+      "pool": 223,
+      "workload": "bugfix",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 4,
+      "ms": 20,
+      "hits": [
+        {
+          "file": "axum/CHANGELOG.md",
+          "rank": null
+        },
+        {
+          "file": "axum/src/routing/mod.rs",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "tokio-rs__axum-734",
+      "repo": "tokio-rs/axum",
+      "pool": 266,
+      "workload": "bugfix",
+      "gold": 7,
+      "goldInPool": 7,
+      "truncated": false,
+      "foundInK": 3,
+      "firstHit": 1,
+      "ms": 22,
+      "hits": [
+        {
+          "file": "axum-extra/src/routing/mod.rs",
+          "rank": null
+        },
+        {
+          "file": "axum-extra/src/routing/resource.rs",
+          "rank": null
+        },
+        {
+          "file": "axum/CHANGELOG.md",
+          "rank": null
+        },
+        {
+          "file": "axum/src/routing/future.rs",
+          "rank": null
+        },
+        {
+          "file": "axum/src/routing/method_routing.rs",
+          "rank": 1
+        },
+        {
+          "file": "axum/src/routing/mod.rs",
+          "rank": 9
+        },
+        {
+          "file": "axum/src/routing/route.rs",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "id": "tokio-rs__tokio-4384",
+      "repo": "tokio-rs/tokio",
+      "pool": 606,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 5,
+      "ms": 33,
+      "hits": [
+        {
+          "file": "tokio/src/io/poll_evented.rs",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "id": "tokio-rs__tokio-4867",
+      "repo": "tokio-rs/tokio",
+      "pool": 646,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 33,
+      "hits": [
+        {
+          "file": "tokio/src/sync/broadcast.rs",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "tokio-rs__tokio-4898",
+      "repo": "tokio-rs/tokio",
+      "pool": 646,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 32,
+      "hits": [
+        {
+          "file": "tokio/src/signal/unix/driver.rs",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "tokio-rs__tokio-6551",
+      "repo": "tokio-rs/tokio",
+      "pool": 774,
+      "workload": "feature",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 2,
+      "firstHit": 10,
+      "ms": 36,
+      "hits": [
+        {
+          "file": "tokio/src/runtime/scheduler/multi_thread/handle/metrics.rs",
+          "rank": 10
+        },
+        {
+          "file": "tokio/src/runtime/scheduler/multi_thread_alt/handle/metrics.rs",
+          "rank": 11
+        }
+      ]
+    },
+    {
+      "id": "tokio-rs__tokio-6603",
+      "repo": "tokio-rs/tokio",
+      "pool": 774,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 5,
+      "ms": 46,
+      "hits": [
+        {
+          "file": "tokio/src/sync/mpsc/block.rs",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "id": "tokio-rs__tokio-6724",
+      "repo": "tokio-rs/tokio",
+      "pool": 777,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 39,
+      "hits": [
+        {
+          "file": "tokio/src/io/util/write_all_buf.rs",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "tokio-rs__tokio-6752",
+      "repo": "tokio-rs/tokio",
+      "pool": 777,
+      "workload": "feature",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 45,
+      "hits": [
+        {
+          "file": "tokio-util/src/time/delay_queue.rs",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "tokio-rs__tokio-6838",
+      "repo": "tokio-rs/tokio",
+      "pool": 781,
+      "workload": "bugfix",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 2,
+      "firstHit": 1,
+      "ms": 36,
+      "hits": [
+        {
+          "file": "tokio/src/net/unix/listener.rs",
+          "rank": 1
+        },
+        {
+          "file": "tokio/src/net/unix/stream.rs",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "tokio-rs__tokio-7139",
+      "repo": "tokio-rs/tokio",
+      "pool": 790,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 13,
+      "ms": 49,
+      "hits": [
+        {
+          "file": "tokio/src/fs/file.rs",
+          "rank": 13
+        }
+      ]
+    },
+    {
+      "id": "uutils__coreutils-6377",
+      "repo": "uutils/coreutils",
+      "pool": 1575,
+      "workload": "feature",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 9,
+      "ms": 39,
+      "hits": [
+        {
+          "file": ".vscode/cspell.dictionaries/workspace.wordlist.txt",
+          "rank": null
+        },
+        {
+          "file": "src/uu/env/src/env.rs",
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "id": "uutils__coreutils-6575",
+      "repo": "uutils/coreutils",
+      "pool": 1578,
+      "workload": "bugfix",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 3,
+      "ms": 53,
+      "hits": [
+        {
+          "file": "src/uu/cksum/src/cksum.rs",
+          "rank": 3
+        },
+        {
+          "file": "src/uucore/src/lib/lib.rs",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "uutils__coreutils-6682",
+      "repo": "uutils/coreutils",
+      "pool": 1579,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 4,
+      "ms": 56,
+      "hits": [
+        {
+          "file": "src/uu/mkdir/src/mkdir.rs",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "uutils__coreutils-6690",
+      "repo": "uutils/coreutils",
+      "pool": 1579,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 11,
+      "ms": 47,
+      "hits": [
+        {
+          "file": "src/uu/cp/src/cp.rs",
+          "rank": 11
+        }
+      ]
+    },
+    {
+      "id": "uutils__coreutils-6731",
+      "repo": "uutils/coreutils",
+      "pool": 1579,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 8,
+      "ms": 47,
+      "hits": [
+        {
+          "file": "src/uu/tr/src/tr.rs",
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "id": "valkey-io__valkey-1499",
+      "repo": "valkey-io/valkey",
+      "pool": 1679,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 12,
+      "ms": 71,
+      "hits": [
+        {
+          "file": "src/db.c",
+          "rank": 12
+        }
+      ]
+    },
+    {
+      "id": "valkey-io__valkey-1842",
+      "repo": "valkey-io/valkey",
+      "pool": 1700,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 0,
+      "firstHit": null,
+      "ms": 63,
+      "hits": [
+        {
+          "file": "src/acl.c",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "valkey-io__valkey-790",
+      "repo": "valkey-io/valkey",
+      "pool": 1637,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 3,
+      "ms": 75,
+      "hits": [
+        {
+          "file": "src/cluster_legacy.c",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "valkey-io__valkey-928",
+      "repo": "valkey-io/valkey",
+      "pool": 1645,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 4,
+      "ms": 75,
+      "hits": [
+        {
+          "file": "src/valkey-cli.c",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "vuejs__core-11589",
+      "repo": "vuejs/core",
+      "pool": 692,
+      "workload": "bugfix",
+      "gold": 2,
+      "goldInPool": 2,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 4,
+      "ms": 43,
+      "hits": [
+        {
+          "file": "packages/reactivity/src/effect.ts",
+          "rank": null
+        },
+        {
+          "file": "packages/runtime-core/src/apiWatch.ts",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "vuejs__core-11739",
+      "repo": "vuejs/core",
+      "pool": 695,
+      "workload": "bugfix",
+      "gold": 4,
+      "goldInPool": 4,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 12,
+      "ms": 55,
+      "hits": [
+        {
+          "file": "packages/compiler-sfc/src/script/utils.ts",
+          "rank": null
+        },
+        {
+          "file": "packages/compiler-sfc/src/style/cssVars.ts",
+          "rank": null
+        },
+        {
+          "file": "packages/runtime-core/src/hydration.ts",
+          "rank": 12
+        },
+        {
+          "file": "packages/shared/src/escapeHtml.ts",
+          "rank": null
+        }
+      ]
+    },
+    {
+      "id": "vuejs__core-11870",
+      "repo": "vuejs/core",
+      "pool": 695,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 2,
+      "ms": 37,
+      "hits": [
+        {
+          "file": "packages/runtime-core/src/helpers/renderList.ts",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "vuejs__core-11899",
+      "repo": "vuejs/core",
+      "pool": 695,
+      "workload": "search",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 1,
+      "ms": 37,
+      "hits": [
+        {
+          "file": "packages/compiler-sfc/src/style/pluginScoped.ts",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "vuejs__core-11915",
+      "repo": "vuejs/core",
+      "pool": 695,
+      "workload": "bugfix",
+      "gold": 1,
+      "goldInPool": 1,
+      "truncated": false,
+      "foundInK": 1,
+      "firstHit": 4,
+      "ms": 30,
+      "hits": [
+        {
+          "file": "packages/compiler-core/src/tokenizer.ts",
+          "rank": 4
+        }
+      ]
+    }
+  ]
+}

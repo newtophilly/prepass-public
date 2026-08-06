@@ -1,0 +1,64 @@
+{
+  "workload": "feature",
+  "displayName": "Feature",
+  "keywords": [
+    "add",
+    "implement",
+    "build",
+    "create",
+    "feature",
+    "support",
+    "introduce",
+    "new",
+    "endpoint",
+    "component",
+    "page",
+    "integrate",
+    "wire",
+    "enable",
+    "scaffold",
+    "extend"
+  ],
+  "weightedKeywords": {
+    "greenfield": 1.5,
+    "from scratch": 1.5,
+    "user story": 1.5,
+    "acceptance criteria": 1.5
+  },
+  "antiKeywords": [
+    "bug",
+    "broken",
+    "regression",
+    "stack trace"
+  ],
+  "curationStrategy": {
+    "maxFiles": 15,
+    "includeGlobs": [
+      "src/**",
+      "app/**",
+      "lib/**",
+      "components/**",
+      "**/*.md"
+    ],
+    "excludeGlobs": [
+      "**/node_modules/**",
+      "dist/**",
+      "**/*.lock",
+      "**/*.min.*"
+    ],
+    "prioritySignals": [
+      "existing modules the feature will extend or call",
+      "public interfaces and type definitions",
+      "similar features to mirror for consistency",
+      "routing / registration entrypoints"
+    ]
+  },
+  "routing": {
+    "defaultTier": "balanced",
+    "escalateTier": "premium",
+    "escalateWhen": [
+      "large_prompt",
+      "many_files"
+    ]
+  }
+}

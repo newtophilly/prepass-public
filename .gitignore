@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build output
+dist/
+*.tsbuildinfo
+
+# prepass local telemetry + runtime state (never commit)
+.prepass/
+*.db
+*.db-wal
+*.db-shm
+
+# Secrets — prepass reads keys from the environment or .env.local only
+.env
+.env.*
+!.env.example
+*.pem
+id_*
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Test build output
+dist-test/
+*.tgz
+
+# Local config. .prepass.example.json is the documented template.
+.prepass.json

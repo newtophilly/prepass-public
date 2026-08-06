@@ -1,0 +1,58 @@
+{
+  "workload": "search",
+  "displayName": "Repo Search",
+  "keywords": [
+    "find",
+    "where",
+    "locate",
+    "search",
+    "which",
+    "list",
+    "grep",
+    "look up",
+    "show me",
+    "what",
+    "how many",
+    "trace",
+    "who",
+    "reference",
+    "usage",
+    "definition",
+    "explain"
+  ],
+  "weightedKeywords": {
+    "where is": 1.5,
+    "who calls": 1.5,
+    "find all": 1.5,
+    "list all": 1.5
+  },
+  "antiKeywords": [
+    "implement",
+    "fix the bug",
+    "refactor"
+  ],
+  "curationStrategy": {
+    "maxFiles": 8,
+    "includeGlobs": [
+      "**/*"
+    ],
+    "excludeGlobs": [
+      "**/node_modules/**",
+      "dist/**",
+      "**/*.lock",
+      "**/*.min.*",
+      ".git/**"
+    ],
+    "prioritySignals": [
+      "files whose names or paths match the query terms",
+      "index / barrel files that reveal structure"
+    ]
+  },
+  "routing": {
+    "defaultTier": "cheap",
+    "escalateTier": "balanced",
+    "escalateWhen": [
+      "low_confidence"
+    ]
+  }
+}

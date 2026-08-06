@@ -1,0 +1,77 @@
+{
+  "workload": "review",
+  "displayName": "Code Review",
+  "keywords": [
+    "review",
+    "audit",
+    "critique",
+    "assess",
+    "evaluate",
+    "feedback",
+    "smell",
+    "vulnerability",
+    "security",
+    "correctness",
+    "lgtm",
+    "nitpick",
+    "concerns",
+    "risks",
+    "quality",
+    "diff",
+    "pr",
+    "pull request"
+  ],
+  "weightedKeywords": {
+    "security review": 2.0,
+    "code review": 2.0,
+    "threat model": 2.0,
+    "find bugs": 1.5,
+    "edge cases": 1.5
+  },
+  "antiKeywords": [
+    "implement",
+    "add feature",
+    "just fix it"
+  ],
+  "curationStrategy": {
+    "maxFiles": 25,
+    "includeGlobs": [
+      "src/**",
+      "lib/**",
+      "app/**",
+      "**/*.ts",
+      "**/*.tsx",
+      "**/*.js",
+      "**/*.jsx",
+      "**/*.swift",
+      "**/*.kt",
+      "**/*.java",
+      "**/*.py",
+      "**/*.go",
+      "**/*.rb",
+      "**/*.rs",
+      "**/*.php",
+      "**/*.cs",
+      "**/*.c",
+      "**/*.h",
+      "**/*.cpp",
+      "**/*.m"
+    ],
+    "excludeGlobs": [
+      "**/node_modules/**",
+      "dist/**",
+      "**/*.lock",
+      "**/*.min.*"
+    ],
+    "prioritySignals": [
+      "the changed files in the diff under review",
+      "security-sensitive boundaries (auth, input parsing, SQL, file IO)",
+      "tests covering the reviewed code"
+    ]
+  },
+  "routing": {
+    "defaultTier": "premium",
+    "escalateTier": "premium",
+    "escalateWhen": []
+  }
+}

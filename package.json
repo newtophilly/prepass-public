@@ -1,0 +1,72 @@
+{
+  "name": "@nharing/prepass",
+  "version": "0.1.2",
+  "description": "Stops your coding agent searching from zero. Ranks your repo against the prompt and hands the agent a shortlist of file paths, in ~110ms. No API key, no network call, no index. Works with Claude Code, Codex, and any agent that can run a command.",
+  "type": "module",
+  "license": "Apache-2.0",
+  "author": "Nathan Haring",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/newtophilly/prepass-public.git"
+  },
+  "homepage": "https://github.com/newtophilly/prepass-public#readme",
+  "bugs": {
+    "url": "https://github.com/newtophilly/prepass-public/issues"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "codex",
+    "coding-agent",
+    "context",
+    "retrieval",
+    "bm25",
+    "code-search",
+    "developer-tools",
+    "cli",
+    "hook",
+    "mcp-alternative"
+  ],
+  "bin": {
+    "prepass": "bin/index.js"
+  },
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "files": [
+    ".prepass.example.json",
+    "LICENSE",
+    "NOTICE",
+    "README.md",
+    "bin",
+    "dist",
+    "skills",
+    "taxonomies"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "npm run clean && tsc -p tsconfig.json",
+    "dev": "tsc -p tsconfig.json --watch",
+    "start": "node bin/index.js",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "rm -rf dist-test && tsc -p tsconfig.test.json && node --test \"dist-test/test/**/*.test.js\"",
+    "lint": "eslint \"src/**/*.ts\"",
+    "prepublishOnly": "npm run clean && npm run build && npm test",
+    "clean": "rm -rf dist dist-test"
+  },
+  "dependencies": {
+    "better-sqlite3": "^13.0.1",
+    "commander": "^12.1.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^22.5.0",
+    "typescript": "^5.6.2"
+  }
+}

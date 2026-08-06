@@ -1,0 +1,102 @@
+{
+  "workload": "bugfix",
+  "displayName": "Bug Fix",
+  "keywords": [
+    "bug",
+    "fix",
+    "broken",
+    "error",
+    "crash",
+    "fails",
+    "failing",
+    "regression",
+    "throws",
+    "exception",
+    "traceback",
+    "reproduce",
+    "repro",
+    "hotfix",
+    "incorrect",
+    "unexpected",
+    "null",
+    "undefined",
+    "duplicate",
+    "duplicated",
+    "duplicates",
+    "twice",
+    "double",
+    "wrong",
+    "stuck",
+    "hangs",
+    "freezes",
+    "leak",
+    "race",
+    "inconsistent",
+    "mismatch",
+    "misses",
+    "skipped",
+    "stale",
+    "keeps",
+    "repeatedly",
+    "again"
+  ],
+  "weightedKeywords": {
+    "stacktrace": 2.0,
+    "stack trace": 2.0,
+    "segfault": 2.0,
+    "500 error": 1.5,
+    "panic": 1.5,
+    "flaky": 1.5,
+    "root cause": 1.5,
+    "fires twice": 2.0,
+    "sends twice": 2.0,
+    "shows twice": 2.0,
+    "duplicate": 1.5,
+    "twice": 1.5,
+    "why is": 1.0,
+    "why do": 1.0,
+    "why does": 1.0,
+    "not working": 1.5,
+    "doesn't work": 1.5,
+    "should not": 1.0,
+    "shouldn't": 1.0
+  },
+  "antiKeywords": [
+    "add feature",
+    "new feature",
+    "greenfield",
+    "brainstorm"
+  ],
+  "curationStrategy": {
+    "maxFiles": 12,
+    "includeGlobs": [
+      "src/**",
+      "lib/**",
+      "app/**",
+      "**/*.test.*",
+      "**/*.spec.*"
+    ],
+    "excludeGlobs": [
+      "**/node_modules/**",
+      "dist/**",
+      "**/*.min.*",
+      "**/*.lock",
+      "**/*.md",
+      "**/*.mdx"
+    ],
+    "prioritySignals": [
+      "files named in the stack trace",
+      "the failing test and the code it exercises",
+      "recently changed files touching the error path"
+    ]
+  },
+  "routing": {
+    "defaultTier": "balanced",
+    "escalateTier": "premium",
+    "escalateWhen": [
+      "low_confidence",
+      "large_prompt",
+      "many_files"
+    ]
+  }
+}

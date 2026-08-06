@@ -1,0 +1,82 @@
+{
+  "workload": "refactor",
+  "displayName": "Refactor",
+  "keywords": [
+    "refactor",
+    "rename",
+    "extract",
+    "restructure",
+    "cleanup",
+    "clean",
+    "tidy",
+    "simplify",
+    "dedupe",
+    "deduplicate",
+    "reorganize",
+    "move",
+    "split",
+    "merge",
+    "decouple",
+    "modularize",
+    "migrate",
+    "rewrite"
+  ],
+  "weightedKeywords": {
+    "technical debt": 1.5,
+    "tech debt": 1.5,
+    "code smell": 1.5,
+    "no behavior change": 2.0,
+    "behavior preserving": 2.0
+  },
+  "antiKeywords": [
+    "new feature",
+    "bug",
+    "stack trace"
+  ],
+  "curationStrategy": {
+    "maxFiles": 20,
+    "includeGlobs": [
+      "src/**",
+      "lib/**",
+      "app/**",
+      "**/*.ts",
+      "**/*.tsx",
+      "**/*.js",
+      "**/*.jsx",
+      "**/*.swift",
+      "**/*.kt",
+      "**/*.java",
+      "**/*.py",
+      "**/*.go",
+      "**/*.rb",
+      "**/*.rs",
+      "**/*.php",
+      "**/*.cs",
+      "**/*.c",
+      "**/*.h",
+      "**/*.cpp",
+      "**/*.m"
+    ],
+    "excludeGlobs": [
+      "**/node_modules/**",
+      "dist/**",
+      "**/*.lock",
+      "**/*.min.*",
+      "**/*.md",
+      "**/*.mdx"
+    ],
+    "prioritySignals": [
+      "every call site of the symbol being changed",
+      "the module under refactor and its direct dependents",
+      "existing tests that pin current behavior"
+    ]
+  },
+  "routing": {
+    "defaultTier": "balanced",
+    "escalateTier": "premium",
+    "escalateWhen": [
+      "many_files",
+      "large_prompt"
+    ]
+  }
+}
