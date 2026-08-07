@@ -1,0 +1,4022 @@
+{
+ "results": [
+  {
+   "id": "597f32e9b482833bed151a23",
+   "repo": "clap-rs/clap",
+   "task": "code2test",
+   "pool": 607,
+   "gold": 1,
+   "firstHit": 7,
+   "foundAt": {
+    "5": 0,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 27
+  },
+  {
+   "id": "6b1c1cff373771b4d7225c02",
+   "repo": "clap-rs/clap",
+   "task": "code2test",
+   "pool": 607,
+   "gold": 1,
+   "firstHit": 1,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 21
+  },
+  {
+   "id": "8e5f31c02cbb5bd1563ea5d1",
+   "repo": "clap-rs/clap",
+   "task": "code2test",
+   "pool": 608,
+   "gold": 1,
+   "firstHit": 1,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 26
+  },
+  {
+   "id": "f39b3eb29d5ba2f6c18b0555",
+   "repo": "clap-rs/clap",
+   "task": "code2test",
+   "pool": 608,
+   "gold": 2,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 17
+  },
+  {
+   "id": "0c60e782db37a60abbcd178d",
+   "repo": "etcd-io/etcd",
+   "task": "code2test",
+   "pool": 1425,
+   "gold": 2,
+   "firstHit": 3,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 42
+  },
+  {
+   "id": "120f8ebe03b4feba2ac74c51",
+   "repo": "etcd-io/etcd",
+   "task": "code2test",
+   "pool": 1325,
+   "gold": 1,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 38
+  },
+  {
+   "id": "15959167576a87987d8f9f1f",
+   "repo": "etcd-io/etcd",
+   "task": "code2test",
+   "pool": 1431,
+   "gold": 3,
+   "firstHit": 15,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 1
+   },
+   "ms": 55
+  },
+  {
+   "id": "1dd2bdfdcf7092e1c69f50d6",
+   "repo": "etcd-io/etcd",
+   "task": "code2test",
+   "pool": 1431,
+   "gold": 5,
+   "firstHit": 9,
+   "foundAt": {
+    "5": 0,
+    "10": 2,
+    "20": 4
+   },
+   "ms": 43
+  },
+  {
+   "id": "29168597c41ad9e94b95412c",
+   "repo": "etcd-io/etcd",
+   "task": "code2test",
+   "pool": 1323,
+   "gold": 1,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 43
+  },
+  {
+   "id": "3a9ae9c1d49cc6b262e3cab7",
+   "repo": "etcd-io/etcd",
+   "task": "code2test",
+   "pool": 1376,
+   "gold": 2,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 38
+  },
+  {
+   "id": "6338b75970bc7489e13952b4",
+   "repo": "etcd-io/etcd",
+   "task": "code2test",
+   "pool": 1435,
+   "gold": 2,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 51
+  },
+  {
+   "id": "73fc2431777934774483cb2a",
+   "repo": "etcd-io/etcd",
+   "task": "code2test",
+   "pool": 1425,
+   "gold": 2,
+   "firstHit": 11,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 1
+   },
+   "ms": 52
+  },
+  {
+   "id": "7ccc6b7b5645424485cab6d1",
+   "repo": "etcd-io/etcd",
+   "task": "code2test",
+   "pool": 1323,
+   "gold": 1,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 44
+  },
+  {
+   "id": "810b8fe144165198bc8de283",
+   "repo": "etcd-io/etcd",
+   "task": "code2test",
+   "pool": 1375,
+   "gold": 1,
+   "firstHit": 17,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 1
+   },
+   "ms": 42
+  },
+  {
+   "id": "8ab746ffa3dc3b8e4f8d8327",
+   "repo": "etcd-io/etcd",
+   "task": "code2test",
+   "pool": 1454,
+   "gold": 2,
+   "firstHit": 7,
+   "foundAt": {
+    "5": 0,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 65
+  },
+  {
+   "id": "ba14e2bd566818e73329006b",
+   "repo": "etcd-io/etcd",
+   "task": "code2test",
+   "pool": 1322,
+   "gold": 1,
+   "firstHit": 15,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 1
+   },
+   "ms": 40
+  },
+  {
+   "id": "d7a097e10a28d74d388f9a1c",
+   "repo": "etcd-io/etcd",
+   "task": "code2test",
+   "pool": 1425,
+   "gold": 1,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 40
+  },
+  {
+   "id": "e0a0b8ad2d50c7660fb64a40",
+   "repo": "etcd-io/etcd",
+   "task": "code2test",
+   "pool": 1326,
+   "gold": 1,
+   "firstHit": 2,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 36
+  },
+  {
+   "id": "e613783f191d908cd325ad03",
+   "repo": "etcd-io/etcd",
+   "task": "code2test",
+   "pool": 1323,
+   "gold": 2,
+   "firstHit": 8,
+   "foundAt": {
+    "5": 0,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 40
+  },
+  {
+   "id": "7f2b7ed09afc0e1e57683529",
+   "repo": "fastapi/fastapi",
+   "task": "code2test",
+   "pool": 2457,
+   "gold": 3,
+   "firstHit": 2,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 65
+  },
+  {
+   "id": "a56cae404e506311c0614d5f",
+   "repo": "fastapi/fastapi",
+   "task": "code2test",
+   "pool": 2455,
+   "gold": 1,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 60
+  },
+  {
+   "id": "dd57d697481176a1c52bd8d0",
+   "repo": "fastapi/fastapi",
+   "task": "code2test",
+   "pool": 2562,
+   "gold": 1,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 84
+  },
+  {
+   "id": "17ed1867ee5224ae7952b5df",
+   "repo": "gin-gonic/gin",
+   "task": "code2test",
+   "pool": 116,
+   "gold": 1,
+   "firstHit": 14,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 1
+   },
+   "ms": 9
+  },
+  {
+   "id": "46cbbb206ba9c760f4550ec1",
+   "repo": "gin-gonic/gin",
+   "task": "code2test",
+   "pool": 117,
+   "gold": 1,
+   "firstHit": 14,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 1
+   },
+   "ms": 9
+  },
+  {
+   "id": "4efdeafc9e5c6cf5ef4334fc",
+   "repo": "gin-gonic/gin",
+   "task": "code2test",
+   "pool": 118,
+   "gold": 2,
+   "firstHit": 1,
+   "foundAt": {
+    "5": 1,
+    "10": 2,
+    "20": 2
+   },
+   "ms": 13
+  },
+  {
+   "id": "5c8898135fb93236ba5d6c13",
+   "repo": "gin-gonic/gin",
+   "task": "code2test",
+   "pool": 117,
+   "gold": 1,
+   "firstHit": 2,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 11
+  },
+  {
+   "id": "5f4c149c9f7dac47ebcf685d",
+   "repo": "gin-gonic/gin",
+   "task": "code2test",
+   "pool": 122,
+   "gold": 1,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 9
+  },
+  {
+   "id": "725dd77bdee89b3e125bd7e5",
+   "repo": "gin-gonic/gin",
+   "task": "code2test",
+   "pool": 125,
+   "gold": 1,
+   "firstHit": 4,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 8
+  },
+  {
+   "id": "8a1219475ef9f0e5271d7bd9",
+   "repo": "gin-gonic/gin",
+   "task": "code2test",
+   "pool": 126,
+   "gold": 1,
+   "firstHit": 1,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 11
+  },
+  {
+   "id": "a29f65fcb9622959ff46d6c5",
+   "repo": "gin-gonic/gin",
+   "task": "code2test",
+   "pool": 126,
+   "gold": 1,
+   "firstHit": 19,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 1
+   },
+   "ms": 17
+  },
+  {
+   "id": "aec3dd1a05160ca84c48d070",
+   "repo": "gin-gonic/gin",
+   "task": "code2test",
+   "pool": 119,
+   "gold": 1,
+   "firstHit": 2,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 15
+  },
+  {
+   "id": "b2bcc7a9cd02595dccde4bb0",
+   "repo": "gin-gonic/gin",
+   "task": "code2test",
+   "pool": 117,
+   "gold": 1,
+   "firstHit": 3,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 10
+  },
+  {
+   "id": "c3931963a24dd965a4ebb50c",
+   "repo": "gin-gonic/gin",
+   "task": "code2test",
+   "pool": 117,
+   "gold": 1,
+   "firstHit": 4,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 15
+  },
+  {
+   "id": "d7869de71f50a99dafc8478a",
+   "repo": "gin-gonic/gin",
+   "task": "code2test",
+   "pool": 117,
+   "gold": 2,
+   "firstHit": 16,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 2
+   },
+   "ms": 11
+  },
+  {
+   "id": "eb14454231d369a4b024fc4b",
+   "repo": "gin-gonic/gin",
+   "task": "code2test",
+   "pool": 119,
+   "gold": 2,
+   "firstHit": 1,
+   "foundAt": {
+    "5": 1,
+    "10": 2,
+    "20": 2
+   },
+   "ms": 12
+  },
+  {
+   "id": "f2f7ad9eec300764ca5f7048",
+   "repo": "gin-gonic/gin",
+   "task": "code2test",
+   "pool": 122,
+   "gold": 1,
+   "firstHit": 2,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 17
+  },
+  {
+   "id": "fbf9c4f79a3bad9970904209",
+   "repo": "gin-gonic/gin",
+   "task": "code2test",
+   "pool": 122,
+   "gold": 1,
+   "firstHit": 2,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 11
+  },
+  {
+   "id": "210933147c231644eeebdaae",
+   "repo": "huggingface/diffusers",
+   "task": "code2test",
+   "pool": 2432,
+   "gold": 1,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 128
+  },
+  {
+   "id": "2a765868fa2a6292543460f9",
+   "repo": "huggingface/diffusers",
+   "task": "code2test",
+   "pool": 2311,
+   "gold": 2,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 166
+  },
+  {
+   "id": "81051ce9f995fdb7e2deba4b",
+   "repo": "huggingface/diffusers",
+   "task": "code2test",
+   "pool": 2391,
+   "gold": 1,
+   "firstHit": 6,
+   "foundAt": {
+    "5": 0,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 71
+  },
+  {
+   "id": "95a325995771fa5acd3f9c69",
+   "repo": "huggingface/diffusers",
+   "task": "code2test",
+   "pool": 2432,
+   "gold": 2,
+   "firstHit": 2,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 140
+  },
+  {
+   "id": "c60a8891f2e4fc1229f51fa7",
+   "repo": "huggingface/diffusers",
+   "task": "code2test",
+   "pool": 2338,
+   "gold": 2,
+   "firstHit": 2,
+   "foundAt": {
+    "5": 2,
+    "10": 2,
+    "20": 2
+   },
+   "ms": 86
+  },
+  {
+   "id": "c7ea7d6fe8de97695a6c286e",
+   "repo": "huggingface/diffusers",
+   "task": "code2test",
+   "pool": 2339,
+   "gold": 1,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 151
+  },
+  {
+   "id": "0a4b3f17ec58d3405b1c9a47",
+   "repo": "huggingface/transformers",
+   "task": "code2test",
+   "pool": 4969,
+   "gold": 2,
+   "firstHit": 1,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 146
+  },
+  {
+   "id": "12b84b0c5fa5ad2a5ec98099",
+   "repo": "huggingface/transformers",
+   "task": "code2test",
+   "pool": 5273,
+   "gold": 3,
+   "firstHit": 6,
+   "foundAt": {
+    "5": 0,
+    "10": 2,
+    "20": 2
+   },
+   "ms": 252
+  },
+  {
+   "id": "210bcbf1622401f32d9f8c8e",
+   "repo": "huggingface/transformers",
+   "task": "code2test",
+   "pool": 5281,
+   "gold": 1,
+   "firstHit": 12,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 1
+   },
+   "ms": 270
+  },
+  {
+   "id": "23a2b9be96f7a7fd29d64e25",
+   "repo": "huggingface/transformers",
+   "task": "code2test",
+   "pool": 5266,
+   "gold": 1,
+   "firstHit": 2,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 263
+  },
+  {
+   "id": "63104a1841c8cb80a25ba9de",
+   "repo": "huggingface/transformers",
+   "task": "code2test",
+   "pool": 5279,
+   "gold": 1,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 154
+  },
+  {
+   "id": "813d94498e2857e40587f5a5",
+   "repo": "huggingface/transformers",
+   "task": "code2test",
+   "pool": 4931,
+   "gold": 2,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 204
+  },
+  {
+   "id": "896a5d9f9bfa6cb68a4775ee",
+   "repo": "huggingface/transformers",
+   "task": "code2test",
+   "pool": 5258,
+   "gold": 1,
+   "firstHit": 17,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 1
+   },
+   "ms": 306
+  },
+  {
+   "id": "9c620240e44f40fd7c2aaba0",
+   "repo": "huggingface/transformers",
+   "task": "code2test",
+   "pool": 5266,
+   "gold": 1,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 242
+  },
+  {
+   "id": "9fb496bd5c0a3550a08ad0ae",
+   "repo": "huggingface/transformers",
+   "task": "code2test",
+   "pool": 5245,
+   "gold": 1,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 209
+  },
+  {
+   "id": "a4afc36fc4ad65c7596fd5a5",
+   "repo": "huggingface/transformers",
+   "task": "code2test",
+   "pool": 5279,
+   "gold": 1,
+   "firstHit": 9,
+   "foundAt": {
+    "5": 0,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 309
+  },
+  {
+   "id": "a82117a5d29dd98d94ceb931",
+   "repo": "huggingface/transformers",
+   "task": "code2test",
+   "pool": 5257,
+   "gold": 2,
+   "firstHit": 3,
+   "foundAt": {
+    "5": 1,
+    "10": 2,
+    "20": 2
+   },
+   "ms": 264
+  },
+  {
+   "id": "c8318e728513c1a4c1bd4c9d",
+   "repo": "huggingface/transformers",
+   "task": "code2test",
+   "pool": 5256,
+   "gold": 1,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 227
+  },
+  {
+   "id": "c9059c66a5c31bceb46c9edf",
+   "repo": "huggingface/transformers",
+   "task": "code2test",
+   "pool": 4852,
+   "gold": 2,
+   "firstHit": 3,
+   "foundAt": {
+    "5": 1,
+    "10": 2,
+    "20": 2
+   },
+   "ms": 292
+  },
+  {
+   "id": "d33132ce299c01e986c74210",
+   "repo": "huggingface/transformers",
+   "task": "code2test",
+   "pool": 5265,
+   "gold": 2,
+   "firstHit": 4,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 287
+  },
+  {
+   "id": "e2d0725fea18663dc8608d5e",
+   "repo": "huggingface/transformers",
+   "task": "code2test",
+   "pool": 5273,
+   "gold": 1,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 140
+  },
+  {
+   "id": "94f11ff5d8076850f94d6f04",
+   "repo": "mockito/mockito",
+   "task": "code2test",
+   "pool": 1116,
+   "gold": 1,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 69
+  },
+  {
+   "id": "2bbbe7ecba9c6fa62a48a36f",
+   "repo": "pytest-dev/pytest",
+   "task": "code2test",
+   "pool": 520,
+   "gold": 2,
+   "firstHit": 2,
+   "foundAt": {
+    "5": 1,
+    "10": 2,
+    "20": 2
+   },
+   "ms": 23
+  },
+  {
+   "id": "5a834c2130d04105906a9240",
+   "repo": "pytest-dev/pytest",
+   "task": "code2test",
+   "pool": 589,
+   "gold": 1,
+   "firstHit": 20,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 1
+   },
+   "ms": 14
+  },
+  {
+   "id": "e6b3d0834b130dd9a2b7015d",
+   "repo": "pytest-dev/pytest",
+   "task": "code2test",
+   "pool": 580,
+   "gold": 1,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 24
+  },
+  {
+   "id": "2177ce0889655fd1979b99c1",
+   "repo": "spring-projects/spring-boot",
+   "task": "code2test",
+   "pool": 11139,
+   "gold": 1,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 514
+  },
+  {
+   "id": "8a60031f5cc13ef87b0ecdab",
+   "repo": "spring-projects/spring-boot",
+   "task": "code2test",
+   "pool": 10022,
+   "gold": 3,
+   "firstHit": 1,
+   "foundAt": {
+    "5": 2,
+    "10": 2,
+    "20": 2
+   },
+   "ms": 477
+  },
+  {
+   "id": "9c3412dfb452df23d783c5e6",
+   "repo": "spring-projects/spring-boot",
+   "task": "code2test",
+   "pool": 11172,
+   "gold": 2,
+   "firstHit": 14,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 2
+   },
+   "ms": 479
+  },
+  {
+   "id": "d58f6487e6e2721dd5266c21",
+   "repo": "spring-projects/spring-boot",
+   "task": "code2test",
+   "pool": 10021,
+   "gold": 1,
+   "firstHit": 6,
+   "foundAt": {
+    "5": 0,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 441
+  },
+  {
+   "id": "e8ef6b1c59b7afde52d0cded",
+   "repo": "spring-projects/spring-boot",
+   "task": "code2test",
+   "pool": 10028,
+   "gold": 2,
+   "firstHit": 2,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 424
+  },
+  {
+   "id": "1bb413019cf24674eb1c59b1",
+   "repo": "tokio-rs/tokio",
+   "task": "code2test",
+   "pool": 815,
+   "gold": 1,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 25
+  },
+  {
+   "id": "290f9b4b23f1a11a96a8ae4a",
+   "repo": "tokio-rs/tokio",
+   "task": "code2test",
+   "pool": 767,
+   "gold": 1,
+   "firstHit": 4,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 35
+  },
+  {
+   "id": "3e1ace6bf8d886265dbe6307",
+   "repo": "tokio-rs/tokio",
+   "task": "code2test",
+   "pool": 780,
+   "gold": 1,
+   "firstHit": 7,
+   "foundAt": {
+    "5": 0,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 34
+  },
+  {
+   "id": "4630dbe07a1c91005bbfd092",
+   "repo": "tokio-rs/tokio",
+   "task": "code2test",
+   "pool": 816,
+   "gold": 1,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 22
+  },
+  {
+   "id": "654844880c35105f5cd15e55",
+   "repo": "tokio-rs/tokio",
+   "task": "code2test",
+   "pool": 816,
+   "gold": 1,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 36
+  },
+  {
+   "id": "7ae166d7364fe6e5c438dc2c",
+   "repo": "tokio-rs/tokio",
+   "task": "code2test",
+   "pool": 812,
+   "gold": 2,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 35
+  },
+  {
+   "id": "8ccd4fc7cb2c41bf69717b6c",
+   "repo": "tokio-rs/tokio",
+   "task": "code2test",
+   "pool": 782,
+   "gold": 2,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 39
+  },
+  {
+   "id": "9dec25e4fbdd806e9efbc9a0",
+   "repo": "tokio-rs/tokio",
+   "task": "code2test",
+   "pool": 829,
+   "gold": 1,
+   "firstHit": 3,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 29
+  },
+  {
+   "id": "a2519be171d0ec30d9ac5704",
+   "repo": "tokio-rs/tokio",
+   "task": "code2test",
+   "pool": 819,
+   "gold": 1,
+   "firstHit": 15,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 1
+   },
+   "ms": 37
+  },
+  {
+   "id": "a395d9eb9a2c1e5a6a079c41",
+   "repo": "tokio-rs/tokio",
+   "task": "code2test",
+   "pool": 482,
+   "gold": 1,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 26
+  },
+  {
+   "id": "aab82f381a4ad9fca153446a",
+   "repo": "tokio-rs/tokio",
+   "task": "code2test",
+   "pool": 784,
+   "gold": 1,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 37
+  },
+  {
+   "id": "b4fc03b0252aeaeef3a39e1d",
+   "repo": "tokio-rs/tokio",
+   "task": "code2test",
+   "pool": 784,
+   "gold": 1,
+   "firstHit": 5,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 38
+  },
+  {
+   "id": "b6f3032d950cd517bf145d88",
+   "repo": "tokio-rs/tokio",
+   "task": "code2test",
+   "pool": 782,
+   "gold": 1,
+   "firstHit": 2,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 33
+  },
+  {
+   "id": "c5186727aa0268eb514ee57c",
+   "repo": "tokio-rs/tokio",
+   "task": "code2test",
+   "pool": 711,
+   "gold": 2,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 33
+  },
+  {
+   "id": "eb7fc5c7b88aeb04667b3a6d",
+   "repo": "tokio-rs/tokio",
+   "task": "code2test",
+   "pool": 774,
+   "gold": 1,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 41
+  },
+  {
+   "id": "176cf95c04cde79a4e1ef372",
+   "repo": "vitejs/vite",
+   "task": "code2test",
+   "pool": 2350,
+   "gold": 1,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 51
+  },
+  {
+   "id": "4fdbbdc32c7b448ee619857f",
+   "repo": "vitejs/vite",
+   "task": "code2test",
+   "pool": 2359,
+   "gold": 1,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 90
+  },
+  {
+   "id": "5cd819d490097447cf6a5222",
+   "repo": "vitejs/vite",
+   "task": "code2test",
+   "pool": 2340,
+   "gold": 1,
+   "firstHit": 9,
+   "foundAt": {
+    "5": 0,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 73
+  },
+  {
+   "id": "5d512b3ddc0d6efa173667e1",
+   "repo": "vitejs/vite",
+   "task": "code2test",
+   "pool": 2350,
+   "gold": 1,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 67
+  },
+  {
+   "id": "753493cfaf4f9c9a445427ef",
+   "repo": "vitejs/vite",
+   "task": "code2test",
+   "pool": 2299,
+   "gold": 1,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 75
+  },
+  {
+   "id": "874789dba71301e49e64f97c",
+   "repo": "vitejs/vite",
+   "task": "code2test",
+   "pool": 2349,
+   "gold": 3,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 55
+  },
+  {
+   "id": "9b942f47a95fcf41f9a7866f",
+   "repo": "vitejs/vite",
+   "task": "code2test",
+   "pool": 2299,
+   "gold": 1,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 53
+  },
+  {
+   "id": "9cf0a50aa7225934e6f5ac59",
+   "repo": "vitejs/vite",
+   "task": "code2test",
+   "pool": 2340,
+   "gold": 3,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 45
+  },
+  {
+   "id": "9db66acfccc3e33d6fed1750",
+   "repo": "vitejs/vite",
+   "task": "code2test",
+   "pool": 2350,
+   "gold": 1,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 55
+  },
+  {
+   "id": "a5663509f3a348043512b15b",
+   "repo": "vitejs/vite",
+   "task": "code2test",
+   "pool": 2365,
+   "gold": 2,
+   "firstHit": 2,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 60
+  },
+  {
+   "id": "a7470b074620e51373b7a6ad",
+   "repo": "vitejs/vite",
+   "task": "code2test",
+   "pool": 2300,
+   "gold": 1,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 84
+  },
+  {
+   "id": "b2b892ebfcaf60fbc32268a0",
+   "repo": "vitejs/vite",
+   "task": "code2test",
+   "pool": 2338,
+   "gold": 1,
+   "firstHit": 4,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 66
+  },
+  {
+   "id": "be31a2fa7c15ba7a9c720619",
+   "repo": "vitejs/vite",
+   "task": "code2test",
+   "pool": 2338,
+   "gold": 1,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 59
+  },
+  {
+   "id": "c81f5402632894aee445eef6",
+   "repo": "vitejs/vite",
+   "task": "code2test",
+   "pool": 2350,
+   "gold": 1,
+   "firstHit": 1,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 61
+  },
+  {
+   "id": "c859445c6efbe83774341f1d",
+   "repo": "vitejs/vite",
+   "task": "code2test",
+   "pool": 2359,
+   "gold": 1,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 80
+  },
+  {
+   "id": "cb31b15882b858e2806de7c0",
+   "repo": "vitejs/vite",
+   "task": "code2test",
+   "pool": 2310,
+   "gold": 1,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 64
+  },
+  {
+   "id": "dbcf0a725b9a10e1b36ce135",
+   "repo": "vitejs/vite",
+   "task": "code2test",
+   "pool": 2328,
+   "gold": 1,
+   "firstHit": 10,
+   "foundAt": {
+    "5": 0,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 53
+  },
+  {
+   "id": "e66b86e30c902cfb62a0f75b",
+   "repo": "vitejs/vite",
+   "task": "code2test",
+   "pool": 2338,
+   "gold": 1,
+   "firstHit": 3,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 50
+  },
+  {
+   "id": "fe73fb28c2181e73e228e54f",
+   "repo": "vitejs/vite",
+   "task": "code2test",
+   "pool": 2328,
+   "gold": 1,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 79
+  },
+  {
+   "id": "58a56ad19a7f83376ec06606",
+   "repo": "vuejs/core",
+   "task": "code2test",
+   "pool": 953,
+   "gold": 1,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 27
+  },
+  {
+   "id": "72a10b942f9f9905d29ff222",
+   "repo": "vuejs/core",
+   "task": "code2test",
+   "pool": 953,
+   "gold": 1,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 34
+  },
+  {
+   "id": "a7c7ef59d68f723d79d9c7b5",
+   "repo": "vuejs/core",
+   "task": "code2test",
+   "pool": 953,
+   "gold": 1,
+   "firstHit": 8,
+   "foundAt": {
+    "5": 0,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 26
+  },
+  {
+   "id": "e304584124e9a1194c558fbc",
+   "repo": "vuejs/core",
+   "task": "code2test",
+   "pool": 961,
+   "gold": 1,
+   "firstHit": 6,
+   "foundAt": {
+    "5": 0,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 31
+  },
+  {
+   "id": "ec9507f883d2784e5990946c",
+   "repo": "vuejs/core",
+   "task": "code2test",
+   "pool": 957,
+   "gold": 2,
+   "firstHit": 13,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 1
+   },
+   "ms": 24
+  },
+  {
+   "id": "bf47308900fafdff5ca96ecd",
+   "repo": "HypothesisWorks/hypothesis",
+   "task": "comment2context",
+   "pool": 659,
+   "gold": 2,
+   "firstHit": 5,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 26
+  },
+  {
+   "id": "01323034afde8983e978b8d2",
+   "repo": "astral-sh/ruff",
+   "task": "comment2context",
+   "pool": 5917,
+   "gold": 1,
+   "firstHit": 13,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 1
+   },
+   "ms": 192
+  },
+  {
+   "id": "413524fdc2e0151ec121653c",
+   "repo": "astral-sh/ruff",
+   "task": "comment2context",
+   "pool": 5904,
+   "gold": 1,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 185
+  },
+  {
+   "id": "538d376414b12c2b7cc08d73",
+   "repo": "astral-sh/ruff",
+   "task": "comment2context",
+   "pool": 5904,
+   "gold": 2,
+   "firstHit": 1,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 190
+  },
+  {
+   "id": "8e6bf4a9d26a7468cab5a5da",
+   "repo": "astral-sh/ruff",
+   "task": "comment2context",
+   "pool": 5908,
+   "gold": 1,
+   "firstHit": 3,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 165
+  },
+  {
+   "id": "db9648de45cff4b6700ae278",
+   "repo": "astral-sh/ruff",
+   "task": "comment2context",
+   "pool": 5907,
+   "gold": 1,
+   "firstHit": 1,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 206
+  },
+  {
+   "id": "f9c42afe1a93c3f2286bd0aa",
+   "repo": "astral-sh/ruff",
+   "task": "comment2context",
+   "pool": 5904,
+   "gold": 2,
+   "firstHit": 7,
+   "foundAt": {
+    "5": 0,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 174
+  },
+  {
+   "id": "449280b38ce700056be47fe",
+   "repo": "eslint/eslint",
+   "task": "comment2context",
+   "pool": 2154,
+   "gold": 1,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 79
+  },
+  {
+   "id": "0265037c6c534b98289fe815",
+   "repo": "etcd-io/etcd",
+   "task": "comment2context",
+   "pool": 1425,
+   "gold": 3,
+   "firstHit": 1,
+   "foundAt": {
+    "5": 2,
+    "10": 3,
+    "20": 3
+   },
+   "ms": 43
+  },
+  {
+   "id": "191c9a48dcea15ffd9b74793",
+   "repo": "etcd-io/etcd",
+   "task": "comment2context",
+   "pool": 1425,
+   "gold": 3,
+   "firstHit": 3,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 66
+  },
+  {
+   "id": "38c2a13af5bdc49dd7d75a2f",
+   "repo": "etcd-io/etcd",
+   "task": "comment2context",
+   "pool": 1322,
+   "gold": 2,
+   "firstHit": 8,
+   "foundAt": {
+    "5": 0,
+    "10": 1,
+    "20": 2
+   },
+   "ms": 42
+  },
+  {
+   "id": "3fd987cc42a8a4550add3562",
+   "repo": "etcd-io/etcd",
+   "task": "comment2context",
+   "pool": 1431,
+   "gold": 2,
+   "firstHit": 1,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 43
+  },
+  {
+   "id": "41deac7db89b57cead1c85e0",
+   "repo": "etcd-io/etcd",
+   "task": "comment2context",
+   "pool": 1425,
+   "gold": 3,
+   "firstHit": 4,
+   "foundAt": {
+    "5": 2,
+    "10": 2,
+    "20": 2
+   },
+   "ms": 49
+  },
+  {
+   "id": "44eb66d77e310e55a71d007d",
+   "repo": "etcd-io/etcd",
+   "task": "comment2context",
+   "pool": 1421,
+   "gold": 1,
+   "firstHit": 2,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 37
+  },
+  {
+   "id": "7d5c2788e4c30bb773cb6643",
+   "repo": "etcd-io/etcd",
+   "task": "comment2context",
+   "pool": 1425,
+   "gold": 3,
+   "firstHit": 1,
+   "foundAt": {
+    "5": 2,
+    "10": 2,
+    "20": 2
+   },
+   "ms": 53
+  },
+  {
+   "id": "ac0571b1e94a8f064f02e864",
+   "repo": "etcd-io/etcd",
+   "task": "comment2context",
+   "pool": 1323,
+   "gold": 2,
+   "firstHit": 1,
+   "foundAt": {
+    "5": 1,
+    "10": 2,
+    "20": 2
+   },
+   "ms": 42
+  },
+  {
+   "id": "ba3c1cd24f66bb46eb30d57d",
+   "repo": "etcd-io/etcd",
+   "task": "comment2context",
+   "pool": 1431,
+   "gold": 3,
+   "firstHit": 4,
+   "foundAt": {
+    "5": 2,
+    "10": 3,
+    "20": 3
+   },
+   "ms": 53
+  },
+  {
+   "id": "bb23acb59ca8f1acfed7fd4b",
+   "repo": "etcd-io/etcd",
+   "task": "comment2context",
+   "pool": 1325,
+   "gold": 1,
+   "firstHit": 3,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 53
+  },
+  {
+   "id": "c9f5bf8f601c131878216f20",
+   "repo": "etcd-io/etcd",
+   "task": "comment2context",
+   "pool": 1431,
+   "gold": 1,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 41
+  },
+  {
+   "id": "d5f1198f6fb5e19244fd4ac7",
+   "repo": "etcd-io/etcd",
+   "task": "comment2context",
+   "pool": 1431,
+   "gold": 3,
+   "firstHit": 12,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 1
+   },
+   "ms": 53
+  },
+  {
+   "id": "e1280404f66f39671f1939e5",
+   "repo": "etcd-io/etcd",
+   "task": "comment2context",
+   "pool": 1431,
+   "gold": 3,
+   "firstHit": 5,
+   "foundAt": {
+    "5": 1,
+    "10": 3,
+    "20": 3
+   },
+   "ms": 53
+  },
+  {
+   "id": "e45d17f09b4ecbc9c61e2aff",
+   "repo": "etcd-io/etcd",
+   "task": "comment2context",
+   "pool": 1431,
+   "gold": 3,
+   "firstHit": 10,
+   "foundAt": {
+    "5": 0,
+    "10": 1,
+    "20": 3
+   },
+   "ms": 66
+  },
+  {
+   "id": "f2ed9144242438cac8f3706b",
+   "repo": "etcd-io/etcd",
+   "task": "comment2context",
+   "pool": 1323,
+   "gold": 2,
+   "firstHit": 2,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 48
+  },
+  {
+   "id": "fa3c694a355ce304193a46e8",
+   "repo": "etcd-io/etcd",
+   "task": "comment2context",
+   "pool": 1425,
+   "gold": 3,
+   "firstHit": 17,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 1
+   },
+   "ms": 53
+  },
+  {
+   "id": "154523e8d0af9b78d3138dd4",
+   "repo": "huggingface/diffusers",
+   "task": "comment2context",
+   "pool": 2432,
+   "gold": 3,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 116
+  },
+  {
+   "id": "4859c611ffd0c874827b2e28",
+   "repo": "huggingface/diffusers",
+   "task": "comment2context",
+   "pool": 2311,
+   "gold": 1,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 110
+  },
+  {
+   "id": "7d661ed7231eb85fa0e44073",
+   "repo": "huggingface/diffusers",
+   "task": "comment2context",
+   "pool": 2432,
+   "gold": 3,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 154
+  },
+  {
+   "id": "8c8c2eb1ece3b9098d999ec6",
+   "repo": "huggingface/diffusers",
+   "task": "comment2context",
+   "pool": 2429,
+   "gold": 3,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 137
+  },
+  {
+   "id": "8d19ca90da7a3f1ce81d3654",
+   "repo": "huggingface/diffusers",
+   "task": "comment2context",
+   "pool": 2432,
+   "gold": 3,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 152
+  },
+  {
+   "id": "a17b0c140c1465ce72d6380f",
+   "repo": "huggingface/diffusers",
+   "task": "comment2context",
+   "pool": 2429,
+   "gold": 3,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 154
+  },
+  {
+   "id": "bc87006be1901ac68dd4fb27",
+   "repo": "huggingface/diffusers",
+   "task": "comment2context",
+   "pool": 2391,
+   "gold": 1,
+   "firstHit": 5,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 168
+  },
+  {
+   "id": "c7f3b6917b991258d6cd1ba3",
+   "repo": "huggingface/diffusers",
+   "task": "comment2context",
+   "pool": 2429,
+   "gold": 3,
+   "firstHit": 11,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 1
+   },
+   "ms": 132
+  },
+  {
+   "id": "d837c1ef083893fbc9f88e61",
+   "repo": "huggingface/diffusers",
+   "task": "comment2context",
+   "pool": 2338,
+   "gold": 1,
+   "firstHit": 6,
+   "foundAt": {
+    "5": 0,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 181
+  },
+  {
+   "id": "051a22c7b9ec33a412400b9b",
+   "repo": "huggingface/transformers",
+   "task": "comment2context",
+   "pool": 5273,
+   "gold": 1,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 244
+  },
+  {
+   "id": "0a166358bf317488838726c8",
+   "repo": "huggingface/transformers",
+   "task": "comment2context",
+   "pool": 5281,
+   "gold": 1,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 267
+  },
+  {
+   "id": "2f529c8b32595d33260201df",
+   "repo": "huggingface/transformers",
+   "task": "comment2context",
+   "pool": 5257,
+   "gold": 1,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 182
+  },
+  {
+   "id": "335597eedde48b67ef1eace6",
+   "repo": "huggingface/transformers",
+   "task": "comment2context",
+   "pool": 5266,
+   "gold": 1,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 257
+  },
+  {
+   "id": "3e57030fb6c9956e0c83cd5f",
+   "repo": "huggingface/transformers",
+   "task": "comment2context",
+   "pool": 5273,
+   "gold": 1,
+   "firstHit": 3,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 260
+  },
+  {
+   "id": "70637f29f6cbc720fd50d434",
+   "repo": "huggingface/transformers",
+   "task": "comment2context",
+   "pool": 5257,
+   "gold": 1,
+   "firstHit": 5,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 224
+  },
+  {
+   "id": "9aa10bc61432e4ebe7b7a30f",
+   "repo": "huggingface/transformers",
+   "task": "comment2context",
+   "pool": 5281,
+   "gold": 1,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 170
+  },
+  {
+   "id": "9c3a21b87845b6155070778a",
+   "repo": "huggingface/transformers",
+   "task": "comment2context",
+   "pool": 5257,
+   "gold": 1,
+   "firstHit": 2,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 269
+  },
+  {
+   "id": "a4b5977e7992227a6ad72eef",
+   "repo": "huggingface/transformers",
+   "task": "comment2context",
+   "pool": 5281,
+   "gold": 1,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 213
+  },
+  {
+   "id": "ae6d94b39684787186aca455",
+   "repo": "huggingface/transformers",
+   "task": "comment2context",
+   "pool": 5273,
+   "gold": 1,
+   "firstHit": 3,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 242
+  },
+  {
+   "id": "ae7f8cc63000716014d4311a",
+   "repo": "huggingface/transformers",
+   "task": "comment2context",
+   "pool": 5266,
+   "gold": 2,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 192
+  },
+  {
+   "id": "ca350356d5541468f6a69cab",
+   "repo": "huggingface/transformers",
+   "task": "comment2context",
+   "pool": 5022,
+   "gold": 1,
+   "firstHit": 8,
+   "foundAt": {
+    "5": 0,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 197
+  },
+  {
+   "id": "f97f273b25078d4a0dd01c00",
+   "repo": "huggingface/transformers",
+   "task": "comment2context",
+   "pool": 5279,
+   "gold": 1,
+   "firstHit": 10,
+   "foundAt": {
+    "5": 0,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 134
+  },
+  {
+   "id": "147ffd163a5f7740c548181a",
+   "repo": "ipython/ipython",
+   "task": "comment2context",
+   "pool": 418,
+   "gold": 1,
+   "firstHit": 6,
+   "foundAt": {
+    "5": 0,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 24
+  },
+  {
+   "id": "a467dd604220332910c7e4e4",
+   "repo": "ipython/ipython",
+   "task": "comment2context",
+   "pool": 418,
+   "gold": 1,
+   "firstHit": 13,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 1
+   },
+   "ms": 23
+  },
+  {
+   "id": "2f39489dd27f283deb0f7fae",
+   "repo": "microsoft/playwright",
+   "task": "comment2context",
+   "pool": 2666,
+   "gold": 1,
+   "firstHit": 7,
+   "foundAt": {
+    "5": 0,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 145
+  },
+  {
+   "id": "405caf34d52dc85b3655ad2f",
+   "repo": "microsoft/playwright",
+   "task": "comment2context",
+   "pool": 2666,
+   "gold": 1,
+   "firstHit": 5,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 125
+  },
+  {
+   "id": "8cd3867f9e984d7f3adf41e6",
+   "repo": "microsoft/playwright",
+   "task": "comment2context",
+   "pool": 2666,
+   "gold": 2,
+   "firstHit": 4,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 2
+   },
+   "ms": 72
+  },
+  {
+   "id": "933cf220419f1e5d45d8304f",
+   "repo": "microsoft/playwright",
+   "task": "comment2context",
+   "pool": 2666,
+   "gold": 1,
+   "firstHit": 6,
+   "foundAt": {
+    "5": 0,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 165
+  },
+  {
+   "id": "1aed02fc2c6d73a0ae8e2f1f",
+   "repo": "numpy/numpy",
+   "task": "comment2context",
+   "pool": 2217,
+   "gold": 2,
+   "firstHit": 20,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 1
+   },
+   "ms": 99
+  },
+  {
+   "id": "106d7add9c91db6d52f8153a",
+   "repo": "pydantic/pydantic",
+   "task": "comment2context",
+   "pool": 701,
+   "gold": 1,
+   "firstHit": 10,
+   "foundAt": {
+    "5": 0,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 31
+  },
+  {
+   "id": "0c2c605d33c218c21353c465",
+   "repo": "pypa/pip",
+   "task": "comment2context",
+   "pool": 578,
+   "gold": 1,
+   "firstHit": 2,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 24
+  },
+  {
+   "id": "7fcc9b918996fa51e4e6c56f",
+   "repo": "pypa/pip",
+   "task": "comment2context",
+   "pool": 596,
+   "gold": 2,
+   "firstHit": 2,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 29
+  },
+  {
+   "id": "856a5754303a1fd5737edf65",
+   "repo": "pypa/pip",
+   "task": "comment2context",
+   "pool": 573,
+   "gold": 2,
+   "firstHit": 10,
+   "foundAt": {
+    "5": 0,
+    "10": 1,
+    "20": 2
+   },
+   "ms": 27
+  },
+  {
+   "id": "a1ced6614a88236ca95d50df",
+   "repo": "pypa/pip",
+   "task": "comment2context",
+   "pool": 596,
+   "gold": 2,
+   "firstHit": 20,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 1
+   },
+   "ms": 22
+  },
+  {
+   "id": "c00e6405f350021e79f5710f",
+   "repo": "pypa/pip",
+   "task": "comment2context",
+   "pool": 599,
+   "gold": 2,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 25
+  },
+  {
+   "id": "274d3a66fcf1f52cec4d6c13",
+   "repo": "pytest-dev/pytest",
+   "task": "comment2context",
+   "pool": 607,
+   "gold": 2,
+   "firstHit": 3,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 29
+  },
+  {
+   "id": "a5ef6228e76da22ccdcf6687",
+   "repo": "pytest-dev/pytest",
+   "task": "comment2context",
+   "pool": 595,
+   "gold": 2,
+   "firstHit": 20,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 1
+   },
+   "ms": 24
+  },
+  {
+   "id": "4cdc08901ee5dc7613bfa293",
+   "repo": "python/mypy",
+   "task": "comment2context",
+   "pool": 1771,
+   "gold": 1,
+   "firstHit": 5,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 72
+  },
+  {
+   "id": "0b514d819e10c606b274e8c0",
+   "repo": "scrapy/scrapy",
+   "task": "comment2context",
+   "pool": 576,
+   "gold": 2,
+   "firstHit": 9,
+   "foundAt": {
+    "5": 0,
+    "10": 2,
+    "20": 2
+   },
+   "ms": 29
+  },
+  {
+   "id": "128f9e22e10889d2d819753c",
+   "repo": "scrapy/scrapy",
+   "task": "comment2context",
+   "pool": 579,
+   "gold": 1,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 29
+  },
+  {
+   "id": "3025e4292fbebc1b7bdc3329",
+   "repo": "scrapy/scrapy",
+   "task": "comment2context",
+   "pool": 576,
+   "gold": 1,
+   "firstHit": 5,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 27
+  },
+  {
+   "id": "224dd1f1e8aaa1653bb1fbec",
+   "repo": "tokio-rs/tokio",
+   "task": "comment2context",
+   "pool": 815,
+   "gold": 1,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 36
+  },
+  {
+   "id": "2c17bde16c7e1549944e6a1f",
+   "repo": "tokio-rs/tokio",
+   "task": "comment2context",
+   "pool": 784,
+   "gold": 2,
+   "firstHit": 5,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 32
+  },
+  {
+   "id": "35154a761b37d4f5767d1cfa",
+   "repo": "tokio-rs/tokio",
+   "task": "comment2context",
+   "pool": 784,
+   "gold": 1,
+   "firstHit": 5,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 27
+  },
+  {
+   "id": "660e1d8e595766b0b1d334ee",
+   "repo": "tokio-rs/tokio",
+   "task": "comment2context",
+   "pool": 819,
+   "gold": 1,
+   "firstHit": 2,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 28
+  },
+  {
+   "id": "9212befbd9ac5a4308438522",
+   "repo": "tokio-rs/tokio",
+   "task": "comment2context",
+   "pool": 812,
+   "gold": 3,
+   "firstHit": 2,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 3
+   },
+   "ms": 28
+  },
+  {
+   "id": "9473ef1be3ba59f1a4183a0d",
+   "repo": "tokio-rs/tokio",
+   "task": "comment2context",
+   "pool": 822,
+   "gold": 2,
+   "firstHit": 3,
+   "foundAt": {
+    "5": 2,
+    "10": 2,
+    "20": 2
+   },
+   "ms": 28
+  },
+  {
+   "id": "c2af1d6140c0b8b749bd1b77",
+   "repo": "tokio-rs/tokio",
+   "task": "comment2context",
+   "pool": 819,
+   "gold": 3,
+   "firstHit": 17,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 1
+   },
+   "ms": 24
+  },
+  {
+   "id": "c655532069b4365c45b87093",
+   "repo": "tokio-rs/tokio",
+   "task": "comment2context",
+   "pool": 784,
+   "gold": 1,
+   "firstHit": 2,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 28
+  },
+  {
+   "id": "d354e818b2436242628f1ea1",
+   "repo": "tokio-rs/tokio",
+   "task": "comment2context",
+   "pool": 812,
+   "gold": 3,
+   "firstHit": 10,
+   "foundAt": {
+    "5": 0,
+    "10": 1,
+    "20": 2
+   },
+   "ms": 35
+  },
+  {
+   "id": "d42e82da45418756a38691fc",
+   "repo": "tokio-rs/tokio",
+   "task": "comment2context",
+   "pool": 812,
+   "gold": 3,
+   "firstHit": 2,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 34
+  },
+  {
+   "id": "eca2d26fea4f7e75efe9edbd",
+   "repo": "tokio-rs/tokio",
+   "task": "comment2context",
+   "pool": 812,
+   "gold": 3,
+   "firstHit": 3,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 2
+   },
+   "ms": 31
+  },
+  {
+   "id": "3e3c5349d79cbfd3366c746f",
+   "repo": "tox-dev/tox",
+   "task": "comment2context",
+   "pool": 239,
+   "gold": 1,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 14
+  },
+  {
+   "id": "e52201a1f70640a0cd30d807",
+   "repo": "tox-dev/tox",
+   "task": "comment2context",
+   "pool": 274,
+   "gold": 1,
+   "firstHit": 18,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 1
+   },
+   "ms": 12
+  },
+  {
+   "id": "056f7ac0b2a4940bc1ad5342",
+   "repo": "vitejs/vite",
+   "task": "comment2context",
+   "pool": 2366,
+   "gold": 2,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 59
+  },
+  {
+   "id": "08152da08307954bc8ce76d3",
+   "repo": "vuejs/core",
+   "task": "comment2context",
+   "pool": 663,
+   "gold": 1,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 31
+  },
+  {
+   "id": "42f8d46378b0c049f2eb66a8",
+   "repo": "caddyserver/caddy",
+   "task": "trace2code",
+   "pool": 600,
+   "gold": 1,
+   "firstHit": 1,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 22
+  },
+  {
+   "id": "5bdeecc5409069d28e667e6d",
+   "repo": "caddyserver/caddy",
+   "task": "trace2code",
+   "pool": 590,
+   "gold": 2,
+   "firstHit": 1,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 2
+   },
+   "ms": 28
+  },
+  {
+   "id": "9d7b952a6132256cd66c9612",
+   "repo": "caddyserver/caddy",
+   "task": "trace2code",
+   "pool": 604,
+   "gold": 1,
+   "firstHit": 1,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 30
+  },
+  {
+   "id": "d4149b3f568dfe275250b62e",
+   "repo": "caddyserver/caddy",
+   "task": "trace2code",
+   "pool": 605,
+   "gold": 1,
+   "firstHit": 3,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 28
+  },
+  {
+   "id": "de059c1c2e3ffc63820ce0e4",
+   "repo": "caddyserver/caddy",
+   "task": "trace2code",
+   "pool": 586,
+   "gold": 2,
+   "firstHit": 7,
+   "foundAt": {
+    "5": 0,
+    "10": 1,
+    "20": 2
+   },
+   "ms": 24
+  },
+  {
+   "id": "eb750774632943e952f09d40",
+   "repo": "caddyserver/caddy",
+   "task": "trace2code",
+   "pool": 594,
+   "gold": 1,
+   "firstHit": 1,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 30
+  },
+  {
+   "id": "f7d79ec3fd20e651c379facb",
+   "repo": "caddyserver/caddy",
+   "task": "trace2code",
+   "pool": 570,
+   "gold": 2,
+   "firstHit": 3,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 24
+  },
+  {
+   "id": "2d65eeb2c97d07f557b1ddb2",
+   "repo": "clap-rs/clap",
+   "task": "trace2code",
+   "pool": 591,
+   "gold": 2,
+   "firstHit": 7,
+   "foundAt": {
+    "5": 0,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 29
+  },
+  {
+   "id": "19c290f5b37ff6d5a93db942",
+   "repo": "etcd-io/etcd",
+   "task": "trace2code",
+   "pool": 1421,
+   "gold": 2,
+   "firstHit": 4,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 45
+  },
+  {
+   "id": "a9432b3d44a06f48f40060bb",
+   "repo": "etcd-io/etcd",
+   "task": "trace2code",
+   "pool": 1425,
+   "gold": 2,
+   "firstHit": 10,
+   "foundAt": {
+    "5": 0,
+    "10": 1,
+    "20": 2
+   },
+   "ms": 46
+  },
+  {
+   "id": "b389823a6435d1ada9d7d2b9",
+   "repo": "etcd-io/etcd",
+   "task": "trace2code",
+   "pool": 1425,
+   "gold": 3,
+   "firstHit": 14,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 1
+   },
+   "ms": 47
+  },
+  {
+   "id": "d63c68165982a7371fcff2e0",
+   "repo": "etcd-io/etcd",
+   "task": "trace2code",
+   "pool": 1431,
+   "gold": 1,
+   "firstHit": 1,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 51
+  },
+  {
+   "id": "035c3b77d35f10df09605eff",
+   "repo": "gin-gonic/gin",
+   "task": "trace2code",
+   "pool": 120,
+   "gold": 1,
+   "firstHit": 1,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 10
+  },
+  {
+   "id": "05041faae6e19b6882e3074a",
+   "repo": "gin-gonic/gin",
+   "task": "trace2code",
+   "pool": 122,
+   "gold": 1,
+   "firstHit": 2,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 16
+  },
+  {
+   "id": "0765b7d2a08dd5736ac91857",
+   "repo": "gin-gonic/gin",
+   "task": "trace2code",
+   "pool": 117,
+   "gold": 1,
+   "firstHit": 2,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 12
+  },
+  {
+   "id": "0f4d4723a06149a5172fed0a",
+   "repo": "gin-gonic/gin",
+   "task": "trace2code",
+   "pool": 125,
+   "gold": 1,
+   "firstHit": 1,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 8
+  },
+  {
+   "id": "0f88458fc1fe4acce078ce3f",
+   "repo": "gin-gonic/gin",
+   "task": "trace2code",
+   "pool": 126,
+   "gold": 1,
+   "firstHit": 2,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 9
+  },
+  {
+   "id": "12951fd6d477e49ce706a14b",
+   "repo": "gin-gonic/gin",
+   "task": "trace2code",
+   "pool": 117,
+   "gold": 1,
+   "firstHit": 4,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 15
+  },
+  {
+   "id": "13dc98681c5ab25210a04f43",
+   "repo": "gin-gonic/gin",
+   "task": "trace2code",
+   "pool": 128,
+   "gold": 1,
+   "firstHit": 2,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 10
+  },
+  {
+   "id": "1e7cac8cfdead734e7e51ad6",
+   "repo": "gin-gonic/gin",
+   "task": "trace2code",
+   "pool": 122,
+   "gold": 1,
+   "firstHit": 1,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 10
+  },
+  {
+   "id": "2097c0a5e982d33870da7ffa",
+   "repo": "gin-gonic/gin",
+   "task": "trace2code",
+   "pool": 125,
+   "gold": 2,
+   "firstHit": 1,
+   "foundAt": {
+    "5": 2,
+    "10": 2,
+    "20": 2
+   },
+   "ms": 9
+  },
+  {
+   "id": "24b8f50a23a0e2ebcf4b7067",
+   "repo": "gin-gonic/gin",
+   "task": "trace2code",
+   "pool": 103,
+   "gold": 1,
+   "firstHit": 5,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 11
+  },
+  {
+   "id": "2a108bc05f87154f903de451",
+   "repo": "gin-gonic/gin",
+   "task": "trace2code",
+   "pool": 117,
+   "gold": 1,
+   "firstHit": 2,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 13
+  },
+  {
+   "id": "30fb9ae30b972db986c4365d",
+   "repo": "gin-gonic/gin",
+   "task": "trace2code",
+   "pool": 120,
+   "gold": 1,
+   "firstHit": 1,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 8
+  },
+  {
+   "id": "34b3f2f207dc4ebd77268875",
+   "repo": "gin-gonic/gin",
+   "task": "trace2code",
+   "pool": 117,
+   "gold": 2,
+   "firstHit": 1,
+   "foundAt": {
+    "5": 1,
+    "10": 2,
+    "20": 2
+   },
+   "ms": 8
+  },
+  {
+   "id": "3bd1eecf0ebcd9c6b334fa92",
+   "repo": "gin-gonic/gin",
+   "task": "trace2code",
+   "pool": 126,
+   "gold": 1,
+   "firstHit": 1,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 14
+  },
+  {
+   "id": "4480edb6cb7cbebd6c6f7126",
+   "repo": "gin-gonic/gin",
+   "task": "trace2code",
+   "pool": 128,
+   "gold": 1,
+   "firstHit": 3,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 15
+  },
+  {
+   "id": "4543cc1c282d6fe603fdc317",
+   "repo": "gin-gonic/gin",
+   "task": "trace2code",
+   "pool": 117,
+   "gold": 1,
+   "firstHit": 1,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 9
+  },
+  {
+   "id": "4882164fe246221e92af0952",
+   "repo": "gin-gonic/gin",
+   "task": "trace2code",
+   "pool": 128,
+   "gold": 1,
+   "firstHit": 3,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 14
+  },
+  {
+   "id": "4ac3545de34d4974f16f5838",
+   "repo": "gin-gonic/gin",
+   "task": "trace2code",
+   "pool": 126,
+   "gold": 1,
+   "firstHit": 4,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 14
+  },
+  {
+   "id": "4af738a83e9f45b8aec78341",
+   "repo": "gin-gonic/gin",
+   "task": "trace2code",
+   "pool": 126,
+   "gold": 1,
+   "firstHit": 2,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 10
+  },
+  {
+   "id": "4c232faf5b66c5e8febbe45d",
+   "repo": "gin-gonic/gin",
+   "task": "trace2code",
+   "pool": 117,
+   "gold": 1,
+   "firstHit": 5,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 10
+  },
+  {
+   "id": "589abc5542483246a640f904",
+   "repo": "gin-gonic/gin",
+   "task": "trace2code",
+   "pool": 117,
+   "gold": 1,
+   "firstHit": 1,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 14
+  },
+  {
+   "id": "5bc1aa35cdd32914d7ba6958",
+   "repo": "gin-gonic/gin",
+   "task": "trace2code",
+   "pool": 126,
+   "gold": 1,
+   "firstHit": 1,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 9
+  },
+  {
+   "id": "5eeea2e7090c74efe2defcdc",
+   "repo": "gin-gonic/gin",
+   "task": "trace2code",
+   "pool": 119,
+   "gold": 1,
+   "firstHit": 2,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 10
+  },
+  {
+   "id": "5fe7a88d29444ad19bb646f6",
+   "repo": "gin-gonic/gin",
+   "task": "trace2code",
+   "pool": 124,
+   "gold": 1,
+   "firstHit": 1,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 14
+  },
+  {
+   "id": "6c6d138c6c8afd2d8b73687b",
+   "repo": "gin-gonic/gin",
+   "task": "trace2code",
+   "pool": 128,
+   "gold": 1,
+   "firstHit": 1,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 8
+  },
+  {
+   "id": "73e85c15eb230b9bb3333088",
+   "repo": "gin-gonic/gin",
+   "task": "trace2code",
+   "pool": 117,
+   "gold": 1,
+   "firstHit": 2,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 13
+  },
+  {
+   "id": "7db765ce2d8ea9b3f68029fd",
+   "repo": "gin-gonic/gin",
+   "task": "trace2code",
+   "pool": 117,
+   "gold": 3,
+   "firstHit": 2,
+   "foundAt": {
+    "5": 1,
+    "10": 2,
+    "20": 2
+   },
+   "ms": 9
+  },
+  {
+   "id": "81012a1000bf705dfb9e03a7",
+   "repo": "gin-gonic/gin",
+   "task": "trace2code",
+   "pool": 124,
+   "gold": 1,
+   "firstHit": 1,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 15
+  },
+  {
+   "id": "82a5db6d32bae53d6f85a5a3",
+   "repo": "gin-gonic/gin",
+   "task": "trace2code",
+   "pool": 117,
+   "gold": 1,
+   "firstHit": 1,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 14
+  },
+  {
+   "id": "85a691c247e4c1686ce67107",
+   "repo": "gin-gonic/gin",
+   "task": "trace2code",
+   "pool": 120,
+   "gold": 1,
+   "firstHit": 2,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 10
+  },
+  {
+   "id": "899589599e1f682b606c97af",
+   "repo": "gin-gonic/gin",
+   "task": "trace2code",
+   "pool": 124,
+   "gold": 1,
+   "firstHit": 2,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 9
+  },
+  {
+   "id": "8c235537a265c9b4acb1c0e8",
+   "repo": "gin-gonic/gin",
+   "task": "trace2code",
+   "pool": 117,
+   "gold": 1,
+   "firstHit": 2,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 11
+  },
+  {
+   "id": "9151d23c9630aed754b3355b",
+   "repo": "gin-gonic/gin",
+   "task": "trace2code",
+   "pool": 104,
+   "gold": 2,
+   "firstHit": 2,
+   "foundAt": {
+    "5": 1,
+    "10": 2,
+    "20": 2
+   },
+   "ms": 11
+  },
+  {
+   "id": "94882daee852885df4f04f6e",
+   "repo": "gin-gonic/gin",
+   "task": "trace2code",
+   "pool": 117,
+   "gold": 1,
+   "firstHit": 1,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 15
+  },
+  {
+   "id": "95131f4a1d5c1094e4b4a013",
+   "repo": "gin-gonic/gin",
+   "task": "trace2code",
+   "pool": 117,
+   "gold": 1,
+   "firstHit": 6,
+   "foundAt": {
+    "5": 0,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 14
+  },
+  {
+   "id": "98ca5fc67c8dd81a8f9ab021",
+   "repo": "gin-gonic/gin",
+   "task": "trace2code",
+   "pool": 119,
+   "gold": 1,
+   "firstHit": 3,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 10
+  },
+  {
+   "id": "9e63d7a07d201c84d7d18546",
+   "repo": "gin-gonic/gin",
+   "task": "trace2code",
+   "pool": 119,
+   "gold": 1,
+   "firstHit": 4,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 15
+  },
+  {
+   "id": "a69837e52fea4b05cbedcb9f",
+   "repo": "gin-gonic/gin",
+   "task": "trace2code",
+   "pool": 126,
+   "gold": 1,
+   "firstHit": 1,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 14
+  },
+  {
+   "id": "a72e294e63bff7a51eb84669",
+   "repo": "gin-gonic/gin",
+   "task": "trace2code",
+   "pool": 126,
+   "gold": 1,
+   "firstHit": 1,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 15
+  },
+  {
+   "id": "a9c4956e69fe0ab051fc39a7",
+   "repo": "gin-gonic/gin",
+   "task": "trace2code",
+   "pool": 128,
+   "gold": 2,
+   "firstHit": 2,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 9
+  },
+  {
+   "id": "a9f6b8adbd0f71a58c99835e",
+   "repo": "gin-gonic/gin",
+   "task": "trace2code",
+   "pool": 117,
+   "gold": 3,
+   "firstHit": 7,
+   "foundAt": {
+    "5": 0,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 14
+  },
+  {
+   "id": "aac6e0174bcf8f6defe4c774",
+   "repo": "gin-gonic/gin",
+   "task": "trace2code",
+   "pool": 118,
+   "gold": 1,
+   "firstHit": null,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "ms": 14
+  },
+  {
+   "id": "b8c820bb7d5f8b2e19f4e7f6",
+   "repo": "gin-gonic/gin",
+   "task": "trace2code",
+   "pool": 117,
+   "gold": 1,
+   "firstHit": 2,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 15
+  },
+  {
+   "id": "c06816923c65bcd86bfd1c2a",
+   "repo": "gin-gonic/gin",
+   "task": "trace2code",
+   "pool": 119,
+   "gold": 2,
+   "firstHit": 1,
+   "foundAt": {
+    "5": 2,
+    "10": 2,
+    "20": 2
+   },
+   "ms": 11
+  },
+  {
+   "id": "c4a057d97f889140494823d0",
+   "repo": "gin-gonic/gin",
+   "task": "trace2code",
+   "pool": 119,
+   "gold": 1,
+   "firstHit": 2,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 12
+  },
+  {
+   "id": "c7ce74f40b6308a8504688cc",
+   "repo": "gin-gonic/gin",
+   "task": "trace2code",
+   "pool": 117,
+   "gold": 1,
+   "firstHit": 1,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 12
+  },
+  {
+   "id": "cc9de6b29530ddfb3135f0ea",
+   "repo": "gin-gonic/gin",
+   "task": "trace2code",
+   "pool": 117,
+   "gold": 1,
+   "firstHit": 6,
+   "foundAt": {
+    "5": 0,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 16
+  },
+  {
+   "id": "cd5fdafbfa862ca7662667c4",
+   "repo": "gin-gonic/gin",
+   "task": "trace2code",
+   "pool": 126,
+   "gold": 1,
+   "firstHit": 1,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 12
+  },
+  {
+   "id": "d0551ed5a2d63c99e3bbfcd5",
+   "repo": "gin-gonic/gin",
+   "task": "trace2code",
+   "pool": 117,
+   "gold": 1,
+   "firstHit": 6,
+   "foundAt": {
+    "5": 0,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 12
+  },
+  {
+   "id": "d3fe4d1559febe2ac282cced",
+   "repo": "gin-gonic/gin",
+   "task": "trace2code",
+   "pool": 122,
+   "gold": 1,
+   "firstHit": 6,
+   "foundAt": {
+    "5": 0,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 12
+  },
+  {
+   "id": "d5a6bc19ef154663f7e591ad",
+   "repo": "gin-gonic/gin",
+   "task": "trace2code",
+   "pool": 118,
+   "gold": 3,
+   "firstHit": 2,
+   "foundAt": {
+    "5": 3,
+    "10": 3,
+    "20": 3
+   },
+   "ms": 9
+  },
+  {
+   "id": "d65a03b1febee94c93435793",
+   "repo": "gin-gonic/gin",
+   "task": "trace2code",
+   "pool": 117,
+   "gold": 1,
+   "firstHit": 6,
+   "foundAt": {
+    "5": 0,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 15
+  },
+  {
+   "id": "ddc4c4966436317b69c8484b",
+   "repo": "gin-gonic/gin",
+   "task": "trace2code",
+   "pool": 115,
+   "gold": 2,
+   "firstHit": 1,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 2
+   },
+   "ms": 9
+  },
+  {
+   "id": "e843a55e790138194506b76a",
+   "repo": "gin-gonic/gin",
+   "task": "trace2code",
+   "pool": 120,
+   "gold": 1,
+   "firstHit": 1,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 9
+  },
+  {
+   "id": "e8f3298d52397c17e0fa1bc9",
+   "repo": "gin-gonic/gin",
+   "task": "trace2code",
+   "pool": 117,
+   "gold": 1,
+   "firstHit": 1,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 15
+  },
+  {
+   "id": "fa19b2ec3770df1f1285f072",
+   "repo": "gin-gonic/gin",
+   "task": "trace2code",
+   "pool": 117,
+   "gold": 1,
+   "firstHit": 6,
+   "foundAt": {
+    "5": 0,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 7
+  },
+  {
+   "id": "08d24e63e480c9447082ccfb",
+   "repo": "pallets/click",
+   "task": "trace2code",
+   "pool": 133,
+   "gold": 1,
+   "firstHit": 2,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 15
+  },
+  {
+   "id": "27801f382096eabc8e450072",
+   "repo": "pallets/click",
+   "task": "trace2code",
+   "pool": 125,
+   "gold": 2,
+   "firstHit": 1,
+   "foundAt": {
+    "5": 2,
+    "10": 2,
+    "20": 2
+   },
+   "ms": 19
+  },
+  {
+   "id": "2bf38b97ba88b8246c44e306",
+   "repo": "pallets/click",
+   "task": "trace2code",
+   "pool": 126,
+   "gold": 1,
+   "firstHit": 3,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 16
+  },
+  {
+   "id": "2c98330b6efb89289f963c2e",
+   "repo": "pallets/click",
+   "task": "trace2code",
+   "pool": 133,
+   "gold": 1,
+   "firstHit": 1,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 17
+  },
+  {
+   "id": "399f735b329d5c11913ac4ab",
+   "repo": "pallets/click",
+   "task": "trace2code",
+   "pool": 136,
+   "gold": 1,
+   "firstHit": 3,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 16
+  },
+  {
+   "id": "461a1aafd27445f29ef24020",
+   "repo": "pallets/click",
+   "task": "trace2code",
+   "pool": 125,
+   "gold": 1,
+   "firstHit": 2,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 14
+  },
+  {
+   "id": "49589b875553b5fd2bdb1687",
+   "repo": "pallets/click",
+   "task": "trace2code",
+   "pool": 135,
+   "gold": 1,
+   "firstHit": 2,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 17
+  },
+  {
+   "id": "4dfab03e69e4615b806dbab1",
+   "repo": "pallets/click",
+   "task": "trace2code",
+   "pool": 136,
+   "gold": 1,
+   "firstHit": 1,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 17
+  },
+  {
+   "id": "51fc5202e13c950295302355",
+   "repo": "pallets/click",
+   "task": "trace2code",
+   "pool": 136,
+   "gold": 1,
+   "firstHit": 2,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 16
+  },
+  {
+   "id": "6d3773a91bd26a4977aa45af",
+   "repo": "pallets/click",
+   "task": "trace2code",
+   "pool": 126,
+   "gold": 1,
+   "firstHit": 2,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 17
+  },
+  {
+   "id": "8882930f15d1cd0966e4ff81",
+   "repo": "pallets/click",
+   "task": "trace2code",
+   "pool": 132,
+   "gold": 1,
+   "firstHit": 3,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 18
+  },
+  {
+   "id": "8fbcfd329087a4fe16649d69",
+   "repo": "pallets/click",
+   "task": "trace2code",
+   "pool": 141,
+   "gold": 3,
+   "firstHit": 2,
+   "foundAt": {
+    "5": 2,
+    "10": 2,
+    "20": 2
+   },
+   "ms": 15
+  },
+  {
+   "id": "9372208a6dfa7075afb3f423",
+   "repo": "pallets/click",
+   "task": "trace2code",
+   "pool": 132,
+   "gold": 1,
+   "firstHit": 2,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 17
+  },
+  {
+   "id": "9f0d0d1bb836481d62b838aa",
+   "repo": "pallets/click",
+   "task": "trace2code",
+   "pool": 140,
+   "gold": 1,
+   "firstHit": 2,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 18
+  },
+  {
+   "id": "a4218c7e484b796962f32982",
+   "repo": "pallets/click",
+   "task": "trace2code",
+   "pool": 140,
+   "gold": 1,
+   "firstHit": 4,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 13
+  },
+  {
+   "id": "a94f5208796568631ef01c1e",
+   "repo": "pallets/click",
+   "task": "trace2code",
+   "pool": 137,
+   "gold": 1,
+   "firstHit": 1,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 18
+  },
+  {
+   "id": "af8170e7fe43a980be55e40d",
+   "repo": "pallets/click",
+   "task": "trace2code",
+   "pool": 136,
+   "gold": 1,
+   "firstHit": 3,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 16
+  },
+  {
+   "id": "bed9a23bf8a662f0e6251a42",
+   "repo": "pallets/click",
+   "task": "trace2code",
+   "pool": 136,
+   "gold": 2,
+   "firstHit": 3,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 16
+  },
+  {
+   "id": "bf9f481e5c9e9150f3f773b6",
+   "repo": "pallets/click",
+   "task": "trace2code",
+   "pool": 140,
+   "gold": 1,
+   "firstHit": 1,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 16
+  },
+  {
+   "id": "cdca9bf2d9c3acf91f505d3a",
+   "repo": "pallets/click",
+   "task": "trace2code",
+   "pool": 125,
+   "gold": 1,
+   "firstHit": 2,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 14
+  },
+  {
+   "id": "d9073750309233ee1f19776d",
+   "repo": "pallets/click",
+   "task": "trace2code",
+   "pool": 125,
+   "gold": 1,
+   "firstHit": 1,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 14
+  },
+  {
+   "id": "dfa7089d7bf0b3dad96e2bb8",
+   "repo": "pallets/click",
+   "task": "trace2code",
+   "pool": 126,
+   "gold": 1,
+   "firstHit": 3,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 16
+  },
+  {
+   "id": "e50d9d504a467c632442042e",
+   "repo": "pallets/click",
+   "task": "trace2code",
+   "pool": 136,
+   "gold": 1,
+   "firstHit": 4,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 17
+  },
+  {
+   "id": "e7f9f3fc7342903c89bfb775",
+   "repo": "pallets/click",
+   "task": "trace2code",
+   "pool": 138,
+   "gold": 1,
+   "firstHit": 1,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 19
+  },
+  {
+   "id": "ed5f5fce7ddb0be735cf98c7",
+   "repo": "pallets/click",
+   "task": "trace2code",
+   "pool": 133,
+   "gold": 1,
+   "firstHit": 1,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 15
+  },
+  {
+   "id": "f4fccd0dc58a48c09a195d6b",
+   "repo": "pallets/click",
+   "task": "trace2code",
+   "pool": 140,
+   "gold": 1,
+   "firstHit": 13,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 1
+   },
+   "ms": 18
+  },
+  {
+   "id": "c727abdbfcdfc9879df581d2",
+   "repo": "pytest-dev/pytest",
+   "task": "trace2code",
+   "pool": 592,
+   "gold": 1,
+   "firstHit": 10,
+   "foundAt": {
+    "5": 0,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 29
+  },
+  {
+   "id": "1132f037ebb462f13652adff",
+   "repo": "tokio-rs/tokio",
+   "task": "trace2code",
+   "pool": 758,
+   "gold": 1,
+   "firstHit": 13,
+   "foundAt": {
+    "5": 0,
+    "10": 0,
+    "20": 1
+   },
+   "ms": 45
+  },
+  {
+   "id": "118b720b3e60d4c6679b9ec0",
+   "repo": "tokio-rs/tokio",
+   "task": "trace2code",
+   "pool": 766,
+   "gold": 1,
+   "firstHit": 5,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 45
+  },
+  {
+   "id": "30a18c73cca02d3672705be7",
+   "repo": "tokio-rs/tokio",
+   "task": "trace2code",
+   "pool": 766,
+   "gold": 1,
+   "firstHit": 2,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 39
+  },
+  {
+   "id": "34b14301c5676ca5e49d6c22",
+   "repo": "tokio-rs/tokio",
+   "task": "trace2code",
+   "pool": 774,
+   "gold": 2,
+   "firstHit": 6,
+   "foundAt": {
+    "5": 0,
+    "10": 1,
+    "20": 2
+   },
+   "ms": 39
+  },
+  {
+   "id": "954f4ea51031f7c08c603b53",
+   "repo": "tokio-rs/tokio",
+   "task": "trace2code",
+   "pool": 826,
+   "gold": 1,
+   "firstHit": 6,
+   "foundAt": {
+    "5": 0,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 45
+  },
+  {
+   "id": "b872b8ef648b8cad2d959a36",
+   "repo": "tokio-rs/tokio",
+   "task": "trace2code",
+   "pool": 765,
+   "gold": 2,
+   "firstHit": 2,
+   "foundAt": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "ms": 39
+  }
+ ]
+}

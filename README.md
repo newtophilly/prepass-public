@@ -164,6 +164,47 @@ the needle. That turns out to be enough, because narrowing is what saves the sea
 Reproduce any of it: `node bench/swebench.mjs --repos <dir> --data <file>`. It calls no model and
 costs nothing.
 
+## Against embedding models, on someone else's benchmark
+
+Everything above is measured by a harness in this repository. [Agent Retrieval
+Bench](bench/arb-2026-08-06.md) is not: 287 hand-reviewed samples over 25 repositories, with
+published baselines for a lexical retriever, RepoMap, and five embedding models up to 8B
+parameters. All eight systems were scored on identical sample ids against the identical
+answer key.
+
+**`trace2code` — failing test output → the source at fault.** First of eight:
+
+| retriever | Recall@5 | Recall@20 | MRR | index |
+|---|---|---|---|---|
+| **prepass** | **0.777** | **0.941** | **0.574** | none |
+| RepoMap | 0.449 | 0.837 | 0.274 | none |
+| lexical baseline | 0.343 | 0.696 | 0.207 | none |
+| Qwen3-Embedding-8B | 0.244 | 0.797 | 0.165 | 36 GPU-hours, 102 GB |
+| nomic-embed-code | 0.158 | 0.358 | 0.087 | 32 GPU-hours, 89 GB |
+
+Median **15ms**. A stack trace is a dense list of exact identifiers printed verbatim, so
+rarity-weighted exact matching is the right tool and semantic similarity blurs a signal that was
+already clean.
+
+**`code2test` — a code change → the tests to update.** Seventh of eight, MRR 0.195 against
+Qwen3-Embedding-4B's 0.322. A test is named for a behaviour and the change is described in a PR
+title; they share almost no tokens. This is the vocabulary gap in its purest form, and it is
+where a model earns its cost.
+
+**`comment2context`** lands fourth of eight, inside the embedding cluster.
+
+prepass beats the published lexical baseline on all three tasks — **2.8×, 3.0× and 1.5×** its
+MRR — which is the comparison that isolates what this project actually adds, since it is the same
+family of algorithm over the same candidate pool.
+
+> The same run supplied an unplanned control. `code2test` is a task where **every correct answer
+> is a test file** — the exact inversion of the SWE-bench construction artifact documented in
+> [`bench/git-history.mjs`](bench/git-history.mjs). Setting `testWeight: 0.5`, worth +6 to +8
+> points of hit@1 on every SWE-bench corpus including a held-out one, collapses MRR here from
+> **0.195 to 0.021**. That is why the default is 1.0.
+
+Reproduce: `ARB_ROOT=<release> node bench/arb.mjs`.
+
 ## The glossary
 
 Ranking can only find words that are in the file. You say *"arriving"*; CoreLocation says `didEnterRegion`. You say *"twice"*; the code says `dedup`. Nothing lexical crosses that gap — so write the bridge down:
