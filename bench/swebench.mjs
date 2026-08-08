@@ -78,10 +78,57 @@ const localName = (repo) => repo.split('/')[1];
 const results = [];
 let skipped = 0;
 
+
+/**
+ * Refuse to mutate a repository that is not disposable.
+ *
+ * This harness runs `git checkout --force` so the repo sits at the commit the issue
+ * was filed against. On a throwaway SWE-bench clone that is harmless. Pointed at a
+ * corpus built from your own agent history it is not: it detached 13 live repos and
+ * `--force` discards uncommitted changes to tracked files.
+ *
+ * So: skip any repo with local modifications, and put every repo back on the ref it
+ * started on when the run ends.
+ */
+const originalRef = new Map();
+function claimRepo(dir) {
+  if (originalRef.has(dir)) return originalRef.get(dir) !== null;
+  let dirty = '';
+  try {
+    dirty = execFileSync('git', ['-C', dir, 'status', '--porcelain', '--untracked-files=no'],
+      { encoding: 'utf8' }).trim();
+  } catch { originalRef.set(dir, null); return false; }
+  if (dirty) {
+    console.error(`  SKIP ${dir} — uncommitted changes; refusing to force-checkout a live repo`);
+    originalRef.set(dir, null);
+    return false;
+  }
+  let ref = null;
+  try {
+    ref = execFileSync('git', ['-C', dir, 'rev-parse', '--abbrev-ref', 'HEAD'],
+      { encoding: 'utf8' }).trim();
+    if (ref === 'HEAD') ref = execFileSync('git', ['-C', dir, 'rev-parse', 'HEAD'],
+      { encoding: 'utf8' }).trim();
+  } catch {}
+  originalRef.set(dir, ref);
+  return true;
+}
+function releaseRepos() {
+  for (const [dir, ref] of originalRef) {
+    if (!ref) continue;
+    try { execFileSync('git', ['-C', dir, 'checkout', '--quiet', ref], { stdio: 'ignore' }); } catch {}
+  }
+}
+process.on('exit', releaseRepos);
+process.on('SIGINT', () => { releaseRepos(); process.exit(130); });
+
 for (const inst of instances) {
   if (results.length >= LIMIT) break;
-  const dir = join(REPOS, localName(inst.repo));
+  // A corpus from bench/agent-history.mjs spans several parent directories
+  // (~/Downloads, ~/Desktop, ~/Projects), so it carries an absolute repo_path.
+  const dir = inst.repo_path ?? join(REPOS, localName(inst.repo));
   if (!existsSync(dir)) { skipped++; continue; }
+  if (!claimRepo(dir)) { skipped++; continue; }
 
   // The repo must be at the commit the issue was filed against, or the file
   // that needed fixing may not exist in the form the report describes.

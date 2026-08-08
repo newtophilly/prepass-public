@@ -35,6 +35,11 @@ export interface PipelineInput {
    * means "consider exactly these files and nothing else".
    */
   readonly discover?: boolean;
+  /**
+   * Prior session state, when the caller has a transcript. Words join the query;
+   * touched paths become a score bonus. See `core/session-context.ts`.
+   */
+  readonly session?: { readonly priorText: string; readonly touched: ReadonlySet<string> };
   /** Reuse a pre-loaded config (tests, or an already-resolved project root). */
   readonly loaded?: LoadedConfig;
 }
@@ -91,7 +96,13 @@ export async function runPipeline(input: PipelineInput): Promise<PipelineOutput>
   const curation = taxonomy
     ? curate(
         {
-          prompt: input.prompt,
+          // Prior turns join the query so a contextless follow-up ("okay lets
+          // do it") has something to rank against. The current prompt stays
+          // first, so its own words still dominate.
+          prompt: input.session?.priorText
+            ? `${input.prompt}\n${input.session.priorText}`
+            : input.prompt,
+          ...(input.session?.touched.size ? { sessionTouched: input.session.touched } : {}),
           candidates,
           taxonomy,
           rootDir: loaded.rootDir,

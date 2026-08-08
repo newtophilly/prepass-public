@@ -78,6 +78,16 @@ export interface ContextCandidate {
   readonly mtimeMs?: number;
   /** Populated lazily; the payload builder reads this. */
   readonly content?: string;
+  /**
+   * Why a file is in the shortlist when it did not earn a lexical score.
+   *
+   * Creation requests name a file that does not exist, so the useful answers are
+   * structural: the `registry` that has to be edited to wire the new thing up,
+   * and a `sibling` to copy from. Both carry `score: 0` because they matched no
+   * search term — this field says they are here on structure, not on a number
+   * that would be a fiction.
+   */
+  readonly reason?: 'registry' | 'sibling';
 }
 
 /** Output of the context curator. */

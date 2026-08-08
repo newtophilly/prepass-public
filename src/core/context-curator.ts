@@ -10,6 +10,7 @@
  * prompt.
  */
 import type { ContextCandidate, CurationResult, Taxonomy } from '../types.js';
+import { detectCreationIntent, applyCreationMode } from './creation-intent.js';
 import { closeSync, openSync, readSync } from 'node:fs';
 import { execFileSync } from 'node:child_process';
 import { isAbsolute, join } from 'node:path';
@@ -28,6 +29,12 @@ export interface CurateInput {
   readonly glossary?: Glossary;
   /** Facts about the project the agent would otherwise spend a turn asking for. */
   readonly repo?: RepoFacts;
+  /**
+   * Repo-relative paths this session has already opened. Fused into the score,
+   * never inserted into the list — see `session-context.ts` for why that
+   * distinction is load-bearing.
+   */
+  readonly sessionTouched?: ReadonlySet<string>;
 }
 
 /**
@@ -133,6 +140,33 @@ export function runHeuristicStage(
         config,
       );
       ranked = rank(combined, withFeedback);
+    }
+  }
+
+  // A creation request names a file that is not on disk, so ranking it is a
+  // category error rather than a near miss — 13% of real prompts, 46% of all
+  // failures. What IS findable is the registry that must be edited to wire the
+  // new thing up, and a sibling to copy from. See creation-intent.ts.
+  const creationSetting = config?.curation.creationMode ?? 'auto';
+  const wantsCreation =
+    creationSetting === 'always' ||
+    (creationSetting === 'auto' && detectCreationIntent(prompt).creating);
+  if (wantsCreation && input.rootDir) {
+    return applyCreationMode(ranked, input.rootDir, strat.maxFiles);
+  }
+
+  // Fuse, do not insert. A ranked list has a fixed number of slots, so pushing
+  // a file in always pushes one out — measured as an exact wash elsewhere (6
+  // rescued, 6 displaced). Adding to the score lets a weak lexical match with
+  // strong session evidence rise without evicting a strong one.
+  const touched = input.sessionTouched;
+  if (touched?.size) {
+    const top = ranked[0]?.score ?? 0;
+    const bonus = top * (config?.curation.sessionContext.touchedWeight ?? 0.25);
+    if (bonus > 0) {
+      ranked = [...ranked]
+        .map((c) => (touched.has(c.path) ? { ...c, score: c.score + bonus } : c))
+        .sort((a, b) => b.score - a.score);
     }
   }
 
@@ -839,18 +873,30 @@ export function buildXmlPayload(
   const files = selected
     .map(
       (c) =>
-        `  <file path="${escapeXml(c.path)}" bytes="${c.bytes}" score="${c.score.toFixed(3)}">` +
+        `  <file path="${escapeXml(c.path)}" bytes="${c.bytes}" score="${c.score.toFixed(3)}"` +
+        // A structural pick matched no search term, so a score of 0.000 alone
+        // reads as "irrelevant". Saying why it is here is the difference between
+        // the agent skipping it and the agent editing the file that wires the
+        // new module up.
+        (c.reason ? ` role="${c.reason}"` : '') +
+        `>` +
         (c.content ? `\n${escapeXml(c.content)}\n  ` : '') +
         `</file>`,
     )
     .join('\n');
+  const structural = selected.some((c) => c.reason);
   const confidence = confidenceOf(selected);
   const note =
     selected.length === 0
       ? degraded === 'repo-too-small'
         ? 'Project is small enough to read directly — no shortlist offered. Search as you normally would.'
         : 'No candidates found — search as you normally would.'
-      : `Ranked guesses from a keyword heuristic, most likely first — not a verified answer.` +
+      : (structural
+          ? 'This request looks like it creates something new, so the file you want may not exist yet. ' +
+            'Entries marked role="registry" are what has to be edited to wire it up; role="sibling" is ' +
+            'existing code to copy the conventions from. '
+          : '') +
+        `Ranked guesses from a keyword heuristic, most likely first — not a verified answer.` +
         ` Confidence ${confidence}.` +
         (confidence === 'low'
           ? ' These scored almost identically, so the order means little — search if none fit.'

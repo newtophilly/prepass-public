@@ -4,7 +4,8 @@
 
 When you ask Claude Code or Codex about a codebase it doesn't know, it goes hunting — grep, glob, sometimes a whole search subagent — before it can start on your actual question. `prepass` runs the instant you hit enter, ranks the files most likely to matter, and hands the agent a shortlist of paths.
 
-No API key. No network call. No index. No daemon. Nothing to sign up for. **~110ms.**
+No API key. No network call. No index. No daemon. Nothing to sign up for.
+**~20ms on a typical project**, and it scales with repository size — see below.
 
 ```
 › why do arrival notifications fire twice
@@ -149,14 +150,53 @@ the accepted patch touched.
 | [Multilingual](bench/swebench-multilingual-2026-08-05.md) — 9 languages | 300 | 77.3% | 57.3% | 29.0% | 0.409 |
 | [Verified, held out](bench/collision-adapt-2026-08-05.md) — never tuned on | 407 | **82.1%** | 64.1% | 31.2% | 0.452 |
 
-Median latency **106ms** over a 1,866-file pool. Picking 20 files at random from the same pools
+### How long it takes
+
+Latency is dominated by I/O that scales with the candidate pool, so one number
+would be the wrong shape for the claim. Measured end to end across 27 real
+repositories:
+
+| repository size | n | median |
+|---|---|---|
+| under 500 files | 19 | **19 ms** |
+| 500–2,000 files | 5 | 54 ms |
+| over 2,000 files | 3 | 103 ms |
+| **all 27** | | **22 ms** |
+
+Worst case measured: **221 ms** on Django at the 5,000-file discovery cap. The
+`106ms` quoted in the benchmark tables below is the SWE-bench Lite median, whose
+repositories carry a median of 1,867 files — larger than most projects, and not
+representative of what you will see.
+
+Median latency **106ms** on that benchmark's 1,866-file pool. Picking 20 files at random from the same pools
 hits 1.56%, so this is roughly **50× chance**. The gold file was in the candidate pool ~100% of
 the time, so nearly every miss is a ranking failure rather than a file that was never scored.
 
-**It is not Python-only.** The multilingual corpus covers Go, Rust, Java, TypeScript, PHP, Ruby,
-C and C++ across 41 repositories, and hit@20 holds within a point of the Python figure. Where it
-degrades is hit@1 — it finds the file about as reliably and ranks it first less often, most
-sharply where filenames collide (83% of JS/TS files share a name with another file).
+**It is not Python-only — but it is not uniform either.** The multilingual corpus covers 41
+repositories across nine languages. The aggregate hit@20 (76.7%) holds within a point of the
+Python figure, and that average hides a 31-point spread:
+
+| language | n | hit@1 | hit@20 |
+|---|---|---|---|
+| C++ | 12 | 16.7% | **91.7%** |
+| PHP | 43 | **41.9%** | 86.0% |
+| C | 30 | 10.0% | 80.0% |
+| Rust | 43 | 27.9% | 79.1% |
+| Go | 42 | 26.2% | 78.6% |
+| Ruby | 44 | 29.5% | 77.3% |
+| Java | 43 | 39.5% | 72.1% |
+| **JS/TS** | 43 | **20.9%** | **60.5%** |
+
+**If your codebase is TypeScript or JavaScript, expect the bottom row, not the average.** The
+likely cause is filename collision: 83% of JS/TS files share a basename with another file, so the
+filename field — the strongest of the three — carries much less information than it does in a
+language where names are unique. C is the odd one: it lands in the shortlist 80% of the time and
+on top almost never.
+
+Two caveats travel with these numbers. 30 of 300 instances hit the 5,000-file discovery cap, so
+some misses are truncation rather than ranking. And the "×chance" multiplier is not portable —
+these repos are smaller, so random selection hits 5.72% here against 1.56% on Lite, which moves
+the headline multiple from 50× to 13× with no change to the tool.
 
 **Two times in three the *top* file is wrong.** prepass narrows the haystack; it does not hand you
 the needle. That turns out to be enough, because narrowing is what saves the search.

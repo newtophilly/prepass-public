@@ -37,6 +37,70 @@ export const configSchema = z
          * ranking collapses to "smallest file first".
          */
         contentScan: z.boolean().default(true),
+        /**
+         * Reorder the shortlist when the prompt asks for something that does
+         * not exist yet — see `src/core/creation-intent.ts`.
+         *
+         * `auto` gates on a prompt-text detector, `always` applies it to every
+         * prompt, `off` disables it.
+         *
+         * **The detector is the weak part.** Three independent attempts to infer
+         * creation intent from a single prompt all failed: a verb/noun regex
+         * fires on 2.5% of real prompts; the score distribution separates the
+         * two classes at AUC 0.50; "does the thing you named already exist"
+         * lands at 0.49. The intent lives in the previous conversational turn,
+         * which a UserPromptSubmit hook cannot see. `always` exists because it
+         * needs no detector at all.
+         *
+         * **`always` is measured HARMFUL** and must not be the default:
+         * hit@5 51.8% -> 39.0% on real prompts and 63.0% -> 54.7% on SWE-bench
+         * Lite, because a registry displaces a genuinely better match whenever
+         * the request is not creating anything. Registries are noise in general
+         * and useful at exactly one moment — which is why the working version of
+         * this idea reacts to a `Write` that already happened rather than trying
+         * to predict one.
+         *
+         * Default `off`: `auto` never fires and `always` hurts. The ranking code
+         * stays because the mechanism itself is sound (+8.3 points held out when
+         * applied to known creation turns); only the trigger was wrong.
+         *
+         * `auto` is measured no-harm: with it enabled,
+         * SWE-bench Lite scores byte-identically to before it existed
+         * (hit@1 34.3%, hit@20 78.0%, MRR 0.468), since the detector fires on
+         * 2% of GitHub issues. Exposed so the claim can be re-checked by
+         * anyone, and switched off if a project's phrasing trips it.
+         */
+        creationMode: z.enum(['auto', 'always', 'off']).default('off'),
+
+        /**
+         * Use what the session already knows: the previous user turns, and the
+         * files the agent has already opened.
+         *
+         * Measured on 121 turns of real agent history, replayed in order with
+         * prior state only: hit@20 79.3% -> 85.1%, MRR 0.422 -> 0.535.
+         *
+         * `touchedWeight` is deliberately larger in effect than the words,
+         * because a placebo arm (unrelated text of the same length) still gained
+         * +1.7 points of hit@20 — so most of the words' recall gain is a
+         * query-length artifact. Touched files add no text and cannot have that
+         * confound.
+         *
+         * **The cost is real and concentrated.** On turns continuing the same
+         * area (82%) this is the biggest gain in the project's history, MRR
+         * 0.463 -> 0.606. On a subject change (18%) it makes an already-weak
+         * case worse, 63.6% -> 59.1%. No setting removes that — new-area harm is
+         * identical at every weight including zero, because it comes from the
+         * words. Hence a conservative default rather than the measured maximum.
+         */
+        sessionContext: z
+          .object({
+            enabled: z.boolean().default(true),
+            /** Previous user turns to fold into the query. 0 disables the words. */
+            lookback: z.number().int().min(0).max(10).default(2),
+            /** Bonus for an already-opened file, as a fraction of the top score. */
+            touchedWeight: z.number().min(0).max(1).default(0.25),
+          })
+          .default({}),
         /** Cap on files opened during the content pass (latency bound). */
         /**
          * Stay out of the way below this many candidate files.
@@ -278,6 +342,25 @@ export const configSchema = z
         dir: z.string().min(1).default('taxonomies'),
         /** Extra taxonomy file paths merged on top of the built-in set. */
         custom: z.array(z.string()).default([]),
+      })
+      .default({}),
+
+    /**
+     * Occasionally remind the agent to ask whether a newer prepass exists.
+     *
+     * prepass never checks: it emits a sentence into the context it is already
+     * producing, the agent asks you, and the agent makes the request with its
+     * own network access after you agree. `No network call` stays true without
+     * an asterisk, which matters for a tool that reads source on every prompt.
+     *
+     * Fires at most once per `intervalDays`, per machine, and never on the run
+     * where the version changed — nobody wants a nag the moment they update.
+     */
+    updateNotice: z
+      .object({
+        enabled: z.boolean().default(true),
+        /** Days between reminders. Below 7 this becomes noise on the hook path. */
+        intervalDays: z.number().int().min(7).max(365).default(21),
       })
       .default({}),
   })

@@ -18,6 +18,9 @@
  * unexpected rather than blocking the user's request.
  */
 import { closeSync, openSync, readSync, statSync } from 'node:fs';
+import { readSessionContext } from '../core/session-context.js';
+import { updateNotice } from '../core/update-notice.js';
+import { VERSION } from '../version.js';
 import type { ContextCandidate } from '../types.js';
 import { runPipeline } from '../pipeline.js';
 import { loadConfig } from '../config.js';
@@ -96,22 +99,44 @@ export async function runHook(
   }
 
   try {
+    // Discovery must scan the project the event came from. Claude Code normally
+    // runs hooks with that as cwd, but the event carries it explicitly, so
+    // prefer the stated value over the ambient one.
+    const loaded = loadConfig(event.cwd ?? process.cwd());
+    // The transcript is already open to recover the prompt; read the rest of it
+    // too. A contextless follow-up ("okay lets do it") cannot be ranked from its
+    // own text, and the answer is usually a file this session already opened.
+    const sc = loaded.config.curation.sessionContext;
+    const session =
+      sc.enabled && event.transcript_path
+        ? readSessionContext(event.transcript_path, loaded.rootDir, prompt, sc.lookback)
+        : undefined;
+
     const result = await runPipeline({
       prompt,
       candidates: extractCandidates(event),
       entrypoint: 'hook',
-      // Discovery must scan the project the event came from. Claude Code
-      // normally runs hooks with that as cwd, but the event carries it
-      // explicitly, so prefer the stated value over the ambient one.
-      ...(event.cwd ? { loaded: loadConfig(event.cwd) } : {}),
+      loaded,
+      ...(session && (session.priorText || session.touched.size) ? { session } : {}),
     });
+    // A global npm install pins its version forever and nothing tells the user
+    // otherwise. prepass will not phone home to find out — it appends a sentence
+    // asking the AGENT to ask, and the agent makes the request with its own
+    // network access only after the user agrees. Fires at most once every
+    // `intervalDays`, per machine, and never on the run where the version changed.
+    const notice = loaded.config.updateNotice.enabled
+      ? updateNotice(VERSION, loaded.config.updateNotice.intervalDays)
+      : null;
+
     emit(
       {
         continue: true,
         systemMessage: statusLine(result),
         hookSpecificOutput: {
           hookEventName: eventName(event),
-          additionalContext: result.curation.payload,
+          additionalContext: notice
+            ? `${result.curation.payload}\n${notice}`
+            : result.curation.payload,
         },
       },
       write,

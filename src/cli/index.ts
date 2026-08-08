@@ -5,7 +5,10 @@
  * All heavy lifting lives in the pipeline so the same behavior is reachable from
  * the hook surface too.
  */
-import { createRequire } from 'node:module';
+import { VERSION } from '../version.js';
+import { mineOutcomes, readTurns, usableTurns } from '../core/outcome-glossary.js';
+import { readState, resetClock, stateDir } from '../core/update-notice.js';
+import { join } from 'node:path';
 import { Command } from 'commander';
 import type { ModelTier } from '../types.js';
 import { runProxy } from '../entrypoints/cli.js';
@@ -25,15 +28,7 @@ import { Telemetry } from '../core/telemetry.js';
 
 const VALID_TIERS: readonly ModelTier[] = ['cheap', 'balanced', 'premium'];
 
-/**
- * Read the version from package.json rather than repeating it here. It was
- * hardcoded, so `npm version patch` bumped the package while the CLI kept
- * reporting the previous number — the kind of drift nobody notices until a bug
- * report cites a version that was never shipped.
- */
-const VERSION: string = (
-  createRequire(import.meta.url)('../../package.json') as { version: string }
-).version;
+
 
 export function buildCli(): Command {
   const program = new Command();
@@ -172,6 +167,24 @@ export function buildCli(): Command {
 
   // ── doctor ──────────────────────────────────────────────────────────────
   program
+    .command('snooze')
+    .description('Reset the update-reminder clock (the agent runs this after checking)')
+    .option('--status', 'show the clock without resetting it')
+    .action((opts: { status?: boolean }) => {
+      const w = process.stdout.write.bind(process.stdout);
+      const state = readState();
+      if (opts.status) {
+        if (!state) { w('  no update clock yet — it starts on the first hook run\n'); return; }
+        const days = Math.floor((Date.now() - Date.parse(state.since)) / 86_400_000);
+        w(`  running ${VERSION}; clock last reset ${days} day(s) ago on ${state.version}\n`);
+        w(`  state: ${join(stateDir(), 'state.json')}\n`);
+        return;
+      }
+      resetClock(VERSION);
+      w(`  clock reset — no reminder for the configured interval (default 21 days)\n`);
+      w(`  prepass made no network call doing this.\n`);
+    })
+
     .command('doctor')
     .description('Check whether prepass will actually do anything here')
     .action(() => {
@@ -221,6 +234,71 @@ export function buildCli(): Command {
 
   // ── learn ───────────────────────────────────────────────────────────────
   program
+    .command('relearn')
+    .description('Propose glossary entries from what the agent actually edited')
+    .option('--write', 'append accepted proposals to the glossary', false)
+    .option('--sessions <n>', 'how many recent sessions to read', '40')
+    .option('--min-seen <n>', 'turns that must support a pairing', '2')
+    .option('--json', 'emit machine-readable JSON', false)
+    .action((opts: { write?: boolean; sessions?: string; minSeen?: string; json?: boolean }) => {
+      const { rootDir, config } = loadConfig();
+      const w = process.stdout.write.bind(process.stdout);
+
+      const turns = usableTurns(readTurns(rootDir, Number(opts.sessions) || 40));
+      if (turns.length === 0) {
+        w('No usable turns found for this project.\n\n' +
+          'This learns from completed work: a prompt you typed, paired with the files the\n' +
+          'agent then edited. It needs local session history for THIS directory, so run it\n' +
+          'in a project you have actually worked in with an agent.\n');
+        return;
+      }
+
+      // Learn ONLY from misses. If the shortlist already had the file there is
+      // nothing to teach — and discarding hits is what stops prepass training on
+      // its own suggestions and drifting toward whatever it already believed.
+      const scan = scanRepo(rootDir, config);
+      const tax = loadTaxonomies(config);
+      const misses = [];
+      for (const t of turns) {
+        const intent = detectIntent(t.prompt, tax, config);
+        const base = tax.get(intent.workload);
+        if (!base) continue;
+        const ranked = runHeuristicStage(
+          { prompt: t.prompt, candidates: scan.candidates, taxonomy: base, rootDir },
+          config,
+        ).map((c) => c.path);
+        if (!t.edited.some((e) => ranked.includes(e))) misses.push(t);
+      }
+
+      const proposals = mineOutcomes(misses, Number(opts.minSeen) || 2);
+      if (opts.json) {
+        w(JSON.stringify({ turns: turns.length, misses: misses.length, proposals }, null, 2) + '\n');
+        return;
+      }
+
+      w(`  ${turns.length} usable turns · ${misses.length} the ranking got wrong\n`);
+      if (misses.length === 0) {
+        w('\n  Nothing to learn: the shortlist already contained the edited file every time.\n');
+        return;
+      }
+      if (proposals.length === 0) {
+        w(`\n  No pairing appeared in ${Number(opts.minSeen) || 2}+ separate turns yet.\n` +
+          '  This improves with use — it measured +0.019 MRR at 10 past misses and +0.043 at 27.\n');
+        return;
+      }
+
+      w('\n  Proposed bridges, strongest first. Each is a word you used paired with an\n');
+      w('  identifier from a file the agent edited after you used it.\n\n');
+      for (const p of proposals) {
+        w(`    ${p.term}  ->  ${p.expands.join(', ')}\n`);
+        w(`      seen in ${p.seen} turns · strength ${p.strength.toFixed(2)}\n`);
+        w(`      e.g. "${p.evidence.replace(/\s+/g, ' ').slice(0, 78)}"\n\n`);
+      }
+      w('  Review before accepting — a bad bridge injects a wrong term into every query\n');
+      w('  containing that word. Add the good ones to .prepass/glossary.json.\n');
+      if (opts.write) w('\n  (--write is not implemented: these are proposals, and a human accepts them.)\n');
+    })
+
     .command('learn')
     .description("Propose glossary entries mined from the codebase's own comments")
     .option('--write', 'append accepted proposals to the glossary', false)
